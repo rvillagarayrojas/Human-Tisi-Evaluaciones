@@ -1,0 +1,95 @@
+﻿@model Siscom.Areas.Global.Models.PersonaModels
+</table>
+ <table id="DetalleSolicitudTable" class="table table-striped table-bordered table-hover table-condensed " cellspacing="0">
+    <thead>
+        <tr>
+            <th class="text-center" rowspan="2" style="vertical-align:middle"><p>ACCIONES</p></th>
+            <th class="text-center" colspan="4"><p>INFORMACION DE EXAMINADOS</p></th>
+            <th class="text-center" colspan="2"><p>DATOS DEL PUESTO</p></th>
+            <th class="text-center" colspan="4"><p>DETALLES DE LA EVALUACIÓN</p></th>
+        </tr>
+        <tr>
+            <th class="text-center"><p>DNI</p></th>
+            <th class="text-center"><p>NOMBRES</p></th>
+            <th class="text-center"><p>APELLIDOS</p></th>
+            <th class="text-center"><p>E-MAIL</p></th>
+            <th class="text-center"><p>PUESTO</p></th>
+            <th class="text-center"><p>CUENTA</p></th>
+            <th class="text-center"><p>EVALUACIÓN</p></th>
+            <th class="text-center"><p>FECHA DE REGISTRO</p></th>
+            <th class="text-center"><p>ESTADO</p></th>
+            <th hiden class="text-center"><p>REPORTES</p></th>
+        </tr>
+    </thead>    
+    <tbody id="itemsDetalle">
+    @if (Model.ListaPersona != null)
+    {
+        foreach (var item in Model.ListaPersona)
+        {
+                <tr id="@(item.nu_id_puesto + "" + item.nu_id_usuario)">
+                    <td class="text-center" style="font-weight:100;">
+                        <button title="Ver datos" type="button" class="btn btn-warning" onclick="Select(@item.nu_id_puesto,@item.nu_id_usuario);">
+                            <i class="icon-credit-card" style="color:black"></i>
+                        </button>
+                        <br />                        
+                        @{
+                            DateTime fecharegistro = Convert.ToDateTime(item.dt_fec_evaluacion);
+                            Int32 dias = Convert.ToInt32((DateTime.Now - fecharegistro).TotalDays);
+
+                            if (dias > 30 && item.ch_estado_prueba=="PENDIENTE")
+                            {
+                                <br />
+                                <button title="Eliminar" type="button" class="btn btn-danger" onclick="Actualizar(@item.nu_id_puesto,@item.nu_id_usuario,0,'@item.vc_nombres, @item.vc_apellidos');">
+                                    <i class="fa fa-remove"></i>
+                                </button>
+                            }
+                        }
+                    </td>
+                    <td class="text-center" style="vertical-align:middle"><p>@(item.vc_doc_identi)</p></td>
+                    <td class="text-center" style="vertical-align:middle"><p>@(item.vc_nombres)</p></td>
+                    <td class="text-center" style="vertical-align:middle"><p>@(item.vc_apellidos)</p></td>
+                    <td class="text-center" style="vertical-align:middle"><p>@(item.vc_direccion_email)</p></td>
+                    <td class="text-center" style="vertical-align:middle"><p>@(item.vc_desc_puesto)</p></td>
+                    <td class="text-center" style="vertical-align:middle"><p>@(item.vc_desc_cuenta)</p></td>
+                    <td class="text-center" style="vertical-align:middle"><p>@(item.vc_desc_prueba)</p></td>
+                    <td class="text-center" style="vertical-align:middle"><p>@(item.dt_fec_evaluacion)</p></td>
+                    <td class="text-center" style="vertical-align:middle"><p>@(item.ch_estado_prueba)</p></td>
+                    <td class="text-center">
+                        <button title="Completo" type="button" class="btn btn-info" onclick="ReporteCompleto(@item.nu_id_usuario);">
+                            <i class="icon-screen-desktop"></i>
+                        </button>
+                        <button title="Resumen" type="button" class="btn btn-info" onclick="ReporteResumen(@item.nu_id_usuario);">
+                            <i class="icon-docs"></i>
+                        </button>
+                        <button title="Gráficos" type="button" class="btn btn-info" onclick="ReporteGraficos(@item.nu_id_usuario);">
+                            <i class="fa fa-bar-chart-o"></i>
+                        </button>
+                        @if (item.ch_ficha != "0")
+                        {
+                            <button title="Ficha" type="button" class="btn btn-info" onclick="ReporteFicha(@item.nu_id_usuario);">
+                                <i class="fa fa-list-alt"></i>
+                            </button>
+                        }
+                        @if (item.ch_brecha != "0")
+                        {
+                            <button title="Brecha" type="button" class="btn btn-info" onclick="ReporteBrechas(@item.nu_id_usuario);">
+                                <i class="fa fa-group"></i>
+                            </button>
+                        }
+                        <button title="Seguimiento" type="button" class="btn btn-primary" onclick="SelectSeguimiento(@item.nu_id_usuario,'@(item.vc_nombres)','@(item.vc_apellidos)');">
+                            <i class="fa fa-binoculars"></i>
+                        </button>
+                        @if (item.vc_desc_prueba.Contains("PRUEBA TÉCNICA")) { 
+                        <button title="Revisar" type="button" class="btn btn-info" onclick="SelectRevisar(@item.nu_id_usuario,'@(item.vc_nombres)','@(item.vc_apellidos)',@item.nu_id_puesto);">
+                            <i class="fa fa-pencil-square"></i>
+                        </button>
+                        }
+                    </td>
+                </tr>
+        }
+    }                                        
+    </tbody>
+
+ </table>
+      
+    

@@ -1,0 +1,150 @@
+﻿@model Siscom.Areas.Global.Models.PersonaModels
+
+@if (Model.ListaPersona != null)
+{
+        foreach (var item in Model.ListaPersona)
+        {
+            <div class="row">
+                <div class="col-md-12" >
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <div class="col-sm-4">
+                                <table id="HistoricoCtsTable" class="table table-striped table-hover table-condensed " cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2" class="text-center" style="font-size:24px"><p>DETALLES</p></th>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center"><p>D.N.I.</p></th>
+                                            <th class="text-center">
+                                                <p>
+                                                    <input class="form-control" disabled="disabled" id="Persona_vc_doc_identi" name="Persona.vc_doc_identi" propertyname="Persona.vc_doc_identi" type="text" value="@item.vc_doc_identi">
+                                                </p></th>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center"><p>Nombres</p></th>
+                                            <th class="text-center">
+                                                <p>
+                                                   <input class="form-control" disabled="disabled" id="Persona_vc_nombres" name="Persona.vc_nombres" propertyname="Persona.vc_nombres" type="text" value="@item.vc_nombres">
+                                                </p></th>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center"><p>Apellidos</p></th>
+                                            <th class="text-center">
+                                                <p>
+                                                    <input class="form-control" disabled="disabled" id="Persona_vc_apellidos" name="Persona.vc_apellidos" propertyname="Persona.vc_apellidos" type="text" value="@item.vc_apellidos">
+                                                </p></th>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center"><p>Correo electronico</p></th>
+                                            <th class="text-center">
+                                                <p>
+                                                    <input class="form-control" disabled="disabled" id="Persona_vc_direccion_email" name="Persona.vc_direccion_email" propertyname="Persona.vc_direccion_email" type="text" value="@item.vc_direccion_email">
+                                                </p></th>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center"><p>Teléfono</p></th>
+                                            <th class="text-center">
+                                                <p>
+                                                   <input class="form-control" disabled="disabled" id="Persona_vc_telefono" name="Persona.vc_telefono" propertyname="Persona.vc_telefono" type="text" value="@item.vc_telefono">
+                                                </p></th>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center"><p>Cod. Usuario</p></th>
+                                            <th class="text-center">
+                                                <p>
+                                                    <label>@item.vc_cod_usuario</label>
+                                                   <input class="form-control" readonly id="Persona_vc_cod_usuario" name="Persona.vc_cod_usuario" propertyname="Persona.vc_cod_usuario" type="hidden" value="@item.vc_cod_usuario">
+                                                </p></th>
+                                        </tr>
+                                    </thead>
+                                </table>          
+                            </div>
+                            <div class="col-sm-6" >
+                                <table id="HistoricoCtsTable" class="table table-striped table-hover table-condensed " cellspacing="0">
+                                <thead>
+                                        <tr>
+                                            <th colspan="2" class="text-center" style="font-size:24px"><p>DATOS DEL PUESTO</p></th>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center"><p>Puesto</p></th>
+                                            <th class="text-center">
+                                                <p>
+                                                   <input class="form-control" disabled="disabled" id="Persona_vc_desc_puesto" name="Persona.vc_desc_puesto" propertyname="Persona.vc_desc_puesto" type="text" value="@item.vc_desc_puesto">
+                                                </p></th>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center"><p>Prueba</p></th>
+                                            <th class="text-center">
+                                                <p>
+                                                   <input class="form-control" disabled="disabled" id="Persona_vc_desc_prueba" name="Persona.vc_desc_prueba" propertyname="Persona.vc_desc_prueba" type="text" value="@item.vc_desc_prueba">
+                                                </p></th>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center"><p>Cuenta</p></th>
+                                            <th class="text-center">
+                                                <p>
+                                                    <input class="form-control" disabled="disabled" id="Persona_vc_desc_cuenta" name="Persona.vc_desc_cuenta" propertyname="Persona.vc_desc_cuenta" type="text" value="@item.vc_desc_cuenta">
+                                                </p></th>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center"><p>Evaluador</p></th>
+                                            <th class="text-center">
+                                                <p>
+                                                    <input class="form-control" disabled="disabled" id="Persona_datos_consultor" name="Persona.datos_consultor" propertyname="Persona.datos_consultor" type="text" value="@item.datos_consultor">
+                                                </p></th>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-center"><p>Fecha de Evaluación</p></th>
+                                            <th class="text-center">
+                                                <p>
+                                                    <input class="form-control" disabled="disabled" id="Persona_dt_fec_evaluacion" name="Persona.dt_fec_evaluacion" propertyname="Persona.dt_fec_evaluacion" type="text" value="@item.dt_fec_evaluacion">
+                                                </p></th>
+                                        </tr>
+                                    </thead>
+                                </table> 
+                            </div>
+                            <div class="col-sm-2" >
+                                <!--Region Botones-->
+                                <center>
+                                <br /><br />
+                                    <div class="row">
+                                        <button id="BtnNuevo" type="button" class="btn btn-success btn-sm" 
+                                            onclick="Enviar('@item.vc_direccion_email','@item.vc_nombres','@item.vc_apellidos','@item.vc_cod_usuario','@item.vc_password','@item.datos_consultor','@item.vc_correo_consul');">
+                                            <i class="fa fa-jsfiddle"></i> Enviar Correo
+                                        </button> 
+                                    </div>
+                                <br />
+                                    <div class="row">
+                                    <a href="https://evaluaciones.humansolutions.com.pe">
+                                       <button id="BtnNuevo" type="button" class="btn btn-info btn-sm" >
+                                            <i class="fa fa-play-circle"></i> Iniciar Prueba
+                                       </button> 
+                                    </a>
+                                    </div>
+                                <br />
+                                    <div class="row">
+                                       <button id="BtnNuevo" type="button" class="btn btn-success btn-sm" onclick="Editar()" >
+                                            <i class="fa fa-pencil"></i> Editar
+                                       </button> 
+                                    </div>
+                                <br />
+                                    <div id="BotonGuardar" class="row" style="display:none">
+                                       <button id="BtnGuardar" type="button" class="btn btn-info btn-sm" onclick="Guardar()" >
+                                            <i class="fa fa-save"></i> Guardar
+                                       </button> 
+                                    </div>
+                                <br />
+                                    <div class="row">
+                                       <button id="BtnReactivar" type="button" class="btn btn-danger btn-sm" onclick="Reactivar(@item.nu_id_puesto,@item.nu_id_usuario)" >
+                                            <i class="fa fa-refresh"></i> Reactivar
+                                       </button> 
+                                    </div>
+                                </center>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        }
+}

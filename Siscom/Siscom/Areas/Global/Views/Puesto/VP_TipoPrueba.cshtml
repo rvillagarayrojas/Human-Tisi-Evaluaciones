@@ -1,0 +1,9 @@
+﻿@model Siscom.Areas.Global.Models.PuestoModels
+
+            @Html.DropDownListFor(m => m.Puesto.nu_id_tipo_prueba, Model.ListTipoPrueba,
+                                        new 
+                                        { 
+                                            propertyname = "Puesto.nu_id_tipo_prueba", 
+                                            @class = "form-control",
+                                            OnChange = "Buscar()"
+                                        })

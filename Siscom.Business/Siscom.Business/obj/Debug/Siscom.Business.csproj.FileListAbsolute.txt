@@ -1,0 +1,334 @@
+E:\TISI\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+E:\TISI\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+E:\TISI\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+E:\TISI\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\TISI\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\TISI\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\TISI\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\TISI\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\TISI\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+D:\TISI - copia\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\TISI - copia\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\TISI - copia\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+D:\TISI - copia\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+D:\TISI - copia\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\TISI - copia\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+D:\TISI - copia\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\TISI - copia\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+D:\TISI - copia\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+D:\TISI - copia\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\TISI - copia\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\TISI - copia\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+D:\TISI - copia\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\TISI - copia\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+C:\Users\areyes\Desktop\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojAssemblyReference.cache
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csproj.CopyComplete
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csprojResolveAssemblyReference.cache
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Business.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Library.Common.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Data.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csproj.CoreCompileInputs.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csproj.CopyComplete
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csproj.AssemblyReference.cache

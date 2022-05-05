@@ -1,0 +1,1197 @@
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.pdb
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\NPOI.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Owin.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\RestSharp.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\WebGrease.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.pdb
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.xml
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.dll
+E:\TISI\Evaluaciones Online\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\NPOI.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Owin.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\RestSharp.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\WebGrease.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.xml
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\NPOI.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Owin.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\RestSharp.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\WebGrease.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.xml
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EPPlus.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EPPlus.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\NPOI.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Owin.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\RestSharp.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\WebGrease.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.xml
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EPPlus.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\NPOI.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Owin.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\RestSharp.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\WebGrease.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.xml
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EPPlus.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\NPOI.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Owin.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\RestSharp.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\WebGrease.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.xml
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EPPlus.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\NPOI.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Owin.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\RestSharp.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\WebGrease.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.xml
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EPPlus.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\NPOI.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Owin.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\RestSharp.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\WebGrease.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.xml
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EPPlus.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\NPOI.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Owin.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\RestSharp.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\WebGrease.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Entidad.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MacroEntidad.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\MultiEntidad.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Procedimiento.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\EntityFramework.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Newtonsoft.Json.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Helpers.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Mvc.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Razor.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Net.Http.Formatting.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Http.WebHost.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Web.Optimization.xml
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Transaccion.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Conexiones.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\obj\Release\Siscom.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\x86\sqlcese40.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\x86\sqlceqp40.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\x86\sqlceme40.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\x86\sqlceer40EN.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\x86\sqlcecompact40.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\x86\sqlceca40.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\amd64\sqlcese40.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\amd64\sqlceqp40.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\amd64\sqlceme40.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\amd64\sqlceer40EN.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\amd64\sqlcecompact40.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\amd64\sqlceca40.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\Elmah.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom\Siscom\bin\System.Data.SqlServerCe.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlcese40.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceqp40.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceme40.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceer40EN.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlcecompact40.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceca40.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlcese40.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceqp40.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceme40.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceer40EN.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlcecompact40.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceca40.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Antlr3.Runtime.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Elmah.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Entidad.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EntityFramework.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EPPlus.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MacroEntidad.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MultiEntidad.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Newtonsoft.Json.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\NPOI.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Owin.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Procedimiento.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\RestSharp.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Data.SqlServerCe.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Net.Http.Formatting.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Helpers.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Http.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Http.WebHost.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Mvc.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Optimization.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Razor.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\WebGrease.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Transaccion.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Conexiones.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Entidad.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MacroEntidad.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MultiEntidad.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Procedimiento.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EntityFramework.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Newtonsoft.Json.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Helpers.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Mvc.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Razor.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Net.Http.Formatting.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Http.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Http.WebHost.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Optimization.xml
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Transaccion.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Conexiones.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlcese40.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceqp40.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceme40.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceer40EN.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlcecompact40.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceca40.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlcese40.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceqp40.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceme40.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceer40EN.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlcecompact40.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceca40.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Antlr3.Runtime.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Elmah.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Entidad.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EntityFramework.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EPPlus.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MacroEntidad.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MultiEntidad.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Newtonsoft.Json.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\NPOI.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Owin.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Procedimiento.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\RestSharp.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Data.SqlServerCe.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Net.Http.Formatting.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Helpers.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Http.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Http.WebHost.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Mvc.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Optimization.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Razor.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\WebGrease.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Transaccion.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Conexiones.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Entidad.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MacroEntidad.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MultiEntidad.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Procedimiento.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EntityFramework.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Newtonsoft.Json.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Helpers.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Mvc.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Razor.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Net.Http.Formatting.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Http.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Http.WebHost.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Optimization.xml
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Transaccion.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Conexiones.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlcese40.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceqp40.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceme40.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceer40EN.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlcecompact40.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceca40.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlcese40.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceqp40.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceme40.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceer40EN.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlcecompact40.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceca40.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Antlr3.Runtime.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Elmah.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Entidad.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EntityFramework.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EPPlus.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MacroEntidad.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MultiEntidad.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Newtonsoft.Json.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\NPOI.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Owin.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Procedimiento.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\RestSharp.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.Entity.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Data.SqlServerCe.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Helpers.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Mvc.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Optimization.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Razor.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\WebGrease.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Transaccion.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Conexiones.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Entidad.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MacroEntidad.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MultiEntidad.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Procedimiento.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.Entity.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EntityFramework.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Newtonsoft.Json.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Helpers.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Mvc.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Razor.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Optimization.xml
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Transaccion.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Conexiones.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlcese40.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceqp40.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceme40.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceer40EN.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlcecompact40.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\sqlceca40.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlcese40.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceqp40.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceme40.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceer40EN.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlcecompact40.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\sqlceca40.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Antlr3.Runtime.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Elmah.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Entidad.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EntityFramework.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EPPlus.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MacroEntidad.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MultiEntidad.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Newtonsoft.Json.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\NPOI.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Owin.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Procedimiento.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\RestSharp.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.Entity.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Data.SqlServerCe.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Helpers.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Mvc.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Optimization.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Razor.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\WebGrease.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Transaccion.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Conexiones.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Entidad.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MacroEntidad.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\MultiEntidad.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Procedimiento.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Siscom.Entity.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\EntityFramework.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Newtonsoft.Json.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Helpers.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Mvc.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Razor.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\System.Web.Optimization.xml
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Transaccion.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\bin\Conexiones.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.csprojResolveAssemblyReference.cache
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom\Siscom\obj\Release\Siscom.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Siscom.dll.config
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Siscom.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Siscom.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\x86\sqlcese40.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\x86\sqlceqp40.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\x86\sqlceme40.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\x86\sqlceer40EN.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\x86\sqlcecompact40.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\x86\sqlceca40.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\amd64\sqlcese40.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\amd64\sqlceqp40.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\amd64\sqlceme40.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\amd64\sqlceer40EN.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\amd64\sqlcecompact40.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\amd64\sqlceca40.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Antlr3.Runtime.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Elmah.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Entidad.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\EntityFramework.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\EPPlus.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\MacroEntidad.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Web.Infrastructure.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\MultiEntidad.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Newtonsoft.Json.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\NPOI.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Owin.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Procedimiento.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\RestSharp.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Siscom.Entity.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Siscom.WebLib.MvcShared.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Siscom.WebLib.PropertySetter.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Siscom.WebLib.Validator.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Data.SqlServerCe.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Net.Http.Formatting.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Helpers.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Http.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Http.WebHost.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Mvc.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Optimization.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Razor.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.WebPages.Deployment.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.WebPages.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.WebPages.Razor.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\WebGrease.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Transaccion.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Conexiones.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Entidad.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\MacroEntidad.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\MultiEntidad.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Procedimiento.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Siscom.Entity.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Antlr3.Runtime.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\EntityFramework.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Core.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.Cookies.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.Facebook.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.Google.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.OAuth.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Microsoft.Owin.Security.Twitter.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Newtonsoft.Json.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Helpers.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Mvc.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Razor.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.WebPages.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.WebPages.Deployment.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.WebPages.Razor.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Net.Http.Formatting.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Http.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Http.WebHost.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\System.Web.Optimization.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Transaccion.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\bin\Conexiones.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\obj\Release\Siscom.csproj.CoreCompileInputs.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\obj\Release\Siscom.csproj.CopyComplete
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\obj\Release\Siscom.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\obj\Release\Siscom.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom\Siscom\obj\Release\Siscom.csproj.AssemblyReference.cache

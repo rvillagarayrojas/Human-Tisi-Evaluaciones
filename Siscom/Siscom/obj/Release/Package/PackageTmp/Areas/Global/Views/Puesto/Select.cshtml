@@ -1,0 +1,423 @@
+﻿@using Siscom.Models
+
+@model Siscom.Areas.Global.Models.PuestoModels
+@{
+    ViewBag.Title = "Select";
+    Layout = "~/Views/Home/Principal.cshtml";
+}
+<link rel="stylesheet" href="~/Content/fileinput.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+<div class="pageheader">
+    <!--Region Cabecera de la Pagina-->
+    <div id="Titulo1">
+        <h1>Ver Pruebas</h1>
+    </div>
+    <div id="Titulo2" style="display:none">
+        <h1>Editar Pruebas</h1>
+    </div>
+    <div>
+        <span class="label" style="color:rgb(144, 157, 163);padding:0px">USTED ESTÁ AQUÍ: </span>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#">Puesto</a>
+            </li>
+            <li>
+                <a href="#">Asignar Prueba</a>
+            </li>
+            <li>
+                <a href="#" class="active">Ver Pruebas</a>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<!--Region Cuerpo de la Pagina-->
+<section id="main-content" class="animated fadeInUp">
+    <!--Region Botones-->
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-body text-left">
+                    <button id="buscarBtn" type="button" class="btn btn-success btn-sm" onclick="Editar1();Buscar();">
+                        <i class="fa fa-pencil"></i> Editar y Asignar Pruebas
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="DatosForm">
+        <!--Region Panel (Filtros)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="font-family:Arial">Datos del Puesto</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-horizontal form-border" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Cuenta
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        @Html.TextBoxFor(m => m.Puesto.vc_desc_cuenta,
+                                        new
+                                        {
+                                            propertyname = "Puesto.vc_desc_cuenta",
+                                            @class = "form-control",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Sub-cuenta
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        <div id="div_MostrarSubCuenta">
+                                            @Html.TextBoxFor(m => m.Puesto.vc_desc_sub_cuenta,
+                                            new
+                                            {
+                                                propertyname = "Puesto.vc_desc_sub_cuenta",
+                                                @class = "form-control",
+                                                disabled = "disabled"
+                                            })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Puesto
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        @Html.TextBoxFor(m => m.Puesto.vc_desc_puesto,
+                                        new
+                                        {
+                                            propertyname = "Puesto.vc_desc_puesto",
+                                            @class = "form-control",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label hidden="hidden" class="col-sm-4 control-label">
+                                        Id_puesto
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        <div hidden="hidden">
+                                            @Html.TextBoxFor(m => m.Puesto.nu_id_puesto,
+                                             new
+                                             {
+                                                 propertyname = "Puesto.nu_id_puesto",
+                                                 @class = "form-control",
+                                                 disabled = "disabled"
+                                             })
+                                         <input type="hidden" id="nu_id_puesto" name="nu_id_puesto" />   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="DatosForm">
+        <!--Region Panel (Registro Pruebas)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Pruebas asignadas</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-horizontal form-border" role="form">
+                            <div id="div_ListaSolicitudes1" class="table-responsive" style="padding-top:1px">
+                                @Html.Partial("VP_GrillaPrueba_Asignadas", Model)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="DatosForm">
+        <!--Region Panel (Registro Pruebas)-->
+        <div id="NuevasPruebas" class="row" style="display:none">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Asignación de pruebas</h3>
+                    </div>
+                    <div id="div_ListaSolicitudes" class="table-responsive" style="padding-top:1px">
+                        @Html.Partial("VP_GrillaPrueba", Model)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Region Botones-->
+    <div id="botonVolver" class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="col-md-12" id="contenidoMensaje" style="color:rgb(203, 26, 26);padding:10px;margin-bottom:10px;visibility:hidden;background:rgb(245, 236, 236);">
+                </div>
+                <div class="panel-body text-center">
+                    <button id="agregarBtn" type="button" class="btn btn-info"
+                            onclick="Comeback(2)">
+                        <i class="fa fa-reply"></i> Volver
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Region Botones-->
+    <div id="botonesEditar" class="row" style="display:none">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-body text-center">
+                    <button id="guardarBtn" type="button" class="btn btn-success"
+                            onclick="Guardar()">
+                        <i class="fa  fa-save"></i> Guardar
+                    </button>
+                    <button id="cancelarBtn" type="button" class="btn btn-default"
+                            onclick="Cancelar()">
+                        <i class="fa fa-reply"></i> Cancelar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Modal para mensajes-->
+<div class="modal fade" id="ModalSave" style="overflow: scroll;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="myModalLabel" style="color:#0D588E">Mensaje de Pruebas</h3>
+            </div>
+            <div class="modal-body" id="SaveMensaje">
+            </div>
+            <div class="text-center">
+                <hr /><button id="btnMensaje" type="button" class="btn btn-primary" onclick="$('#ModalSave').modal('hide');">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--FIN-->
+<!--Load these page level functions-->
+@section Scripts{
+    <script src="~/Scripts/plugins/fileinput/fileinput.min.js"></script>
+    <script src="~/Scripts/plugins/fileinput/locales/es.js"></script>
+    <script src="~/Content/themes/explorer-fas/theme.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            Buscar1();
+        });
+
+        function Buscar1() {
+            $("#SaveMensaje").html('<i class="fa  fa-refresh" style="color:green"></i> Buscando pruebas, espere un momento...');
+            $("#ModalSave").modal('show');
+            var data = {
+                IdPuesto: $('#Puesto_nu_id_puesto').val(),
+            };
+            $.ajax({
+                type: 'POST',
+                url: '/Global/Puesto/BuscarPruebasPuesto',
+                data: data,
+                success: function (result) {
+                    $('#div_ListaSolicitudes1').andSelf().unbind();
+                    $('#div_ListaSolicitudes1').html(result);
+                    if (result.trim() == "") {
+                        $("#SaveMensaje").html('<i class="fa fa-remove" style="color:darkred"></i> No se encontró datos.');
+                        $("#ModalSave").modal('show');
+                    }
+                    $("#ModalSave").modal('hide');
+                }
+            });
+
+        }
+
+        /*1.- Cancelar acción*/
+        function Comeback(dir) {
+            switch (dir) {
+                case 2: window.location.href = GetControllerUrl("Bandeja", "Puesto"); break;
+
+            }
+        }
+
+        function Buscar() {
+            $("#SaveMensaje").html('<i class="fa  fa-refresh" style="color:green"></i> Buscando pruebas para asignar, espere un momento...');
+            $("#ModalSave").modal('show');
+            var data = {
+                IdNivelPrueba: 1,
+            };
+            $.ajax({
+                type: 'POST',
+                url: '/Global/Puesto/BuscarPruebas',
+                data: data,
+                success: function (result) {
+                    $('#div_ListaSolicitudes').andSelf().unbind();
+                    $('#div_ListaSolicitudes').html(result);
+                    if (result.trim() == "") {
+                        $("#SaveMensaje").html('<i class="fa fa-remove" style="color:darkred"></i> No se encontró datos.');
+                        $("#ModalSave").modal('show');
+                    }
+                    $("#ModalSave").modal('hide');
+                }
+            });
+
+        }
+
+
+        $(document).on('dblclick', '.check', function () {
+            $(this).prop('checked', '')
+        })
+
+        function Cancelar() {
+            window.location.href = GetControllerUrl("Bandeja", "Puesto");
+        }
+
+        function Guardar() {
+            var statusVal = true;
+            var resumen = "";
+
+            $("#nu_id_puesto").val($('#Puesto_nu_id_puesto').val())
+
+            if ($('#Puesto_vc_desc_puesto').val() == "") {
+                resumen = resumen + '<li>Debe ingresar una descripción del puesto. </li>';
+                statusVal = false;
+            }
+            if (!statusVal) {
+                $("#SaveMensaje").html("<ol>" + resumen + "</ol>");
+                $("#ModalSave").modal('show');
+                return false;
+            }
+
+            var PruebaDetalle = [];
+
+            $('#ContenedorPruebas input').each(function () {
+                if ($(this).prop('checked')) {
+                    if ($(this).attr('name').substr(0, 13) != "chkViewPrueba") {
+                        PruebaDetalle[PruebaDetalle.length] = {
+                            nu_id_prueba: ($(this).attr('name').split("~")[0]),
+                            nu_id_clasificacion: ($(this).attr('name').split("~")[1]),
+                            vc_prueba_publica: !$("#chkViewPrueba_" + ($(this).attr('name').split("~")[0])).prop("checked"),
+                            archivo: $("#sfile_" + ($(this).attr('name').split("~")[0])).val(),
+                            num_tiempofile: ($("#sfile_" + ($(this).attr('name').split("~")[0])).val() == 1) ? $("#txtTiempo_" + ($(this).attr('name').split("~")[0])).val() : 0,
+                            vc_nomfile: ($("#sfile_" + ($(this).attr('name').split("~")[0])).val() == 1) ? getFileExtension3($("#fileLoad_" + ($(this).attr('name').split("~")[0])).val()) : ""                            
+                        }
+                    }
+                }
+
+            })
+
+            if ($(".css_1:checked").length > 0) {
+                if ($("#txtTiempo_28").val() == "") {
+                    alert("Ingrese el tiempo")
+                    return false;
+                }
+                if (parseInt($("#txtTiempo_28").val()) < 0 || parseInt($("#txtTiempo_28").val()) > 999) {
+                    alert("El tiempo debe der mayor a 0 y menor a 999")
+                    return false;
+                }
+                if ($('#fileLoad_28').val() == "") {
+                    alert("Seleccione el Archivo excel de la prueba")
+                    return false;
+
+                }
+            }
+
+
+            var Puesto = {
+                vc_desc_puesto: $('#Puesto_vc_desc_puesto').val().toUpperCase(),
+                nu_id_puesto: $('#Puesto_nu_id_puesto').val(),
+                PruebaDetalle: PruebaDetalle,
+            }
+            var Model = new Object();
+            Model.Puesto = Puesto;
+            $("#guardarBtn").attr('disabled', 'disabled');
+            $("#SaveMensaje").html('<i class="fa fa-refresh" style="color:green"></i> Actualizando el puesto espere un momento...');
+            $("#ModalSave").modal('show');
+            $.ajax({
+                type: "POST",
+                url: GetControllerUrl("Actualizar", "Puesto"),
+                data: Model,
+                success: function (resultado) {
+                    if (resultado.message == "go") {
+
+                        $('#fileLoad_28').fileinput('upload');
+
+                        $("#SaveMensaje").html('<i class="fa  fa-check" style="color:green"></i> Se actualizo el puesto <strong>' + $('#Puesto_vc_desc_puesto').val() + '</strong> satisfactoriamente.');
+                        /*Despues de registrar este evento permite redireccionar la pagina*/
+                        $('#ModalSave').on('hidden.bs.modal', function () {
+                            window.location.href = GetControllerUrl("Bandeja", "Puesto");
+                        });
+                    }
+                    else {
+                        $("#guardarBtn").removeAttr('disabled');
+                        $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo el registro del puesto: <br><strong>' + resultado.message + '</strong>');
+                    }
+                }
+            });
+        }
+        /*Asignar Pruebas*/
+        function Actualizar(idPuesto, idPrueba) {
+            var Model = {
+                idPuesto: idPuesto,
+                idPrueba: idPrueba
+            }
+            $.ajax({
+                type: "POST",
+                url: GetControllerUrl("ActualizarPruebas", "Puesto"),
+                data: Model,
+                success: function (resultado) {
+                    if (resultado.message == "go") {
+                        $('#' + idPuesto + idPrueba).remove();
+                    }
+                    else {
+                        $("#guardarBtn").removeAttr('disabled');
+                        $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo el registro del puesto: <br><strong>' + resultado.message + '</strong>');
+                    }
+                }
+            });
+        }
+        /*FIN*/
+
+        function Editar1() {
+            $("#Puesto_vc_desc_puesto").removeAttr('disabled');
+            document.getElementById('NuevasPruebas').style.display = 'block'
+            document.getElementById('botonesEditar').style.display = 'block';
+            document.getElementById('botonVolver').style.display = 'none';
+            document.getElementById('Titulo2').style.display = 'block';
+            document.getElementById('Titulo1').style.display = 'none';
+        }
+
+        $(document).on('click', '.actions > .fa-chevron-down', function () {
+            $(this).parent().parent().next().slideToggle("fast"), $(this).toggleClass("fa-chevron-down fa-chevron-up")
+        })
+
+        $(document).on('click', '.actions > .fa-chevron-up', function () {
+            $(this).parent().parent().next().slideToggle("fast"), $(this).toggleClass("fa-chevron-down fa-chevron-up")
+        })
+
+
+        $(document).on('click', '#chkAllConfidencial', function () {
+            console.log("okoko");
+            $(".clsConfidencial").prop("checked", $("#chkAllConfidencial").prop("checked"));
+        });
+
+        function getFileExtension3(filename) {
+            return filename.slice((filename.lastIndexOf(".") - 1 >>> 0) + 2);
+        }
+    </script>
+}

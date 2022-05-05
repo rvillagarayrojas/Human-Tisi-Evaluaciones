@@ -1,0 +1,70 @@
+D:\Evaluaciones Online\Evaluaciones Online\Entidad\Entidad\bin\Release\Entidad.dll
+D:\Evaluaciones Online\Evaluaciones Online\Entidad\Entidad\bin\Release\Entidad.pdb
+D:\Evaluaciones Online\Evaluaciones Online\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+D:\Evaluaciones Online\Evaluaciones Online\Entidad\Entidad\obj\Release\Entidad.dll
+D:\Evaluaciones Online\Evaluaciones Online\Entidad\Entidad\obj\Release\Entidad.pdb
+E:\TISI\Evaluaciones Online\Evaluaciones Online\Entidad\Entidad\bin\Release\Entidad.dll
+E:\TISI\Evaluaciones Online\Evaluaciones Online\Entidad\Entidad\bin\Release\Entidad.pdb
+E:\TISI\Evaluaciones Online\Evaluaciones Online\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+E:\TISI\Evaluaciones Online\Evaluaciones Online\Entidad\Entidad\obj\Release\Entidad.dll
+E:\TISI\Evaluaciones Online\Evaluaciones Online\Entidad\Entidad\obj\Release\Entidad.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\bin\Release\Entidad.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Entidad\Entidad\obj\Release\Entidad.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\bin\Release\Entidad.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\bin\Release\Entidad.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.csprojAssemblyReference.cache
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\bin\Release\Entidad.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\bin\Release\Entidad.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\bin\Release\Entidad.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\bin\Release\Entidad.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\bin\Release\Entidad.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\bin\Release\Entidad.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.csprojResolveAssemblyReference.cache
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Release\Entidad.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Entidad\Entidad\bin\Release\Entidad.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Entidad\Entidad\bin\Release\Entidad.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Entidad\Entidad\obj\Release\Entidad.csproj.CoreCompileInputs.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Entidad\Entidad\obj\Release\Entidad.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Entidad\Entidad\obj\Release\Entidad.pdb

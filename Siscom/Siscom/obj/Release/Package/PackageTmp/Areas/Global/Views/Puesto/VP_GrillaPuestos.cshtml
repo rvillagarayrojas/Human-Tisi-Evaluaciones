@@ -1,0 +1,87 @@
+﻿@model Siscom.Areas.Global.Models.PuestoModels
+
+
+ <table id="DetalleSolicitudTable" class="table table-striped table-bordered table-hover table-condensed " cellspacing="0">
+    <thead>
+        <tr>
+            <th class="text-center"><p>ESTADO</p></th>
+            <th class="text-center"><p>TIPO</p></th>
+            <th class="text-center" hidden="hidden"><p>ID_CUENTA</p></th>
+            <th class="text-center" hidden="hidden"><p>ID_SUBCUENTA</p></th>
+            <th class="text-center"><p>CUENTA</p></th>
+            <th class="text-center"><p>SUBCUENTA</p></th>
+            <th class="text-center"><p>PUESTO</p></th>
+            <th class="text-center"><p>VIGENCIA</p></th>
+            <th class="text-center"><p>ACCIÓN</p></th>
+        </tr>
+    </thead>
+
+    
+ <tbody id="itemsDetalle">
+@if (Model.ListaPuesto != null)
+{
+        foreach (var item in Model.ListaPuesto)
+        { 
+            <tr>
+                <td class="text-center" style="font-weight:100;">
+                @if(item.ch_status == "A")
+                {
+                    <button type="button" class="btn btn-primary" onclick="Actualizar(@item.nu_id_puesto);">
+                        <h2 style="color:white">A</h2>
+                    </button>
+                }
+                
+                @if(item.ch_status == "I")
+                {
+                    <button type="button" class="btn btn-danger" onclick="Actualizar(@item.nu_id_puesto);">
+                        <h2 style="color:white">I</h2>
+                    </button>
+                }</td>
+
+                <td class="text-center" style="font-weight:100;">
+                @if(item.ch_estado == "P")
+                {
+                    <button type="button" class="btn btn-primary" onclick="ActualizarTipo(@item.nu_id_puesto);">
+                        <h2 style="color:white">P</h2>
+                    </button>
+                }
+                
+                @if(item.ch_estado == "C")
+                {
+                    <button type="button" class="btn btn-danger" onclick="ActualizarTipo(@item.nu_id_puesto);">
+                        <h2 style="color:white">C</h2>
+                    </button>
+                }</td>
+                <td hidden="hidden"><p>@(item.nu_id_cuenta)</p></td>
+                <td class="text-center" hidden="hidden"><p>@(item.nu_id_subcuenta)</p></td>
+                <td class="text-center"><p>@(item.vc_desc_cuenta)</p></td>
+                <td class="text-center"><p>@(item.vc_desc_sub_cuenta)</p></td>
+                <td class="text-center"><p>@(item.vc_desc_puesto)</p></td>
+                <td class="text-center"><p>@(item.nu_dias_vigencia)</p></td>
+                <td class="text-center">
+                    <button id="Ver" title="Ver pruebas"  type="button" class="btn btn-success" onclick="Select(@item.nu_id_puesto);">
+                        <i class="fa fa-fw fa-pencil-square-o"></i>
+                    </button>
+                    <button id="Ver" title="Ver usuarios" type="button" class="btn btn-info" onclick="SelectCandidatos(@item.nu_id_puesto);">
+                        <i class="fa fa-users"></i>
+                    </button>
+                    <button id="VerEvaluad" title="Ver Evaluadores" type="button" class="btn btn-info" onclick="SelectPersonal(@item.nu_id_puesto);">
+                        <i class="fa fa-cogs"></i>
+                    </button>
+                    <button id="VerEvaluad" title="Eliminar Puesto" type="button" class="btn btn-danger" onclick="EliminarPuesto(@item.nu_id_puesto);">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                    @if(item.ch_brecha == "1")
+                    {
+                        <button id="VerReporte" title="Ver análisis" type="button" class="btn btn-info" onclick="ReporteAnalisis(@item.nu_id_puesto);">
+                            <i class="fa fa-bar-chart-o"></i>
+                        </button>
+                    }
+                </td>
+            </tr>
+        }
+}                                        
+    </tbody>
+ </table>
+      
+    

@@ -1,0 +1,71 @@
+﻿@model Siscom.Areas.Global.Models.PuestoModels
+
+
+@if (Model.ListaPuesto != null)
+{
+    if (Model.ListaPuesto.Count > 0)
+    {
+        <div id="div_ListaKardexStock">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body" data-toggle="collapse">
+                            <div id ="boletaEmpleado" class="table-responsive">
+                                <table id="HistoricoCtsTable" class="table table-striped table-bordered table-hover table-condensed " cellspacing="0">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center"><p>CUENTA</p></th>
+                                                <th class="text-center"><p>SUBCUENTA</p></th>
+                                                <th class="text-center"><p>PUESTO</p></th>
+                                                <th class="text-center"><p>NRO DE PRUEBAS</p></th>
+                                            </tr>
+                                        </thead>
+                                      <tbody id="itemsDetalle1">
+                                        @if (Model.ListaPuesto != null)
+                                        {
+                                            foreach (var item in Model.ListaPuesto)
+                                            { 
+                                                <tr>              
+                
+                                                    <td class="text-center"><b><p>@(item.vc_desc_cuenta)</p></b></td>
+                                                    <td class=""><p>@(item.vc_desc_sub_cuenta)</p></td>
+                                                    <td class="text-center"><p>@(item.vc_desc_puesto)</p></td>
+                                                    <td class="text-center"><p>@(item.nu_pruebas)</p></td>
+                                                </tr>
+                                            }
+                                        }                                        
+                                        </tbody>
+                                </table>
+                            </div>
+                                   <div id="TablaHistoricoCts">
+                                    <table id="KardexStockExport" cellspacing="0" style="display:none;border: 1px solid black;">
+                                        <thead>
+                                            <tr>
+                                                <th style="vertical-align:middle;border: 1px solid black;padding: 5px;background-color:#1f7bb6;color: white;"><p>CUENTA</p></th>
+                                                <th style="vertical-align:middle;border: 1px solid black;padding: 5px;background-color:#1f7bb6;color: white;"><p>SUBCUENTA</p></th>
+                                                <th class="text-center" style="vertical-align:middle;border: 1px solid black;padding: 5px;background-color:#1f7bb6;color: white;"><p>PUESTO</p></th>
+                                                <th class="text-center" style="vertical-align:middle;border: 1px solid black;padding: 5px;background-color:#1f7bb6;color: white;"><p>NRO DE PRUEBAS</p></th>
+                                            </tr>
+                                            
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model.ListaPuesto)
+                                                {
+                                                <tr>
+                                                    <td class="text-center" style="border: 1px solid black;padding: 5px;color: #424856;"><p>@(item.vc_desc_cuenta)</p></td>
+                                                    <td class="text-center" style="border: 1px solid black;padding: 5px;color: #424856;"><p>@(item.vc_desc_sub_cuenta)</p></td>
+                                                    <td class="text-center" style="border: 1px solid black;padding: 5px;color: #424856;"><p>@(item.vc_desc_puesto)</p></td>
+                                                    <td class="text-center" style="border: 1px solid black;padding: 5px;color: #424856;"><p>@(item.nu_pruebas)</p></td>
+                                                </tr>
+                                               
+                                                }
+                                        </tbody>
+                                    </table>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}

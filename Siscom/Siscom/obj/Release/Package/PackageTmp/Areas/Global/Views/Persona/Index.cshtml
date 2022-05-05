@@ -1,0 +1,458 @@
+﻿@using Siscom.Models
+
+@model Siscom.Areas.Global.Models.PersonaModels
+
+@{  
+    var usuarioSession = (UsuarioModel)Session[UsuarioModel.SessionName];
+}
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Home/Principal.cshtml";
+}
+
+<link href="~/Content/themes/base/jquery.fileupload.css" rel="stylesheet" />
+
+<div class="pageheader">
+    <!--Region Cabecera de la Pagina-->
+    <h1>Registro de Usuarios</h1>
+    <div>
+        <span class="label" style="color:rgb(144, 157, 163);padding:0px">USTED ESTÁ AQUÍ: </span>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#">Candidatos</a>
+            </li>
+            <li>
+                <a href="../../Global/Persona/Index" class="active">Nuevo candidato</a>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<section id="main-content" class="animated fadeInUp">
+    <div id="DatosForm">
+        <!--Region Panel (Filtros)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Seleccionar información</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group" id="div_MotrarDatosPuesto">                               
+                                   @Html.Partial("VP_Puesto", Model)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--Region Panel (Filtros)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Datos de Usuarios</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <!--Region Botones-->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="panel panel-default">
+                                <div class="panel-body text-right" style="background:rgb(252, 252, 252)">
+                                    <i class="fa fa-file-excel-o" style="color:#005B71;"></i><a href="@Url.Content("~/Recursos/Archivos/Candidatos.xlsx")">&nbsp;Descargar formato excel</a>
+                                </div>
+                                <div class="panel-body text-left">
+                                <span class="btn btn-default fileinput-button">
+                                    <i class="fa fa-file-excel-o" style="color:green;font-size:20px"></i>
+			                         <span>&nbsp;Buscar excel de candidatos</span>
+                                        <input id="archivos" type="file"  name="files[]">
+		                            </span><span id="estado"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-horizontal form-border" role="form">
+                            <!--Lista de Candidatos-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="panel panel-default">
+                                        <div class="panel-body data-toggle="collapse">
+                                            <div id="div_ListaSolicitudes" class="table-responsive" style="padding-top:1px">
+                                             @Html.Partial("VP_GrillaCandidatos", Model)
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+ <!--Region Botones-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-body text-center">
+                    <button id="guardarBtn" type="button" class="btn btn-success" 
+                        onclick="GuardarSinEnviar()">
+                        <i class="fa fa-save"></i> Guardar
+                    </button>                    
+                   <button id="guardarEnviarBtn" type="button" class="btn btn-info" 
+                        onclick="GuardarEnviar()">
+                        <i class="fa fa-jsfiddle"></i> Guardar y Enviar Correo 
+                    </button>
+                    <button id="cancelarBtn" type="button" class="btn btn-default" 
+                        onclick="Cancelar()">
+                        <i class="fa fa-reply"></i> Cancelar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Modal para mensajes-->
+<div class="modal fade" id="ModalSave" style="overflow: scroll;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="myModalLabel" style="color:#0D588E">Mensaje de Creación de usuarios</h3>
+            </div>
+            <div class="modal-body" id="SaveMensaje">
+            </div>
+            <div class="text-center">
+                <hr /><button id="btnMensaje" type="button" class="btn btn-primary" onclick="$('#ModalSave').modal('hide');">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="formModal02" style="overflow: scroll;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="myModalLabel">Buscar puestos</h3>
+            </div>
+            <p class="col-sm-12"><strong>Nota:</strong> Escriba alguna referencia del puesto para agilizar la búsqueda.</p>            
+            <div class="modal-body">
+            <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <div class="col-sm-9">
+                            <input type="text" id="clavePuesto" placeholder="Descripción del puesto" class="form-control" />
+                        </div>
+                        <div class="col-sm-1">
+                            <button id="buscarEmpleadoBtn" type="button" class="btn btn-primary"
+                                onclick="BuscarPuesto(1);">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <!--Region Grilla (Cargar)-->
+                <div id="contenedor-grid-comunicacion">
+                    <div id="div_ListaPuestoGrilla">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Styles {
+@Styles.Render("~/plugins/dataTablesCSS")
+}
+
+<!--Load these page level functions-->
+@section Scripts {
+    @Scripts.Render("~/plugins/dataTables")
+    @Scripts.Render("~/plugins/dataTables-bootstrap")
+
+    <script type="text/javascript" src="~/Scripts/plugins/blockUI/js/jquery.blockUI.js" charset="UTF-8"></script>
+    <script src="~/Scripts/jquery.number.js"></script>
+    <script src="~/Scripts/jquery.number.min.js"></script>
+
+<script type="text/javascript">  
+    $(document).ready(function () {
+        $('#clavePuesto').keypress(enterBuscarEmpleado);
+        $('#archivos').fileupload({
+            dataType: 'json',
+            url: '@Url.RouteUrl("AC_Adjuntar_Excel")',
+            autoUpload: true,
+            success: function (model)
+            {
+                if (model.Persona.vc_criterio == "1") {
+                    MostrarCandidatos(model.ls_Persona)
+                    $('#estado').html('&nbsp;100% <i class="fa fa-check" style="color:green;"></i>');
+                    $('#SaveMensaje').html('Se ha terminado la lectura de datos del excel de candidatos.');                    
+                    $('#ModalSave').modal('show');
+                }
+                else {
+                    $('#SaveMensaje').html(model.Persona.vc_criterio);
+                    $('#ModalSave').modal('show');
+                }
+            },
+            error: function (error) {
+                $('#SaveMensaje').html(error.model.Persona.vc_criterio);
+                $('#ModalSave').modal('show');
+            }
+        })
+    });
+
+    function CargarSubCuenta() {
+        var data = { cuentaid: $('#Persona_nu_id_cuenta').val() };
+        $.ajax({
+            type: "POST",
+            url: "/Global/Persona/LoadSubCuenta",
+            data: data,
+            success: function (result) {
+                $('#div_MostrarSubCuenta').html(result);
+            }
+        });
+    }
+
+    function enterBuscarEmpleado(e) {
+        if (e.which == 13) { BuscarPuesto(1); return false; }
+        return true;
+    }
+   
+    function Cancelar() {
+        window.location.href = GetControllerUrl("Index", "Persona");
+    }
+
+    function MostrarCandidatos(ls_Persona) {
+        $('#itemsDetalle').html('');
+        for (var i = 0; i < ls_Persona.length; i++) {
+            var fila = '<tr>' +
+                            '<td>' + ls_Persona[i].vc_doc_identi + '</td>' +
+                            '<td class="text-center">' + ls_Persona[i].vc_nombres + '</td>' +
+                            '<td class="text-center">' + ls_Persona[i].vc_apellidos + '</td>' +
+                            '<td class="text-center">' + ls_Persona[i].vc_direccion_email + '</td>' +
+                            '<td>' + ls_Persona[i].vc_telefono + '</td>' +
+                        '</tr>';
+            $('#itemsDetalle').append(fila);
+        }
+    }
+
+    function AgregarFila() {
+        $('#itemsDetalle').append('<tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr>')
+    }
+
+
+
+    function GuardarEnviar() {
+        var statusVal = true;
+        var resumen = "";
+
+        if ($('#Puesto_nu_id_puesto').val() == "") {
+            resumen = resumen + '<li>Debe seleccionar un puesto. </li>';
+            statusVal = false;
+        }
+        if (!statusVal) {
+            $("#SaveMensaje").html("<ol>" + resumen + "</ol>");
+            $("#ModalSave").modal('show');
+            return false;
+        }
+        var ls_mme_prueba = [];
+        $('#itemsDetalle tr').each(function () {
+            if ($(this).find('td').eq(0).text().trim() != '') {
+
+                var persona = {
+                    vc_doc_identi: ($(this).find('td').eq(0).text().trim()),
+                    vc_nombres: ($(this).find('td').eq(1).text().trim()),
+                    vc_apellidos: ($(this).find('td').eq(2).text().trim()),
+                    vc_direccion_email: ($(this).find('td').eq(3).text().trim()),
+                    vc_telefono: ($(this).find('td').eq(4).text().trim()),
+                    vc_cod_usuario: ('000' + $(this).find('td').eq(0).text().trim()),
+                    vc_password: ($(this).find('td').eq(0).text().trim()),
+                    nu_id_puesto: $('#Puesto_nu_id_puesto').val(),
+                    vc_empresa_postula: $("#lblEmpresa").text(),
+                    opcion: 1
+                }
+
+                var me_prueba = { persona: persona }
+
+
+                ls_mme_prueba[ls_mme_prueba.length] = {
+                    me_prueba: me_prueba
+                }
+            }
+        })
+
+
+        var mme_datos = {
+            ls_mme_prueba: ls_mme_prueba
+        }
+        var Model = {
+            mme_datos: mme_datos
+        }
+        $("#guardarEnviarBtn").attr('disabled', 'disabled');
+
+        $("#SaveMensaje").html('<i class="fa fa-refresh" style="color:green"></i> Registrando candidatos espere un momento...');
+        $("#ModalSave").modal('show');
+        $.ajax({
+            type: "POST",
+            url: GetControllerUrl("Guardar", "Persona"),
+            data: Model,
+            success: function (resultado) {
+                if (resultado.result == 1) {
+                    console.log("Insert ---------->" + resultado.message);
+                    if (resultado.message == "go") {
+                        $("#SaveMensaje").html('<i class="fa  fa-check" style="color:green"></i> Se registraron a los candidatos satisfactoriamente.');
+
+                    } else {
+                        $("#guardarEnviarBtn").removeAttr('disabled');
+                        $("#SaveMensaje").html('<i class="fa  fa-check" style="color:green"></i> Se registraron a los candidatos satisfactoriamente, pero se encontrarón algunas observaciones: <ul>' + resultado.message + '</ul>');
+                    }
+                    /*Despues de registrar este evento permite redireccionar la pagina*/
+                    $('#ModalSave').on('hidden.bs.modal', function () {
+                        window.location.href = GetControllerUrl("Index", "Persona");
+                    });
+                }else {
+                    $("#guardarEnviarBtn").removeAttr('disabled');
+                    $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo el registro de candidatos: <br> <strong>' + resultado.message + '</strong>');
+                }
+            }
+        });
+    }
+
+
+
+    function GuardarSinEnviar() {
+        var statusVal = true;
+        var resumen = "";
+
+        if ($('#Puesto_nu_id_puesto').val() == "") {
+            resumen = resumen + '<li>Debe seleccionar un puesto. </li>';
+            statusVal = false;
+        }
+        if (!statusVal) {
+            $("#SaveMensaje").html("<ol>" + resumen + "</ol>");
+            $("#ModalSave").modal('show');
+            return false;
+        }
+        var ls_mme_prueba = [];
+        $('#itemsDetalle tr').each(function () {
+            if ($(this).find('td').eq(0).text().trim() != '') {
+
+                var persona = {
+                    vc_doc_identi: ($(this).find('td').eq(0).text().trim()),
+                    vc_nombres: ($(this).find('td').eq(1).text().trim()),
+                    vc_apellidos: ($(this).find('td').eq(2).text().trim()),
+                    vc_direccion_email: ($(this).find('td').eq(3).text().trim()),
+                    vc_telefono: ($(this).find('td').eq(4).text().trim()),
+                    vc_cod_usuario: ('000' + $(this).find('td').eq(0).text().trim()),
+                    vc_password: ($(this).find('td').eq(0).text().trim()),
+                    nu_id_puesto: $('#Puesto_nu_id_puesto').val(),
+                    opcion: 0
+                }
+
+                var me_prueba = { persona: persona }
+
+
+                ls_mme_prueba[ls_mme_prueba.length] = {
+                    me_prueba: me_prueba
+                }
+            }
+        })
+
+
+        var mme_datos = {
+            ls_mme_prueba: ls_mme_prueba
+        }
+        var Model = {
+            mme_datos: mme_datos
+        }
+        $("#guardarBtn").attr('disabled', 'disabled');
+  
+        $("#SaveMensaje").html('<i class="fa fa-refresh" style="color:green"></i> Registrando candidatos espere un momento...');
+        $("#ModalSave").modal('show');
+        $.ajax({
+            type: "POST",
+            url: GetControllerUrl("Guardar", "Persona"),
+            data: Model,
+            success: function (resultado) {
+                if (resultado.result == 1) {
+                    if (resultado.message == "go") {
+                        $("#SaveMensaje").html('<i class="fa  fa-check" style="color:green"></i> Se registraron a los candidatos satisfactoriamente.');
+                    } else {
+                        $("#guardarBtn").removeAttr('disabled');
+                        $("#SaveMensaje").html('<i class="fa  fa-check" style="color:green"></i> Se registraron a los candidatos satisfactoriamente, pero se encontrarón algunas observaciones: <ul>' + resultado.message + '</ul>');
+                    }
+                    /*Despues de registrar este evento permite redireccionar la pagina*/
+                    $('#ModalSave').on('hidden.bs.modal', function () {
+                        window.location.href = GetControllerUrl("Index", "Persona");
+                    });
+                } else {
+                    $("#guardarBtn").removeAttr('disabled');
+                    $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo el registro de candidatos: <br> <strong>' + resultado.message + '</strong>');
+                }
+            }
+        });
+    }
+
+    function BuscarPuesto(opcion) {
+
+        $("#SaveMensaje").html('<i class="fa  fa-refresh" style="color:green"></i> Buscando Puestos, espere un momento...');
+        $("#ModalSave").modal('show');
+        var opcion = opcion;
+        if (opcion == 1) { var clave = $('#clavePuesto').val(); }
+        var data = { clave: clave, opcion: opcion }
+        $.ajax({
+            type: "POST",
+            url: window.GetControllerUrl("LoadPuesto", "Persona"),
+            data: data,
+            success: function (result) {
+                $('#formModal02').modal('show');
+                if (opcion == 1) {
+                    $('#div_ListaPuestoGrilla').andSelf().unbind();
+                    $('#div_ListaPuestoGrilla').html(result);
+                    //$('#EmpleadosTablejefe').dataTable();
+                    $("#ModalSave").modal('hide');
+                    if ($('#div_ListaPuestoGrilla').html().trim() == "") {
+                        $('#div_ListaPuestoGrilla').html('<h4 style="color:darkred">No se encontró ningún empelado con tal descripción.</h4>')
+                    }
+                }
+            },
+            error: function (result) {
+                alert('error');
+
+
+            }
+        });
+    }
+
+    function SeleccionarItemPuesto(idseleccionado, opcion) {
+        var data = { idSeleccionado: idseleccionado, opcion: opcion };
+        $.ajax({
+            type: "POST",
+            data: data,
+            url: window.GetControllerUrl("PuestoSelect", "Persona"),
+            success: function (result) {
+                if (opcion == 1) {
+                    $("#BtnNuevo").attr('disabled', 'disabled');
+                    $("#div_MotrarDatosPuesto").html(result);
+                    $('#formModal02').modal('hide');
+                    $('#div_ListaPuestoGrilla').html('');
+                    $('#clavePuesto').val('');
+                }
+            },
+            error: function (result) {
+                alert("Ha ocurrido un error inesperado contactar con el área de sistemas.");
+            }
+        });
+    }
+
+</script>
+}

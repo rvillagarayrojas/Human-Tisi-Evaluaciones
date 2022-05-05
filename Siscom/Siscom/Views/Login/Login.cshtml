@@ -1,0 +1,169 @@
+﻿@model Siscom.Models.UsuarioModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | @ViewBag.Title</title>
+                                              
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>  
+                                            
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+     @Scripts.Render("~/bundles/ie")
+     <![endif]-->
+</head>
+<body>
+        <!--<div class="alert alert-warning" role="alert">
+           <b>!ATENCIÓN ESTIMADO USUARIOS¡</b></BR>
+            Debido al mantenimiento de nuestra plataforma, estarán suspendidos los servicios de nuestra Página Web el dia de hoy 12/09/2019 desde las <b>6:30 PM</b> hasta las <b>7:00 PM</b><br /><br />
+            Ofrecemos disculpas por los posibles inconvenientes ocasionados.
+        </div>-->
+    <section class="container animated fadeInUp">
+        <div class="row">
+            <img src="~/Images/1-01.png">
+            <div class="col-md-6 col-md-offset-3">
+                <div id="login-wrapper" style="margin: 5px">
+                    <header>
+                        <div class="brand" style="padding: 5px;">
+                            <img src="~/Images/Logo.png" alt="" width="50%">
+                        </div>
+                    </header>
+                    <div class="panel-heading" style="background-color:white; padding:5px">                                           
+                        <div class="panel panel-primary">
+                            <div class="panel-heading" style="background-color:#2f3292; border-color:#2f3292">
+                                <h3 class="panel-title">
+                                   <strong> Login</strong>
+                                </h3>
+                            </div>
+                            <form class="form-horizontal" role="form">
+                                <div class="panel-body">
+                                    <p> Inicia sesión para acceder al Sistema.</p>
+                                        <div class="form-group">
+									        <label class="col-sm-2 control-label">Usuario</label>
+                                            <div class="col-sm-12">
+                                                <input type="text" class="form-control" style="padding-left:15px" id="usuario" placeholder="Usuario">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+									        <label class="col-sm-2 control-label">Contraseña</label>
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="password" class="form-control pwd" style="padding-left:15px" id="password" placeholder="Password">
+                                            <span class="input-group-btn">
+                                            <button class="btn btn-default reveal" style="color:black; background-color:#e7e7e7" type="button"><i class="glyphicon glyphicon-eye-open iconPassw"></i></button>
+                                            </span>          
+                                        </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <button type="button" class="btn btn-primary btn-block"
+                                            onclick ="Login()" style="background-color:#2f3292" >
+                                            <i class="icon-key"></i>        
+                                            Entrar
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>                    
+                        <div class="toolbar clearfix">
+							    <div>
+								    <div id="mensaje" class="forgot-password-link" style="padding-left:20px; height: 20px;color:darkred">
+								    </div>
+							    </div>
+						</div>
+                    </div>
+                </div>
+            </div>
+            <img src="~/Images/2-01.png" style="padding-top: 40px;" >
+       </div>
+    </section>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/plugins/navgoco")
+    @Scripts.Render("~/plugins/pace")
+    @Scripts.Render("~/bundles/app")
+</body>
+<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = 'a8541ddc86ad29f1efec1b8922a81ae7afc6dc41';
+    window.smartsupp || (function (d) {
+        var s, c, o = smartsupp = function () { o._.push(arguments) }; o._ = [];
+        s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
+        c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
+        c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
+    })(document);
+</script>
+<script> smartsupp('name', 'Cliente');</script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#usuario').keypress(enterUsuario);
+
+            $(".reveal").on('click', function () {
+                var $pwd = $(".pwd");
+                var $iconPassw = $(".iconPassw");
+                if ($pwd.attr('type') === 'password') {
+                    $pwd.attr('type', 'text');
+                    $iconPassw.removeClass("glyphicon-eye-open");
+                    $iconPassw.addClass("glyphicon-eye-close");
+                } else {
+                    $pwd.attr('type', 'password');
+                    $iconPassw.removeClass("glyphicon-eye-close");
+                    $iconPassw.addClass("glyphicon-eye-open");
+                }
+            });
+        });
+
+        function enterUsuario(e)
+        {
+            if (e.which == 13) { document.getElementById("password").focus(); return false; }
+            return true;
+        }
+
+
+       
+        /*Valida la informacion*/
+        function Login() {
+            
+            var Usuario1 = {
+                vc_cod_usuario: $('#usuario').val(),
+                vc_password: $('#password').val(),
+            }
+
+            
+            $.ajax({
+                type: "POST",
+                url: "/Login/IniciarSesion",
+                data: Usuario1,
+                success: function (result) {
+                    if (result.message == "go") {
+                        window.location.href = "/Home/Index";
+                    }
+
+                    else if (result.message == "acuerdo") {
+                        window.location.href = "/Home/Contrato";
+                    }
+
+                    else if (result.message == "error") {
+                        $("#mensaje").html('Su cuenta expiró o no esta activa. Por favor contactesé con el Administrador');
+                    }
+
+                    else{
+                        $("#mensaje").html('El usuario o la contraseña no coincide.');
+                    }
+                },
+                error: function (status) {
+                    debugger;
+                }
+            });
+        }
+
+    </script>
+</html>

@@ -1,0 +1,289 @@
+﻿@model Siscom.Areas.Global.Models.PuestoModels
+
+@{  
+    string nombre = "";
+    String archivo = "";
+}
+
+<p><input type="checkbox"  id="chkAllConfidencial" name="chkAllConfidencial" /><label for="chkAllConfidencial">&nbsp;&nbsp;Enviar pruebas de forma confidencial</label></p>
+<div id="ContenedorPruebas"  class="form-group">  
+  @if (Model.ListaPrueba != null)
+    { 
+	<div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="background-color: #c4a729;color:white">
+                    <h3 class="panel-title" style="font-family:Arial"><b>CAPACIDAD INTELECTUAL (Wonderlic, GATB, IC, Domino, Raven, Barsit, Monedas-1, TIG-1)</b></h3>
+                    <div class="actions pull-right">
+                        <i style="color:white"  class="fa fa-chevron-down" onclick="Comprimir();"></i>
+                    </div>
+                </div>
+                <div class="panel-body" style="display: none">
+                    @foreach (var item in Model.ListaPrueba)
+                    {
+                        if(item.nu_id_tipo_prueba ==1||item.nu_id_tipo_prueba ==3 )
+                        { 
+                            if(item.vc_desc_prueba != nombre )
+                            {   nombre = item.vc_desc_prueba;
+                    <div class="col-sm-12" style="border-top:none;padding: 10px;font-family:Arial;font-size:14px;text-align:justify">
+                        <center> <p style="font-size:15px;background-color: #c4a729;color:white"><b>@(item.vc_desc_prueba)</b></p> </center>
+                        <p><input type="checkbox" class="clsConfidencial" id=@("chkViewPrueba_"+item.nu_id_prueba) name=@("chkViewPrueba_"+item.nu_id_prueba) />&nbsp;&nbsp;<label>Confidencial</label></p>
+                        <input type="hidden" id="@("sfile_"+item.nu_id_prueba)" name="@("sfile"+item.nu_id_prueba)" value="@(item.archivo)" />
+                        <p>@(item.vc_desc_observacion)</p>
+                        <p><i class="fa fa-clock-o"></i> @(item.nu_min_tiempo) minutos</p>
+                        <p><i class="fa  fa-check"></i>  @(item.nu_preguntas) preguntas</p>
+
+                    </div>
+                            }
+                            <div class="col-sm-6" style="border-top:hidden;font-family:Arial;font-size:12px;text-align:justify;padding-right: 0px;">
+                                <input type="radio" class="check" name=@(item.nu_id_prueba+"~"+item.nu_id_clasificacion)>
+                                    <label>@(item.vc_desc_clasificacion)</label>
+                            </div>            
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="background-color: #4d9f97;color:white">
+                    <h3 class="panel-title" style="font-family:Arial"><b>PERSONALIDAD (CPS, Ice de Baron, NEO - PIR, BFQ, 16 PF5, Minimult)</b></h3>
+                    <div class="actions pull-right">
+                        <i style="color:white" class="fa fa-chevron-down" onclick="Comprimir();"></i>
+                    </div>
+                </div>
+                <div class="panel-body" style="display: none">
+                @foreach (var item in Model.ListaPrueba)
+                {
+                if(item.nu_id_tipo_prueba ==2||item.nu_id_tipo_prueba == 4)
+                { 
+                    if(item.vc_desc_prueba != nombre )
+                    {   nombre = item.vc_desc_prueba;
+                    <div class="col-sm-12" style="border-top:none;padding: 10px;font-family:Arial;font-size:14px;text-align:justify">
+                        <center> <p style="font-size:15px;background-color: #4d9f97;color:white"><b>@(item.vc_desc_prueba)</b></p> </center>
+                        <p><input type="checkbox" class="clsConfidencial" id=@("chkViewPrueba_"+item.nu_id_prueba) name=@("chkViewPrueba_"+item.nu_id_prueba) />&nbsp;&nbsp;<label>Confidencial</label></p>
+                        <input type="hidden" id="@("sfile_"+item.nu_id_prueba)" name="@("sfile"+item.nu_id_prueba)" value="@(item.archivo)" />
+                        <p>@(item.vc_desc_observacion)</p>
+
+                        @if (item.nu_min_tiempo != 0)
+                        {
+                            <p><i class="fa fa-clock-o"></i> @(item.nu_min_tiempo) minutos</p>}
+                        else
+                        {
+                            <p><i class="fa fa-clock-o"></i> Sin tiempo límite</p>
+                        }
+                        <p><i class="fa  fa-check"></i>  @(item.nu_preguntas) preguntas</p>
+
+                    </div>
+                    }
+                    <div class="col-sm-6" style="border-top:hidden;font-family:Arial;font-size:12px;text-align:justify;padding-right: 0px;">
+                        <input type="radio"  class="check" name=@(item.nu_id_prueba+"~"+item.nu_id_clasificacion)>
+                            <label>@(item.vc_desc_clasificacion)</label>
+                    </div>
+                }
+            }
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="background-color: #dd6961;color:white">
+                    <h3 class="panel-title" style="font-family:Arial"><b>COMPORTAMIENTO (DISC, Kostick, Habilidades Genrencial, IPV)</b></h3>
+                    <div class="actions pull-right">
+                        <i style="color:white" class="fa fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="panel-body" style="display: none">
+                @foreach (var item in Model.ListaPrueba)
+                    {
+                        if(item.nu_id_tipo_prueba ==5||item.nu_id_tipo_prueba ==6 )
+                        { 
+                            if(item.vc_desc_prueba != nombre )
+                            {   nombre = item.vc_desc_prueba;
+                                <div class="col-sm-12" style="padding: 10px;font-family:Arial;font-size:14px;text-align:justify">
+                                    <center> <p style="font-size:15px;color:white;background-color: #dd6961;"><b>@(item.vc_desc_prueba)</b></p> </center>
+                                    <p><input type="checkbox" class="clsConfidencial" id=@("chkViewPrueba_"+item.nu_id_prueba) name=@("chkViewPrueba_"+item.nu_id_prueba) />&nbsp;&nbsp;<label>Confidencial</label></p>
+                                    <input type="hidden" id="@("sfile_"+item.nu_id_prueba)" name="@("sfile"+item.nu_id_prueba)" value="@(item.archivo)" />
+                                    <p>@(item.vc_desc_observacion)</p>
+                                    @if(item.nu_min_tiempo!=0){
+                                        <p><i class="fa fa-clock-o"></i> @(item.nu_min_tiempo) minutos</p>}
+                                      else
+                                        {
+                                            <p><i class="fa fa-clock-o"></i> Sin tiempo límite</p>
+                                        }
+                                    <p><i class="fa  fa-check"></i>  @(item.nu_preguntas) preguntas</p>
+                                </div>
+                            }
+                            <div class="col-sm-6" style="border-top:hidden;font-family:Arial;font-size:12px;text-align:justify;padding-right: 0px;">
+                                <input type="radio" class="check" name=@(item.nu_id_prueba+"~"+item.nu_id_clasificacion)>
+                                    <label>@(item.vc_desc_clasificacion)</label>
+                            </div>            
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="background-color: #816ba7;color:white">
+                    <h3 class="panel-title" style="font-family:Arial"><b>VALORES (ZAVIC, SIV)</b></h3>
+                    <div class="actions pull-right">
+                        <i style="color:white" class="fa fa-chevron-down" onclick="Comprimir();"></i>
+                    </div>
+                </div>
+                <div class="panel-body" style="display: none">
+                    @foreach (var item in Model.ListaPrueba)
+                    {
+                       if(item.nu_id_tipo_prueba ==7||item.nu_id_tipo_prueba == 8)
+                        { 
+                            if(item.vc_desc_prueba != nombre )
+                            {   nombre = item.vc_desc_prueba;
+                                <div class="col-sm-12" style="border-top:none;padding: 10px;font-family:Arial;font-size:14px;text-align:justify">
+                                    <center> <p style="font-size:15px;background-color: #816ba7;color:white"><b>@(item.vc_desc_prueba)</b></p> </center>
+                                    <p><input type="checkbox" class="clsConfidencial" id=@("chkViewPrueba_"+item.nu_id_prueba) name=@("chkViewPrueba_"+item.nu_id_prueba) />&nbsp;&nbsp;<label>Confidencial</label></p>
+                                        <input type="hidden" id="@("sfile_"+item.nu_id_prueba)" name="@("sfile"+item.nu_id_prueba)" value="@(item.archivo)" />
+                                    <p>@(item.vc_desc_observacion)</p>                        
+                                        @if(item.nu_min_tiempo!=0){
+                                        <p><i class="fa fa-clock-o"></i> @(item.nu_min_tiempo) minutos</p>}
+                                        else
+                                        {
+                                            <p><i class="fa fa-clock-o"></i> Sin tiempo límite</p>
+                                        }
+                                    <p><i class="fa  fa-check"></i>  @(item.nu_preguntas) preguntas</p>
+                                                 
+                                </div>
+                            }
+                            <div class="col-sm-6" style="border-top:hidden;font-family:Arial;font-size:12px;text-align:justify;padding-right: 0px;">
+                                <input type="radio"  class="check" name=@(item.nu_id_prueba+"~"+item.nu_id_clasificacion)>
+                                    <label>@(item.vc_desc_clasificacion)</label>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="background-color: #f3762d;color:white">
+                    <h3 class="panel-title" style="font-family:Arial"><b>CONOCIMIENTOS (Prueba de Ingles, Prueba Técnica)</b></h3>
+                    <div class="actions pull-right">
+                        <i style="color:white" class="fa fa-chevron-down" onclick="Comprimir();"></i>
+                    </div>
+                </div>
+                <div class="panel-body" style="display: none">
+                    @foreach (var item in Model.ListaPrueba)
+                    {
+                        if (item.nu_id_tipo_prueba == 9)
+                        {
+                            if (item.vc_desc_prueba != nombre)
+                            {
+                                nombre = item.vc_desc_prueba;
+                                <div class="col-sm-12" style="border-top:none;padding: 10px;font-family:Arial;font-size:14px;text-align:justify">
+                                    <center> <p style="font-size:15px;background-color: #f3762d;color:white"><b>@(item.vc_desc_prueba)</b></p> </center>
+                                    <p><input type="checkbox" class="clsConfidencial" id=@("chkViewPrueba_"+item.nu_id_prueba) name=@("chkViewPrueba_"+item.nu_id_prueba) />&nbsp;&nbsp;<label>Confidencial</label></p>
+                                    <input type="hidden" id="@("sfile_"+item.nu_id_prueba)" name="@("sfile"+item.nu_id_prueba)" value="@(item.archivo)" />
+                                    <input type="hidden" id="@("txtPuestoFile"+item.nu_id_prueba)" name="@("txtPuestoFile"+item.nu_id_prueba)" value="@(item.nu_id_prueba)" />
+                                    <p>@(item.vc_desc_observacion)</p>
+                                    @if (item.nu_min_tiempo != 0 && item.archivo == "0")
+                                    {
+                                        <p><i class="fa fa-clock-o"></i> @(item.nu_min_tiempo) minutos</p>}
+                                    else if (item.nu_min_tiempo == 0 && item.archivo == "0")
+                                    {
+                                        <p><i class="fa fa-clock-o"></i> Sin tiempo límite</p>
+                                    }
+                                    @if (item.archivo != "1")
+                                    {
+                                        <p><i class="fa  fa-check"></i>  @(item.nu_preguntas) preguntas</p>
+                                    }
+                                </div>
+                            }
+
+                            if (item.archivo == "1" && archivo == "")
+                            {
+                                archivo = item.archivo;
+                                <div class="col-sm-12 col-lg-12">
+                                    <div class="col-sm-4 col-lg-2">
+                                        <p>Tiempo (minutos):</p>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-4">
+                                        <input class="form-control input-xs" style="width:100px" maxlength="3" min="1" max="999" type="number" name="@("txtTiempo_"+item.nu_id_prueba)" id="@("txtTiempo_"+item.nu_id_prueba)" value="0" />
+                                    </div>
+                                    <div class="col-sm-4 col-lg-6">&nbsp;</div>
+                                </div>
+                                <div class="col-sm-12 col-lg-12" style="height:5px"></div>
+                                <div class="col-sm-12 col-lg-12">
+                                    <div class="col-sm-4 col-lg-2">
+                                        <p>Archivo excel:</p>
+                                    </div>
+                                    <div class="col-sm-8 col-lg-10">
+                                        <input class="file form-control input-xs" id="@("fileLoad_"+item.nu_id_prueba)" name="@("fileLoad_"+item.nu_id_prueba)[]" type="file">
+                                        <div id="kartik-file-errors"></div>
+                                    </div>
+                                </div>
+                            }
+                            <div class="col-sm-6" style="border-top:hidden;font-family:Arial;font-size:12px;text-align:justify;padding-right: 0px;">
+                                <input type="radio" class="check @("css_"+item.archivo)" name=@(item.nu_id_prueba+"~"+item.nu_id_clasificacion)>
+                                <label>@(item.vc_desc_clasificacion)</label>
+                            </div>
+                        }
+                    }
+                </div>
+                            </div>
+        </div>
+    </div>
+    }
+</div> 
+<script>
+    var dataExenciones = ['xlsx', 'xls'];
+    $("#fileLoad_28").fileinput({
+        showPreview: false,
+        showUpload: false,
+        uploadAsync: false,
+        elErrorContainer: '#kartik-file-errors',
+        allowedFileExtensions: dataExenciones,
+        uploadExtraData: function () {
+            var info = {
+                idPuesto: $("#nu_id_puesto").val(),
+                idPrueba: $("#txtPuestoFile28").val(),
+            };
+            return info;
+        },
+        maxFileSize: 5120,
+        maxFilesNum: 1,
+        theme: 'explorer-fas',
+        language: 'es',
+        uploadUrl: '/Puesto/LoadFile'
+    });
+
+
+    $('#fileLoad_28').on('fileloaded', function (event, file, previewId, index, reader) {
+        console.log('fileloaded');
+        console.log(getFileExtension3(file.name))
+    });
+
+    function getFileExtension3(filename) {
+        return filename.slice((filename.lastIndexOf(".") - 1 >>> 0) + 2);
+    }
+    /*
+     *.on('fileuploaded', function (event, previewId, index, fileId) {
+        console.log('File Uploaded', 'ID: ' + fileId + ', Thumb ID: ' + previewId);
+    }).on('fileuploaderror', function (event, previewId, index, fileId) {
+        console.log('File Upload Error', 'ID: ' + fileId + ', Thumb ID: ' + previewId);
+    }).on('filebatchuploadcomplete', function (event, preview, config, tags, extraData) {
+        console.log('File Batch Uploaded', preview, config, tags, extraData);
+    }).on('filebatchselected', function (event, files) {
+        console.log('File batch selected triggered');
+        console.log(files);
+        console.log(files[0].name);        
+    });
+    */
+
+</script>

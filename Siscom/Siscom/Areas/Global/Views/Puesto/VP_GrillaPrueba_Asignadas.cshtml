@@ -1,0 +1,71 @@
+﻿@model Siscom.Areas.Global.Models.PuestoModels
+
+<style type="text/css">
+    a.wsnextlink1:link {
+        text-decoration: none;
+        color: #e36c09;
+    }
+
+    a.wsnextlink1:visited {
+        text-decoration: none;
+        color: #ffc000;
+    }
+
+    a.wsnextlink1:hover {
+        text-decoration: underline;
+        color: #e36c09;
+    }
+</style>
+<table id="DetalleSolicitudTable1" class="table table-striped table-bordered table-hover table-condensed " cellspacing="0">
+    <thead>
+        <tr>
+            <th class="text-center" hidden="hidden"><p>ID_PUESTO</p></th>
+            <th class="text-center" hidden="hidden"><p>ID_PRUEBA</p></th>
+            <th class="text-center"><p>NOMBRE DE LA PRUEBA</p></th>
+            <th class="text-center"><p>DESCRIPCION</p></th>
+            <th class="text-center"><p>TIEMPO DE DURACIÓN</p></th>
+            <th class="text-center"><p>NRO DE PREGUNTAS</p></th>
+            <th class="text-center"><p>CONFIDENCIAL</p></th>
+            <th class="text-center"><p>ACCION</p></th>
+        </tr>
+    </thead>
+
+    
+  <tbody id="itemsDetalle1">
+    @if (Model.ListaPruebas_Asignadas != null)
+    {
+        foreach (var item in Model.ListaPruebas_Asignadas)
+        { 
+            <tr id="@(item.nu_id_puesto+""+item.nu_id_prueba)">              
+                <td hidden="hidden"><p>@(item.nu_id_puesto)</p></td>
+                <td class="text-center" hidden="hidden"><p>@(item.nu_id_prueba)</p></td>
+                <td class="text-center"><b><p>@(item.vc_desc_prueba)</p></b>
+                @if (item.vc_desc_prueba == "PRUEBA TÉCNICA")
+                {
+                <a href="~/Archivos/Prueba_@(item.nu_id_puesto)@(item.nu_id_prueba).xlsx" class="wsnextlink1" target="_blank"><i class="fa fa-download"></i> Descargar Archivo</a>
+                }
+                </td>
+                <td class=""><p>@(item.vc_desc_observacion)</p></td>
+                @if(item.nu_min_tiempo == 0)
+                {
+                    <td class="text-center"><p>Sin tiempo límite</p></td>
+                }
+                else
+                {
+                    <td class="text-center"><p>@(item.nu_min_tiempo) minutos</p></td>
+                }
+                <td class="text-center"><p>@(item.nu_preguntas)</p></td>
+                <td class="text-center"><p>@(item.PUBLICA)</p></td>
+                <td class="text-center">
+              
+                   
+                <button id="Ver" title="Asignar"  type="button" class="btn btn-danger" onclick="Actualizar(@item.nu_id_puesto,@item.nu_id_prueba);">
+                    <i class="fa fa-remove"></i>
+                </button>
+                                
+                </td>
+            </tr>
+        }
+    }                                        
+    </tbody>
+ </table>

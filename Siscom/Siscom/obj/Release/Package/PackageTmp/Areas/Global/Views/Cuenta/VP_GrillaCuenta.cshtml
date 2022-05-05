@@ -1,0 +1,66 @@
+﻿@model Siscom.Areas.Global.Models.CuentaModels
+
+
+ <table id="DetalleSolicitudTable" class="table table-striped table-bordered table-hover table-condensed " cellspacing="0">
+    <thead>
+        <tr>
+            <th class="text-center" style="vertical-align:middle"><p>ESTADO</p></th>
+            <th class="text-center" hidden="hidden"><p>ID_CUENTA</p></th>
+            <th class="text-center" style="vertical-align:middle"><p>CUENTA</p></th>
+            <th class="text-center" style="vertical-align:middle"><p>RUC</p></th>
+            <th class="text-center" style="vertical-align:middle"><p>DIRECCIÓN</p></th>
+            <th class="text-center" style="vertical-align:middle"><p>DIRECCIÓN E-MAIL</p></th>
+            <th class="text-center" style="vertical-align:middle"><p>TELEFONO</p></th>
+            <th class="text-center" style="vertical-align:middle"><p>TIEMPO DE CONTRATO</p></th>
+            <th class="text-center" style="vertical-align:middle"><p>FECHA INICIO</p></th>
+            <th class="text-center" style="vertical-align:middle"><p>FECHA FINAL</p></th>
+            <th class="text-center" style="vertical-align:middle"><p>D.N.I. CONTACTO</p></th>
+            <th class="text-center" style="vertical-align:middle"><p>NOMBRE Y APELLIDO / CONTACTO</p></th>
+            <th class="text-center" style="vertical-align:middle"><p>ACCIÓN</p></th>
+        </tr>
+    </thead>
+
+    
+ <tbody id="itemsDetalle">
+@if (Model.ListaCuenta != null)
+{
+        foreach (var item in Model.ListaCuenta)
+        { 
+            <tr>
+                <td class="text-center" style="font-weight:100; vertical-align:middle">
+                @if(item.ch_status == "A")
+                {
+                    <button type="button" class="btn btn-primary">
+                        <h2 style="color:white">A</h2>
+                    </button>
+                }
+                
+                @if(item.ch_status == "I")
+                {
+                    <button type="button" class="btn btn-danger">
+                        <h2 style="color:white">I</h2>
+                    </button>
+                }</td>
+
+                <td hidden="hidden" ><p>@(item.nu_id_cuenta)</p></td>
+                <td class="text-center" style="vertical-align:middle"><p>@(item.vc_desc_cuenta)</p></td>
+                <td class="text-center" style="vertical-align:middle"><p>@(item.vc_ruc)</p></td>
+                <td class="text-center" style="vertical-align:middle"><p>@(item.vc_direccion)</p></td>
+                <td class="text-center" style="vertical-align:middle"><p>@(item.vc_direccion_email)</p></td>
+                <td class="text-center" style="vertical-align:middle"><p>@(item.vc_telefono)</p></td>
+                <td class="text-center" style="vertical-align:middle"><p>@(item.nu_tiempo_duracion)</p></td>
+                <td class="text-center" style="vertical-align:middle"><p>@item.dt_fecha_inicio.Value.ToString("yyyy/MM/dd")</p></td>
+                <td class="text-center" style="vertical-align:middle"><p>@item.dt_fecha_fin.Value.ToString("yyyy/MM/dd")</p></td>
+                <td class="text-center" style="vertical-align:middle"><p>@(item.vc_doc_identi)</p></td>
+                <td class="text-center" style="vertical-align:middle"><p>@(item.vc_nombres+' '+item.vc_apellidos)</p></td>
+                <td class="text-center" style="vertical-align:middle"><button id="Ver" type="button" class="btn btn-info" onclick="Select(@item.nu_id_cuenta);">
+                    <i class="fa fa-search"></i>
+                </button>
+                </td>
+            </tr>
+        }
+}                                        
+    </tbody>
+ </table>
+      
+    

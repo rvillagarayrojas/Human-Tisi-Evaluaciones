@@ -1,0 +1,12 @@
+﻿
+
+@model Siscom.Areas.Global.Models.PersonaModels
+
+
+                @Html.DropDownListFor(m => m.Persona.nu_id_puesto, Model.ListaPuesto,
+                    new 
+                    { 
+                        propertyname = "Persona.nu_id_puesto", 
+                        @class = "form-control",
+                        OnChange = "Buscar()"
+                    })

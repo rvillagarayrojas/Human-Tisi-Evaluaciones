@@ -1,0 +1,29 @@
+﻿@model Siscom.Areas.Global.Models.PersonaModels
+<!-- Content wraper -->
+<table id="DetalleCandidatos" class="table table-striped table-bordered dataTable no-footer" cellspacing="0">
+    <thead>
+        <tr>
+            <th class="text-center" style="vertical-align:middle; font-size:12px"><p>PUESTO</p></th>
+            <th class="text-center" style="vertical-align:middle; font-size:12px"><p>CÓDIGO</p></th>
+            <th class="text-center" style="vertical-align:middle; font-size:12px"><p>DATOS DEL CANDIDATO</p></th>
+            <th class="text-center" style="vertical-align:middle; font-size:12px"><p>FECHA DE APLICACIÓN</p></th>
+            <th class="text-center" style="vertical-align:middle; font-size:12px"><p>ESTADO</p></th>
+        </tr>
+    </thead>
+    <tbody id="itemsDetalle">
+    @if (Model.ListaPersona != null)
+    {
+        foreach (var item in Model.ListaPersona)
+        {
+            <tr>
+                <td class="text-center" style="vertical-align:middle; font-size:12px"><p>@(item.vc_desc_puesto)</p></td>
+                <td class="text-center" style="vertical-align:middle; font-size:12px"><p>@(item.vc_cod_usuario)</p></td>
+                <td class="text-center" style="vertical-align:middle; font-size:12px"><p>@(item.vc_nombres +" "+ item.vc_apellidos)</p></td>
+                <td class="text-center" style="vertical-align:middle; font-size:12px"><p>@(item.dt_fec_evaluacion)</p></td>
+                <td class="text-center" style="vertical-align:middle; font-size:12px"><p>@(item.ch_estado_prueba)</p></td>
+            </tr>        
+        }
+    }
+    </tbody>
+</table>    
+<!-- /Content wraper-->

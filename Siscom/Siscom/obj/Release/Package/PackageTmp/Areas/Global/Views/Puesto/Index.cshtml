@@ -1,0 +1,742 @@
+﻿@using Siscom.Models
+
+@model Siscom.Areas.Global.Models.PuestoModels
+
+@{
+    ViewBag.Title = "Bandeja";
+    Layout = "~/Views/Home/Principal.cshtml";
+}
+<link rel="stylesheet" href="~/Content/fileinput.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+<div class="pageheader">
+    <!--Region Cabecera de la Pagina-->
+    <h1 style="font-family:Arial">REGISTRO DE PUESTO</h1>
+    <div>
+        <span class="label" style="color:rgb(144, 157, 163);padding:0px">USTED ESTÁ AQUÍ: </span>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#">Puesto</a>
+            </li>
+            <li>
+                <a href="../../Global/Puesto/PerfilDisc" class="active">Perfil DISC</a>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<section id="main-content" class="animated fadeInUp">
+    <!--Region Botones-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" style="font-family:Arial"><b>REGISTRO DE PUESTO</b></h3>
+                </div>
+                <div class="panel-body">
+                    <div id="widget-body">
+                        <div class="row">
+                            <form id="wizard-1" novalidate="novalidate">
+                                <div id="bootstrap-wizard-1" class="col-sm-12">
+                                    <div class="form-bootstrapWizard">
+                                        <ul id="Pasos" class="bootstrapWizard form-wizard">
+                                            <li class="jq paso1 active" data-target="#step1" style="width:33.33%">
+                                                <a href="#tab1" data-toggle="tab">
+                                                    <span class="step">1</span>
+                                                    <span class="title">Definir puesto</span>
+                                                </a>
+                                            </li>
+                                            <li class="jq paso2" data-target="#step2" style="width:33.33%">
+                                                <a href="#tab2" data-toggle="tab">
+                                                    <span class="step">2</span>
+                                                    <span class="title">Asignar pruebas</span>
+                                                </a>
+                                            </li>
+                                            <li class="jq paso3" data-target="#step3" style="width:33.33%">
+                                                <a href="#tab3" data-toggle="tab">
+                                                    <span class="step">3</span>
+                                                    <span class="title">Perfil DISC – Análisis de Brechas</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="tab-content" id="ContenidoPasos" style="padding-left:40px;padding-right:40px">
+                                        <div class="tab-pane ct cpaso1 active" id="tab1" style="font-family:Arial">
+                                            <br />
+                                            <br />
+                                            <h3 style="font-family:Arial">
+                                                <strong>Paso 1 :</strong> Definir puesto
+                                            </h3>
+                                            <br />
+                                            <div class="row">
+                                                <input id="paso2" type="hidden" />
+                                                <div class="col-md-12">
+                                                    <div class="form-group" style="font-family:Arial;font-size:12px">
+                                                        <div class="alert alert-info fade in">
+                                                            <i class="fa-fw fa fa-info-circle"></i>
+                                                            <strong>Información adicional</strong>
+                                                            <ul class="margin-bottom-none padding-left-lg">
+                                                                <li>
+                                                                    Ingresa los datos del puesto que va a definir. Recuerda que mientras  más precisa es la descripción, mejor es la evaluación que podremos hacer de tus candidatos.
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group" style="margin:2%">
+                                                    <label class="col-md-4 control-label" style="text-align:right; vertical-align:central;height: 37px;padding:1%">Nombre del puesto</label>
+                                                    <div class="col-sm-6 input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-suitcase fa-md fa-fw"></i></span>
+                                                        @Html.TextBoxFor(m => Model.Puesto.vc_desc_puesto,
+                                                        new
+                                                        {
+                                                            maxLength = "100",
+                                                            propertyname = "Puesto.vc_desc_puesto",
+                                                            @class = "form-control",
+                                                            style = "text-transform :uppercase",
+                                                            placeholder = "Nombre del puesto"
+                                                        })
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" style="margin:2%">
+                                                    <label class="col-md-4 control-label" style="text-align:right; vertical-align:central;padding:1%">Descripción del puesto</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-folder-open fa-md fa-fw"></i></span>
+                                                        @Html.TextAreaFor(m => Model.Puesto.vc_desc_observacion,
+                                                        new
+                                                        {
+                                                            propertyname = "Puesto.vc_desc_observacion",
+                                                            @class = "form-control",
+                                                            placeholder = "Descripción del puesto",
+                                                            rows = 6,
+                                                        })
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" style="margin:2%">
+                                                    <label class="col-md-4 control-label" style="text-align:right; vertical-align:central"> Visualización del puesto</label>
+                                                    <div class="col-md-3">
+                                                        @Html.RadioButtonFor(m => Model.Puesto.ch_estado, true, new { @checked = "checked", dato = "P" })
+                                                        <label class="control-label">Público </label>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        @Html.RadioButtonFor(m => Model.Puesto.ch_estado, false, new { dato = "C" })
+                                                        <label class="control-label">Confidencial </label>
+                                                    </div>
+                                                </div><br />
+                                                <div class="form-group" style="margin:2%">
+                                                    <label class="col-md-4 control-label" style="text-align:right; vertical-align:central">Solicitar ficha</label>
+                                                    <div class="col-md-3">
+                                                        @Html.RadioButtonFor(m => Model.Puesto.ch_ficha, true, new { @checked = "checked", dato = "0" })
+                                                        <label class="control-label">No </label>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        @Html.RadioButtonFor(m => Model.Puesto.ch_ficha, false, new { dato = "1" })
+                                                        <label class="control-label">Si </label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" style="margin:2%">
+                                                    <label class="col-md-4 control-label" style="text-align:right; vertical-align:central;height: 37px;padding:1%">Vigencia (días):</label>
+                                                    <div class="col-sm-6 input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-lock fa-md fa-fw"></i></span>
+                                                        @Html.TextBoxFor(m => Model.Puesto.nu_dias_vigencia,
+                                                        new
+                                                        {
+                                                            maxLength = "2",
+                                                            propertyname = "Puesto.nu_dias_vigencia",
+                                                            @class = "form-control validar",
+                                                            placeholder = "Ingrese los días de vigencia"
+                                                        })
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane ct cpaso2" id="tab2">
+                                            <br />
+                                            <br />
+                                            <h3 style="font-family:Arial">
+                                                <strong>Paso 2 :</strong> Asignar pruebas
+                                            </h3>
+                                            <br />
+                                            <div class="row">
+                                                <input id="paso2" type="hidden" />
+                                                <div class="col-md-12">
+                                                    <div class="form-group" style="font-family:Arial;font-size:12px">
+                                                        <div class="alert alert-info fade in">
+                                                            <i class="fa-fw fa fa-info-circle"></i>
+                                                            <strong>Información adicional</strong>
+                                                            <ul class="margin-bottom-none padding-left-lg">
+                                                                <li>
+                                                                    Selecciona las pruebas que vamos a utilizar en la evaluación de este puesto.
+                                                                </li>
+                                                                <li>
+                                                                    Tenemos 04 tipos de pruebas: Conocimiento, Personalidad, Valores y Negociación.
+
+                                                                </li>
+                                                                <li>
+                                                                    Escoge las mismas tomando en cuenta el tiempo total de evaluación. Recuerda que lo recomendable es utilizar entre 2 y 4 evaluaciones para que la misma no sea muy extensa.
+                                                                </li>
+                                                                <li>
+                                                                    No olvides dar click en Guardar, para que queden registradas las evaluaciones.
+                                                                </li>
+                                                                <li>
+                                                                    Si vas a realizar el Perfil DISC  para Analisis de Brechas, no olvides de consignar DISC dentro de las pruebas.
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--Lista de Pruebas-->
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div id="div_ListaSolicitudes" style="padding-top:1px">
+                                                        @Html.Partial("VP_GrillaPrueba", Model)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--Region Botones-->
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default">
+                                                        <div class="panel-body text-center">
+                                                            <button id="guardarBtn" type="button" class="btn btn-success"
+                                                                    onclick="Guardar()">
+                                                                <i class="fa  fa-save"></i> Guardar
+                                                            </button>
+                                                            <button id="cancelarBtn" type="button" class="btn btn-danger"
+                                                                    onclick="Cancelar()">
+                                                                <i class="fa fa-times-circle"></i> Cancelar
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane ct cpaso3" id="tab3">
+                                            <br />
+                                            <br />
+                                            <h3 style="font-family:Arial">
+                                                <strong>Paso 3 :</strong> Determinar Perfil DISC para Análisis de Brechas
+                                            </h3>
+                                            <br />
+                                            <div class="row">
+                                                <input id="paso2" type="hidden" />
+                                                <div class="col-sm-12">
+                                                    <div class="form-group" style="font-family:Arial;font-size:12px">
+                                                        <div class="alert alert-info fade in">
+                                                            <i class="fa-fw fa fa-info-circle"></i>
+                                                            <strong>Información adicional</strong>
+                                                            <ul class="margin-bottom-none padding-left-lg">
+                                                                <li>
+                                                                    Aquí tienes la posibilidad de definir tu puesto en función al disc.
+                                                                </li>
+                                                                <li>
+                                                                    Escoge cuidadosamente quienes serán los encargados de resolver la prueba. Nuestra sugerencia es que sea el jefe directo del puesto o el área de recursos humanos como primeras opciones.
+                                                                </li>
+                                                                <li>
+                                                                    Recuerda que nuestro algoritmo soporta hasta 100 personas para describir el puesto.
+                                                                </li>
+                                                                <li>
+                                                                    Una vez que escojas a las personas encargadas de describir el puesto, haz click en guardar y enviar correo.
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--Lista de Candidatos-->
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default">
+                                                        <div style="padding:5px">
+                                                            <h3 style="font-family:Arial; font-size:14px"><strong>- Enviar el test a:</strong></h3>
+                                                        </div>
+                                                        <div class="panel-body data-toggle="collapse">
+                                                            <div id="div_ListaSolicitudes" class="table-responsive" style="padding-top:1px">
+                                                                @Html.Partial("VP_GrillaCandidatos", Model)
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--Region Botones-->
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default">
+                                                        <div class="panel-body text-center">
+                                                            <button id="guardarBtn" type="button" class="btn btn-info"
+                                                                    onclick="GuardarEnviar()">
+                                                                <i class="fa fa-jsfiddle"></i> Guardar y Enviar Correo
+                                                            </button>
+                                                            <button id="cancelarBtn" type="button" class="btn btn-warning"
+                                                                    onclick="CancelarCandidatos()">
+                                                                <i class="fa fa-eraser"></i> Limpiar
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-actions">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <ul class="pager wizard no-margin no-steps-container" style="padding:8px">
+                                                        <li id="pre" class="previous disabled">
+                                                            <a class="btn btn-lg txt-color-darken" onclick="AC_Previous()"> Anterior </a>
+                                                        </li>
+                                                        <li id="next" class="next">
+                                                            <a class="btn btn-lg txt-color-darken" onclick="AC_Netx()"> Siguiente </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Modal para mensajes-->
+<div class="modal fade" id="ModalSave" style="overflow: scroll;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="myModalLabel" style="color:#0D588E">Mensaje de creación de puestos</h3>
+            </div>
+            <div class="modal-body" id="SaveMensaje">
+            </div>
+            <div class="text-center">
+                <hr /><button id="btnMensaje" type="button" class="btn btn-primary" onclick="$('#ModalSave').modal('hide');">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Modal para Confirmación-->
+<div class="modal fade" id="ModalSaveConfirm" style="overflow: scroll;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="myModalLabel" style="color:#0D588E">Mensaje confirmación de puestos</h3>
+            </div>
+            <div class="modal-body" id="SaveMensajeConfirm">
+                ¿Desea realizar un análisis de brechas?
+            </div>
+            <div class="text-center">
+                <hr />
+                <button id="btnContinuarBrecha" type="button" class="btn btn-primary" onclick="NextAnalisiBrechas();">Continuar</button>
+                <button id="btnSalirConfirm" type="button" class="btn btn-primary" onclick="Cancelar();">Salir</button>
+            </div>
+        </div>
+    </div>
+</div>
+<input id="nu_id_puesto" type="hidden" />
+
+@section Styles {
+    @Styles.Render("~/plugins/dataTablesCSS")
+}
+
+<!--Load these page level functions-->
+@section Scripts {
+    @Scripts.Render("~/plugins/dataTables")
+    @Scripts.Render("~/plugins/dataTables-bootstrap")
+    @Scripts.Render("~/plugins/maskedinput")
+
+
+    <script type="text/javascript" src="~/Scripts/plugins/datetimepicker/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="~/Scripts/plugins/datetimepicker/locales/bootstrap-datetimepicker.es.js" charset="UTF-8"></script>
+    <link href="~/Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="~/Scripts/plugins/blockUI/js/jquery.blockUI.js" charset="UTF-8"></script>
+    <script src="~/Scripts/jquery.number.js"></script>
+    <script src="~/Scripts/jquery.number.min.js"></script>
+
+    <script src="~/Scripts/plugins/fileinput/fileinput.min.js"></script>
+    <script src="~/Scripts/plugins/fileinput/locales/es.js"></script>
+    <script src="~/Content/themes/explorer-fas/theme.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            Buscar();
+        });
+
+        function Guardar() {
+            var statusVal = true;
+            var resumen = "";
+
+            if ($('#Puesto_vc_desc_puesto').val() == "") {
+                resumen = resumen + '<li>Debe ingresar una descripción del puesto. </li>';
+                statusVal = false;
+            }
+            if ($('#Puesto_vc_desc_observacion').val() == "") {
+                resumen = resumen + '<li>Debe ingresar una observación del puesto. </li>';
+                statusVal = false;
+            }
+            if (!$.isNumeric($("#Puesto_nu_dias_vigencia").val())) {
+                resumen = resumen + '<li>Los días vigencia debe ser numérico. </li>';
+                statusVal = false;
+            } else {
+                if (($("#Puesto_nu_dias_vigencia").val() * 1) <= 0 || ($("#Puesto_nu_dias_vigencia").val() * 1) > 99) {
+                    resumen = resumen + '<li>Días de vigencia (' + $("#Puesto_nu_dias_vigencia").val() + ') incorrecto.</li>';
+                    statusVal = false;
+                }
+            }
+            if (!statusVal) {
+                $("#SaveMensaje").html("<ol>" + resumen + "</ol>");
+                $("#ModalSave").modal('show');
+                return false;
+            }
+
+
+            var PruebaDetalle = [];
+
+            $('#ContenedorPruebas input').each(function () {
+                if ($(this).prop('checked')) {
+                    if ($(this).attr('name').substr(0, 13) != "chkViewPrueba") {
+                        PruebaDetalle[PruebaDetalle.length] = {
+                            nu_id_prueba: ($(this).attr('name').split("~")[0]),
+                            nu_id_clasificacion: ($(this).attr('name').split("~")[1]),
+                            vc_prueba_publica: !$("#chkViewPrueba_" + ($(this).attr('name').split("~")[0])).prop("checked"),
+                            archivo: $("#sfile_" + ($(this).attr('name').split("~")[0])).val(),
+                            num_tiempofile: ($("#sfile_" + ($(this).attr('name').split("~")[0])).val() == 1) ? $("#txtTiempo_" + ($(this).attr('name').split("~")[0])).val() : 0,
+                            vc_nomfile: ($("#sfile_" + ($(this).attr('name').split("~")[0])).val() == 1) ? getFileExtension3($("#fileLoad_" + ($(this).attr('name').split("~")[0])).val()) : ""                            
+                        }
+                    }
+                }
+            });            
+            
+            if (PruebaDetalle.length == 0) {
+                resumen = resumen + '<li>Debe asignar al menos una prueba para evaluar el puesto. </li>';
+                statusVal = false;
+            }
+
+
+            if (!statusVal) {
+                $("#SaveMensaje").html("<ol>" + resumen + "</ol>");
+                $("#ModalSave").modal('show');
+                return false;
+            }
+
+            console.log(PruebaDetalle);
+
+            var Puesto = {
+                vc_desc_puesto: $('#Puesto_vc_desc_puesto').val().toUpperCase(),
+                vc_desc_observacion: $('#Puesto_vc_desc_observacion').val().toUpperCase(),
+                ch_estado: $("input[name='Puesto.ch_estado']:checked").attr('dato'),
+                ch_ficha: $("input[name='Puesto.ch_ficha']:checked").attr('dato'),
+                nu_dias_vigencia: $("#Puesto_nu_dias_vigencia").val(),
+                PruebaDetalle: PruebaDetalle
+            }
+
+            if ($(".css_1:checked").length > 0) {
+                if ($("#txtTiempo_28").val() == "" ){
+                    alert("Ingrese el tiempo")
+                    return false;
+                }
+                if (parseInt($("#txtTiempo_28").val()) < 0 || parseInt($("#txtTiempo_28").val()) > 999) {
+                    alert("El tiempo debe der mayor a 0 y menor a 999")
+                    return false;
+                }
+                if ($('#fileLoad_28').val() == "") {
+                    alert("Seleccione el Archivo excel de la prueba")
+                    return false;
+
+                }
+            }
+
+            var Model = new Object();
+            Model.Puesto = Puesto;
+            $("#guardarBtn").attr('disabled', 'disabled');
+            $("#SaveMensaje").html('<i class="fa fa-refresh" style="color:green"></i> Registrando el puesto espere un momento...');
+            $("#ModalSave").modal('show');
+            $.ajax({
+                type: "POST",
+                url: GetControllerUrl("Guardar", "Puesto"),
+                data: Model,
+                success: function (resultado) {
+                    if (resultado.message.length <= 8) {
+                        $('#nu_id_puesto').val(resultado.message);        
+
+                        $('#fileLoad_28').fileinput('upload');
+
+                        $("#SaveMensaje").html('<i class="fa  fa-check" style="color:green"></i> Se registro el puesto <strong>' + $('#Puesto_vc_desc_puesto').val().toUpperCase() + '</strong> satisfactoriamente.');
+                        /*Despues de registrar este evento permite redireccionar la pagina*/
+                        //$('#ModalSave').on('hidden.bs.modal', function () {
+                        //    window.location.href = GetControllerUrl("Index", "Puesto");
+                        //});
+                    }
+                    else {
+                        $("#guardarBtn").removeAttr('disabled');
+                        $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo el registro del puesto: <br><strong>' + resultado.message + '</strong>');
+                    }
+                }
+            });
+        }
+
+        function Cancelar() {
+            window.location.href = GetControllerUrl("Index", "Puesto");
+        }
+
+        function Buscar() {
+            $("#SaveMensaje").html('<i class="fa  fa-refresh" style="color:green"></i> Buscando pruebas, espere un momento...');
+            $("#ModalSave").modal('show');
+            var data = {
+                IdNivelPrueba: 1,
+            };
+            $.ajax({
+                type: 'POST',
+                url: '/Global/Puesto/BuscarPruebas',
+                data: data,
+                success: function (result) {
+                    $('#div_ListaSolicitudes').andSelf().unbind();
+                    $('#div_ListaSolicitudes').html(result);
+                    if (result.trim() == "") {
+                        $("#SaveMensaje").html('<i class="fa fa-remove" style="color:darkred"></i> No se encontró datos.');
+                        $("#ModalSave").modal('show');
+                    }
+                    $("#ModalSave").modal('hide');
+                }
+            });
+        }
+
+        function GuardarEnviar() {
+            var statusVal = true;
+            var resumen = "";
+
+            if ($('#nu_id_puesto').val() == "") {
+                resumen = resumen + '<li>Debe seleccionar un puesto. </li>';
+                statusVal = false;
+            }
+            if (!statusVal) {
+                $("#SaveMensaje").html("<ol>" + resumen + "</ol>");
+                $("#ModalSave").modal('show');
+                return false;
+            }
+            var PersonaDetalle = [];//ko
+            var ls_mme_prueba = [];
+            $('#itemsDetalle tr').each(function () {
+                if ($(this).find('td').eq(0).text().trim() != '') {
+                    var persona = {
+                        vc_doc_identi: ($(this).find('td').eq(0).text().trim()),
+                        vc_nombres: ($(this).find('td').eq(1).text().trim()),
+                        vc_apellidos: ($(this).find('td').eq(2).text().trim()),
+                        vc_direccion_email: ($(this).find('td').eq(3).text().trim()),
+                        vc_telefono: ($(this).find('td').eq(4).text().trim()),
+                        vc_cod_usuario: ('000' + $(this).find('td').eq(0).text().trim()),
+                        vc_password: ($(this).find('td').eq(0).text().trim()),
+                        nu_id_puesto: $('#nu_id_puesto').val(),
+                        opcion: 1
+                    }
+                    var me_prueba = { persona: persona }
+
+
+                    ls_mme_prueba[ls_mme_prueba.length] = {
+                        me_prueba: me_prueba
+                    }
+
+                }
+            })
+            //var Persona = {
+            //    PersonaDetalle: PersonaDetalle
+            //}
+            //var Model = new Object();
+            //Model.Persona = Persona;
+
+            var mme_datos = {
+                ls_mme_prueba: ls_mme_prueba
+            }
+            var Model = {
+                mme_datos: mme_datos
+            }
+
+            $("#guardarBtn").attr('disabled', 'disabled');
+            $("#SaveMensaje").html('<i class="fa fa-refresh" style="color:green"></i> Registrando usuarios espere un momento...');
+            $("#ModalSave").modal('show');
+            $.ajax({
+                type: "POST",
+                url: GetControllerUrl("GuardarUsuarios", "Puesto"),
+                data: Model,
+                success: function (resultado) {
+                    if (resultado.message == "go") {
+                        $("#SaveMensaje").html('<i class="fa  fa-check" style="color:green"></i> Esperamos la resolución de los evaluadores para que puedas tener el perfil disc de tu puesto.');
+                        /*Despues de registrar este evento permite redireccionar la pagina*/
+                        $('#ModalSave').on('hidden.bs.modal', function () {
+                            window.location.href = GetControllerUrl("Index", "Puesto");
+                        });
+                    }
+                    else {
+                        $("#guardarBtn").removeAttr('disabled');
+                        $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo el registro de candidatos: <br> <strong>' + resultado.message + '</strong>');
+                    }
+                }
+            });
+        }
+
+        $(document).on('click', '.actions > .fa-chevron-down', function () {
+            $(this).parent().parent().next().slideToggle("fast"), $(this).toggleClass("fa-chevron-down fa-chevron-up")
+        })
+
+        $(document).on('click', '.actions > .fa-chevron-up', function () {
+            $(this).parent().parent().next().slideToggle("fast"), $(this).toggleClass("fa-chevron-down fa-chevron-up")
+        })
+
+        $(document).on('dblclick', '.check', function () {
+            $(this).prop('checked', '')
+        })
+
+        var pasonextConfirm = 0;
+        function AC_Previous() {
+            var clase = $('#pre').hasClass('disabled')
+            if (clase == true) {
+                return false;
+            }
+            var count = 0;
+            var numero = 0;
+            var paso = "";
+            var pasopre = "";
+
+            $('#Pasos .jq').each(function () {
+                count++;
+                if ($(this).hasClass('active') == true) {
+                    numero = count;
+                    paso = "paso" + count;
+                    pasopre = "paso" + (count - 1);
+                }
+            });
+
+            $('#Pasos .jq').each(function () {
+                $(this).removeClass('active');
+            });
+            $('#Pasos .' + pasopre).addClass('active');
+            $('#ContenidoPasos .ct').each(function () {
+                $(this).removeClass('active');
+            });
+            $('#ContenidoPasos .c' + pasopre).addClass('active');
+            count = 0;
+            numero = 0;
+            paso = "";
+            pasopre = "";
+            $('#Pasos .jq').each(function () {
+                count++;
+                if ($(this).hasClass('active') == true) {
+                    numero = count;
+                    paso = "paso" + count;
+                    pasopre = "paso" + (count - 1);
+                }
+            });
+            if (numero == 1) {
+                $('#pre').addClass('disabled');
+                $('#next').removeClass('disabled');
+            } else if (numero == 2) {
+                $('#pre').removeClass('disabled');
+                $('#next').removeClass('disabled');
+            }
+            else {
+                $('#pre').removeClass('disabled');
+            }
+        }
+
+        function AC_Netx() {
+            var clase = $('#next').hasClass('disabled')
+            if (clase == true) {
+                return false;
+            }
+            var count = 0;
+            var numero = 0;
+            var paso = "";
+            var pasonext = "";
+
+            $('#Pasos .jq').each(function () {
+                count++;
+                if ($(this).hasClass('active') == true) {
+                    numero = count;
+                    paso = "paso" + count;
+                    pasonext = "paso" + (count + 1);
+                }
+            });
+            if (numero == 1) {
+                if ($('#Puesto_vc_desc_puesto').val() != "" && $('#Puesto_vc_desc_observacion').val() != "" && $('#Puesto_nu_dias_vigencia').val() != "") {
+                    $('#Pasos .jq').each(function () {
+                        $(this).removeClass('active');
+                    });
+                    $('#Pasos .' + pasonext).addClass('active');
+                    $('#ContenidoPasos .ct').each(function () {
+                        $(this).removeClass('active');
+                    });
+                    $('#ContenidoPasos .c' + pasonext).addClass('active');
+                    $('#pre').removeClass('disabled');
+                }
+                else {
+                    $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> Debe realizar lo que se requiere en el Paso ' + numero + '<br/> Asegurese que los campos <strong>"Nombre de Puesto"</strong>, <strong>"Descripción de Puesto"</strong> y  <strong>"Vigencia (días)"</strong> se encuentren completados.');
+                    $("#ModalSave").modal('show');
+                    return false;
+                }
+            }
+
+            if (numero == 2) {
+                if ($('#nu_id_puesto').val() != "") {
+                    numero = 1;
+                    count = count - 1;
+                    pasonextConfirm = pasonext;
+                    $("#ModalSaveConfirm").modal('show');
+                }
+                else {
+                    $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> Debe realizar lo que se requiere en el Paso ' + numero + '<br/> Asegurese que el puesto <strong>"' + $('#Puesto_vc_desc_puesto').val() + '"</strong> se haya guardado correctamente. Valide la seleccion de pruebas');
+                    $("#ModalSave").modal('show');
+                    return false;
+                }
+            }
+
+
+            if (numero + 1 == 3) {
+                $('#next').addClass('disabled');
+            }
+            else {
+                $('#next').removeClass('disabled');
+            }
+        }
+
+        function NextAnalisiBrechas() {
+
+            $('#Pasos .jq').each(function () {
+                $(this).removeClass('active');
+            });
+            $('#Pasos .' + pasonextConfirm).addClass('active');
+            $('#ContenidoPasos .ct').each(function () {
+                $(this).removeClass('active');
+            });
+            $('#ContenidoPasos .c' + pasonextConfirm).addClass('active');
+            $('#pre').removeClass('disabled');
+
+            $('#next').addClass('disabled');
+            $("#ModalSaveConfirm").modal('hide');
+        }
+
+        $(".validar").keydown(function (event) {
+            //alert(event.keyCode);
+            if ((event.keyCode < 48 || event.keyCode > 57) && (event.keyCode < 96 || event.keyCode > 105) && event.keyCode !== 39 && event.keyCode !== 37 && event.keyCode !== 8 && event.keyCode !== 9) {
+                return false;
+            }
+        });
+
+        $(document).on('click', '#chkAllConfidencial', function () {
+            console.log("okoko");
+            $(".clsConfidencial").prop("checked", $("#chkAllConfidencial").prop("checked"));
+        });
+
+        function getFileExtension3(filename) {
+            return filename.slice((filename.lastIndexOf(".") - 1 >>> 0) + 2);
+        }
+    </script>
+}

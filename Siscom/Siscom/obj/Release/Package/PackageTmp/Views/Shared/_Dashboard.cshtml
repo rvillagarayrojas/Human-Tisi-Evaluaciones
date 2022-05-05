@@ -1,0 +1,130 @@
+﻿@using Siscom.Models
+
+@model Siscom.Areas.Global.Models.PersonaModels
+
+@{  
+    var usuarioSession = (UsuarioModel)Session[UsuarioModel.SessionName];
+}
+
+<!-- Content wraper -->
+<section class="main-content-wrapper" style="padding:15px">
+    <!-- Main view  -->
+    <div class="pageheader">
+        <h1 style="font-family:'Segoe UI';font-size:28px">Bienvenido a HSmart </h1>
+    </div>
+    <div class="row" style="padding:15px">
+        <div class="col-md-12 col-lg-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel widget-mini">
+                        <div class="panel-body" style="text-align:center">                            
+                            <img src="@usuarioSession.Usuario1.vc_imagen_personalizar" height="130px"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="panel panel-solid-info widget-mini">
+                        <div class="panel-body">
+                            <i class="icon-users"></i>
+                            <span class="total text-center" style="font-family:'Segoe UI';font-size:30px"><strong>@usuarioSession.Usuario1.cant_candidatos</strong></span>
+                            <span class="title text-center" style="font-family:'Segoe UI';font-size:20px"><strong>Candidatos</strong></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="panel widget-mini" style="background-color:#9a796d;color:white">
+                        <div class="panel-body">
+                            <i class="icon-handbag"></i>
+                            <span class="total text-center" style="font-family:'Segoe UI';font-size:30px"><strong>@usuarioSession.Usuario1.cant_puesto</strong></span>
+                            <span class="title text-center" style="font-family:'Segoe UI';font-size:20px"><strong>Puestos</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel" >
+                        <div class="panel-heading" style="background-color:#ff8d00;color:white">
+                            <h3 class="panel-title" style="font-family:'Segoe UI';font-size:14px"><i class="fa fa-bar-chart-o" style="padding-right: 10px;"></i><strong>USO DE PRUEBAS</strong></h3>
+                        </div>
+                        <div class="panel-body data-toggle="collapse" style="font-size:75%; padding:5px">
+                            @Html.Partial("_UsoPruebas")     
+                         </div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+            <div class="row">  
+                <div class="col-md-12">
+                    <div class="panel panel-primary" >
+                        <div class="panel-heading">                            
+                            <h3 class="panel-title" style="font-family:'Segoe UI';font-size:14px"><i class="icon-users" style="padding-right: 10px;"></i><strong>ACCESO DE CANDIDATOS</strong></h3>
+                        </div>
+                        <div class="panel-body data-toggle="collapse" style="font-size:75%; padding:5px">
+                            <div id="div_ListaCandidatos" class="table-responsive" style="padding-top:1px">    
+                                @Html.Partial("_BandejaCandidatos")     
+                            </div> 
+                        </div>
+                    </div>  
+                </div>              
+           </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel" >
+                        <div class="panel-heading" style="background-color:#ff8d00;color:white">
+                            <h3 class="panel-title" style="font-family:'Segoe UI';font-size:14px"><i class="fa fa-bar-chart-o" style="padding-right: 10px;"></i><strong>ESTADÍSTICA DE CANDIDATOS</strong></h3>
+                        </div>
+                        <div class="panel-body data-toggle="collapse" style="font-size:75%; padding:5px">
+                            @Html.Partial("_HistorialCandidatos")     
+                         </div> 
+                    </div> 
+                </div>
+                <div class="col-md-12">
+                    <div class="panel" >
+                        <div class="panel-heading" style="background-color:#f44336;color:white">
+                            <h3 class="panel-title" style="font-family:'Segoe UI';font-size:14px"><i class="fa fa-youtube-play" style="padding-right: 10px;"></i><strong>VIDEOS TUTORIALES</strong></h3>
+                        </div>
+                        <div class="panel-body>
+                            <div class="panel-group accordion" id="accordion">
+                                <div class="panel panel-default" style=" margin-bottom: 1px;">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed">
+                                                REGISTRAR CANDIDATO HSmart....
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                        <div class="embed-container">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BIhdKmUff0w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed">
+                                                VER REPORTES HSmart....
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse2" class="panel-collapse collapse" aria-expanded="false">
+                                        <div class="embed-container">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Hm5HCcn4mvA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Content wraper-->

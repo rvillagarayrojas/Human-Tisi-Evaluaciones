@@ -1,0 +1,241 @@
+﻿@using Siscom.Models
+
+@model Siscom.Areas.Global.Models.PersonaModels 
+@{
+    ViewBag.Title = "Select";
+    Layout = "~/Views/Home/Principal.cshtml";
+}
+
+<div class="pageheader">
+    <!--Region Cabecera de la Pagina-->
+    <h1>Ver Usuario</h1>
+    <div>
+        <span class="label" style="color:rgb(144, 157, 163);padding:0px">USTED ESTÁ AQUÍ: </span>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#">Usuario</a>
+            </li>
+            <li>
+                <a href="#">Registro</a>
+            </li>
+            <li>
+                <a href="#" class="active">Ver Usuario</a>
+            </li>
+        </ol>
+    </div>
+</div>
+<!--Region Cuerpo de la Pagina-->
+<section id="main-content" class="animated fadeInUp">
+
+    <div id="DatosForm">
+        <!--Region Panel (Filtros)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Datos del Usuario</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        @*<div class="form-horizontal form-border" role="form">
+
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Cuenta
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        @Html.TextBoxFor(m => m.Persona.vc_desc_cuenta,
+                                        new
+                                        {
+                                            propertyname = "Persona.vc_desc_cuenta",
+                                            @class = "form-control",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                       Sub-Cuenta
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        @Html.TextBoxFor(m => m.Persona.vc_desc_sub_cuenta,
+                                        new
+                                        {
+                                            propertyname = "Persona.vc_desc_sub_cuenta",
+                                            @class = "form-control",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Perfil
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        @Html.TextBoxFor(m => m.Persona.vc_desc_perfil,
+                                        new
+                                        {
+                                            propertyname = "Persona.vc_desc_perfil",
+                                            @class = "form-control",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                       Puesto
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                       @Html.TextBoxFor(m => m.Persona.vc_desc_puesto,
+                                        new
+                                        {
+                                            propertyname = "Persona.vc_desc_puesto",
+                                            @class = "form-control",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Nombre
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        @Html.TextBoxFor(m => Model.Persona.vc_nombres,
+                                        new
+                                        {
+                                            maxLength = "100",
+                                            propertyname = "Persona.vc_nombres",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Apellido
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                       @Html.TextBoxFor(m => Model.Persona.vc_apellidos,
+                                        new
+                                        {
+                                            maxLength = "100",
+                                            propertyname = "Persona.vc_apellidos",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Sexo
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        @Html.TextBoxFor(m => Model.Persona.ch_sexo,
+                                        new
+                                        {
+                                            maxLength = "100",
+                                            propertyname = "Persona.ch_sexo",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Dirección E-mail
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                       @Html.TextBoxFor(m => Model.Persona.vc_direccion_email,
+                                        new
+                                        {
+                                            maxLength = "100",
+                                            propertyname = "Persona.vc_direccion_email",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Sexo
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        @Html.TextBoxFor(m => Model.Persona.vc_telefono,
+                                        new
+                                        {
+                                            maxLength = "100",
+                                            propertyname = "Persona.vc_telefono",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>*@
+                        @Html.Partial("VP_DatoCandidato", Model)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--Region Botones-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="col-md-12" id="contenidoMensaje" style="color:rgb(203, 26, 26);padding:10px;margin-bottom:10px;visibility:hidden;background:rgb(245, 236, 236);">
+                </div>
+                <div class="panel-body text-center">                   
+                    <button id="agregarBtn" type="button" class="btn btn-info"
+                        onclick="Comeback(2)">
+                        <i class="fa fa-reply"></i> Volver
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Load these page level functions-->
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+                   });
+
+       /*1.- Cancelar acción*/
+        function Comeback(dir) {
+            switch (dir)
+            {
+                case 2: window.location.href = GetControllerUrl("Bandeja", "Persona"); break;
+               
+            }
+        }
+
+    </script>
+}

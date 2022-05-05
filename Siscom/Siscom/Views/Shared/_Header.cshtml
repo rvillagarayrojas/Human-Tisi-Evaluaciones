@@ -1,0 +1,60 @@
+﻿@using Siscom.Models
+
+@{  
+    var usuarioSession = (UsuarioModel)Session[UsuarioModel.SessionName];
+}
+
+<header id="header" style="background-color:#2f3292;color:white">
+    <!--logo start-->
+   <!--logo start-->
+    <div class="brand text-center" style="background-color:#ffffff">
+            <img src="~/Images/Logo.png" height="60px"/>
+    </div>
+    <!--logo end-->
+    <ul class="nav navbar-nav navbar-left">
+        <li id="miniNav" class="toggle-navigation toggle-left">
+            <button class="sidebar-toggle" id="toggle-left">
+                <i class="fa fa-bars"></i>
+            </button>
+        </li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown profile hidden-xs">
+            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="meta">
+                    <span class="avatar">
+                        @if(usuarioSession.Usuario1.ch_sexo == "M")
+                        {
+                        <img src="~/Images/user_male.png" width="30px">
+                        }
+                        @if(usuarioSession.Usuario1.ch_sexo == "F")
+                        {
+                        <img src="~/Images/user_female.png" width="30px">
+                        }
+                    </span>
+                    <span class="text" style="color:white">Bienvenido Usuario :</span>
+                        <span style="color:white">@usuarioSession.Usuario1.vc_nombres</span>
+                    <span class="caret"></span>
+                </span>
+            </a>
+            <ul class="dropdown-menu animated fadeInRight" raole="menu">
+                
+                <li>
+                    <a href="../../Login/LogOut">
+                        <span class="icon">
+                            <i class="fa fa-sign-out"></i>
+                        </span> Salir
+                    </a>
+                </li>
+                @*<li>
+                    <a href="../../CambioContrasena/CambioContrasena">
+                        <span class="icon">
+                            <i class="fa fa-sign-out"></i>
+                        </span> Cambiar contraseña
+                    </a>
+                </li>*@
+            </ul>
+        </li>
+    </ul>
+</header>

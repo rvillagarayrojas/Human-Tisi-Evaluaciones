@@ -1,0 +1,109 @@
+D:\TISI\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\TISI\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\TISI\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\TISI\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\TISI\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+D:\TISI - copia\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\TISI - copia\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\TISI - copia\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\TISI - copia\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\TISI - copia\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+C:\Users\KCHUMBES\Desktop\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+C:\Users\stephanie.figueroa\Desktop\E\Root\KATY\OFICINA\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+C:\Users\stephanie.figueroa\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+C:\Users\ASUS\Desktop\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\KATY\Proyecto de evaluaciones\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\KATY\EVALUACIONES 2\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+C:\Users\DESARROLLO1\Desktop\EVALUACIONES\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+C:\Users\marketing.HUMANSOLUTIONS\Desktop\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+C:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojAssemblyReference.cache
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\EVALUACIONES\TISI - EVALUACIONES\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\github\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\Proyectos\CapitalTec\Human\GitHub\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\Human\Fuentes Web HS\github\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\Proyectos\HelpDesk-Human\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb
+D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csprojResolveAssemblyReference.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Entity\Siscom.Entity\bin\Debug\Siscom.Entity.pdb
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csproj.AssemblyReference.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.csproj.CoreCompileInputs.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.dll
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Entity\Siscom.Entity\obj\Debug\Siscom.Entity.pdb

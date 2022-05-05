@@ -1,0 +1,10 @@
+﻿@model Siscom.Areas.Global.Models.PersonaModels
+
+
+                @Html.DropDownListFor(m => m.Persona.nu_id_subcuenta, Model.ListaSubCuenta,
+                    new 
+                    { 
+                        propertyname = "Persona.nu_id_subcuenta", 
+                        @class = "form-control",
+                        OnChange = "CargarPuesto(),Buscar()"
+                    })

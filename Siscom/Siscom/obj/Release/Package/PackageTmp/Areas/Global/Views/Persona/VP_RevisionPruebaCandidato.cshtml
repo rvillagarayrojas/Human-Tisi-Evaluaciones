@@ -1,0 +1,107 @@
+﻿@model Siscom.Areas.Global.Models.PersonaModels
+@{ 
+    var TIPO_REVISION = "";
+    decimal selNivel = 0;
+}
+<style type="text/css">
+    a.wsnextlink1:link {
+        text-decoration: none;
+        color: #e36c09;
+    }
+
+    a.wsnextlink1:visited {
+        text-decoration: none;
+        color: #ffc000;
+    }
+
+    a.wsnextlink1:hover {
+        text-decoration: underline;
+        color: #e36c09;
+    }
+</style>
+<div class="container-fluid">
+    @foreach (var item in Model.Ls_RespuestaPreguntaFileo)
+    {
+        
+        <input type="hidden" id="txtIdPruebaParte" value="@(item.NU_ID_PRUEBA_PARTE)" />
+        <input type="hidden" id="txtIdPruebaCandidato" value="@(item.NU_ID_PRUEBA_CANDIDATO)" />
+        <input type="hidden" id="txtIdPregunta" value="@(item.NU_ID_PREGUNTA)" />
+        <form id="frm">
+
+            <div class="form-group">
+                CANDIDATO: @(Model.Persona.vc_nombres), @(Model.Persona.vc_apellidos)
+            </div>
+            <div class="form-group">
+                <label for="">Respuesta de la Prueba: </label>  <a href='@(Model.ServidorDescarga)@(item.VC_NOMFILE_RESPUESTA)'class="wsnextlink1" target='_blank'><i class="fa fa-download"></i> Descargar Respuesta</a>
+            </div>
+            <div class="form-group">                
+                <div class="custom-control custom-radio custom-control-inline col-sm-6">
+                    @if (item.TIPO_REVISION == "C") { TIPO_REVISION = item.TIPO_REVISION; selNivel = item.NUM_NOTA; }
+                    @if (item.TIPO_REVISION == "N") { TIPO_REVISION = item.TIPO_REVISION; selNivel = item.NUM_NOTA; }
+                    <input type="radio" id="optNota" value="C" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="optNota">Calificar por Nota</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline col-sm-6">
+                    <input type="radio" id="optNivel" value="N" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="optNivel">Calificar por Nivel</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-6">
+                    <label for="txtNotaRevision">Calificación</label>
+                    <input type="number" disabled="disabled" max="20" min="0" maxlength="2" style="width:180px" class="form-control" id="txtNotaRevision" placeholder="Ingrese la calificación" value="@(selNivel)">
+                </div>
+                <div class="col-sm-6">
+                    <label for="slCalificacion">Nivel Obtenido</label>
+                    <select id="slCalificacion"  disabled="disabled" class="form-control">
+                        <option value="">Seleccione</option>
+                        <option value="12">BASICO - 12</option>
+                        <option value="17">INTERMEDIO - 17 </option>
+                        <option value="20">AVANZADO - 20</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="txtNotaRevision">Comentario</label>
+                <textarea rows="4" type="text" class="form-control" id="txtComentario" placeholder="Ingrese la nota">@(item.VC_COMENTARIOS)</textarea>
+            </div>
+            <button type="submit"  id="btnGuarda" class="btn btn-primary"><i class="fa fa-save"></i> Guardar</button>
+            <div>
+                <div id="lblMensaje"></div>
+            </div>
+        </form>
+    }
+</div>
+<script>
+    $("#optNota").on('change', function (e) {
+        $("#txtNotaRevision").removeProp("disabled");
+        $("#txtNotaRevision").val("0");
+        $("#slCalificacion").prop("disabled", "disabled");
+        $("#slCalificacion").val("").change();
+    });
+
+    $("#optNivel").on('change', function (e) {
+        $("#slCalificacion").removeProp("disabled");
+        $("#slCalificacion").val("").change();
+
+        $("#txtNotaRevision").val("");
+        $("#txtNotaRevision").prop("disabled", "disabled");
+    });
+
+    $("#frm").submit(function (event) {
+        GuardaResultadosPruebaExcel();
+        event.preventDefault();
+        return false;
+    });
+
+    if ("@(TIPO_REVISION)"=="C") {
+        $("#optNota").click().change();
+        $("#txtNotaRevision").val("@(selNivel)");
+    }
+
+    if ("@(TIPO_REVISION)"=="N") {
+        $("#optNivel").click().change();
+        $("#slCalificacion").val(parseInt("@(selNivel)")).change();
+    }
+
+</script>

@@ -1,0 +1,147 @@
+﻿@using Siscom.Models
+@{  
+    var usuarioSession = (UsuarioModel)Session[UsuarioModel.SessionName];
+}
+
+<!--sidebar left start-->
+
+<aside class="sidebar sidebar-left" style="background-color:#1d212a;">
+    <nav>
+        <ul class="nav nav-pills nav-stacked"><br/> <br/>
+            <li id="lblEmpresa" class="col-sm-12 row" style="color:white;font-size:16.5px;font-weight:bold">@usuarioSession.Usuario1.vc_desc_cuenta</li>
+            <br/>
+                @if(usuarioSession.Usuario1.ch_contrato == "A" )
+                {
+                    <li>
+                        <a href="/Home/Index">
+                            <i class="icon-home"></i> Inicio
+                        </a>
+                    </li>
+                if(usuarioSession.Usuario1.nu_id_perfil == 4 || usuarioSession.Usuario1.nu_id_perfil == 1)
+                {
+                    <li class="nav-dropdown">
+                        <a href="#" title="Cuentas">
+                            <i class="fa fa-building"></i> Cuentas
+                        </a>
+
+                        <ul class="nav-sub" style="background-color:#1d212a;">
+                            @if(usuarioSession.Usuario1.nu_id_perfil == 4)
+                            {
+                              <li class="nav-dropdown">
+                                <a href="../../Global/Cuenta/Index">
+                                    <i class="fa fa-fw fa-file"></i> Nuevo
+                                </a>
+                              </li>
+                                    
+                              <li class="nav-dropdown">
+                                <a href="../../Global/Cuenta/Bandeja">
+                                    <i class="fa fa-fw fa-table"></i> Bandeja
+                                </a>
+                              </li>
+                            }
+                            @if(usuarioSession.Usuario1.nu_id_perfil == 1)
+                            {
+                              <li class="nav-dropdown">
+                                <a href="../../Global/Cuenta/Ficha">
+                                    <i class="fa fa-fw fa-table"></i> Ver ficha
+                                </a>
+                              </li>
+                            }
+                        </ul>
+                    </li>
+                }
+                    <li class="nav-dropdown ">
+                        <a href="#" title="Sub - Cuentas">
+                            <i class="fa fa-home"></i> Usuarios
+                        </a>
+                        <ul class="nav-sub" style="background-color:#1d212a;">
+                            @if(usuarioSession.Usuario1.nu_id_perfil == 4 || usuarioSession.Usuario1.nu_id_perfil == 1)
+                            {
+                                <li class="nav-dropdown">
+                                <a href="../../Global/SubCuentas/Index">
+                                    <i class="fa fa-fw fa-file"></i> Nuevo
+                                </a>
+                                </li>
+                                    
+                                <li class="nav-dropdown">
+                                <a href="../../Global/SubCuentas/Bandeja">
+                                    <i class="fa fa-fw fa-table"></i> Bandeja
+                                </a>
+                                </li>
+                            }
+                            @if(usuarioSession.Usuario1.nu_id_perfil == 2)
+                            {
+                                <li class="nav-dropdown">
+                                <a href="../../Global/SubCuentas/Ficha">
+                                    <i class="fa fa-fw fa-table"></i> Ver ficha
+                                </a>
+                                </li>
+                            }
+                              <li class="nav-dropdown">
+                                <a href="../../Global/Cuenta/ChangePassword">
+                                    <i class="fa fa-fw fa-table"></i> Cambiar Contraseña
+                                </a>
+                              </li>
+                        </ul>
+                    </li>
+                 
+           
+                <li class="nav-dropdown ">
+                    <a href="#" title="Puestos">
+                        <i class="fa fa-briefcase"></i> Puestos
+                    </a>
+                    <ul class="nav-sub" style="background-color:#1d212a;">
+                        @if(usuarioSession.Usuario1.nu_id_perfil == 1|| usuarioSession.Usuario1.nu_id_perfil == 2)
+                        {
+                          <li class="nav-dropdown">
+                            <a href="../../Global/Puesto/Index">
+                                <i class="fa fa-fw fa-file"></i> Nuevo
+                            </a>
+                          </li>                            
+                          <li class="nav-dropdown">
+                            <a href="../../Global/Puesto/Bandeja">
+                                <i class="fa fa-fw fa-table"></i> Bandeja
+                            </a>
+                          </li>
+                        }
+                        @if(usuarioSession.Usuario1.nu_id_perfil == 4)
+                        {
+                            <li class="nav-dropdown">
+                                <a href="#" title ="Registro">
+                                    <i class="fa fa-fw fa-pencil-square-o"></i> Reporte
+                                </a>
+                                <ul class="nav-sub">
+                                    <li class="nav-dropdown">
+                                        <a href="../../Global/Puesto/Reporte">
+                                            <i class="fa fa-fw fa-file"></i> Cantidad de Pruebas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </li>
+           
+                <li class="nav-dropdown ">
+                    <a href="#" title="Usuarios">
+                        <i class="fa fa-users"></i> Candidatos
+                    </a>
+                    <ul class="nav-sub" style="background-color:#1d212a;">
+                      <li class="nav-dropdown">
+                        <a href="../../Global/Persona/Index">
+                            <i class="fa fa-fw fa-file"></i> Nuevo
+                        </a>
+                      </li>
+                                    
+                      <li class="nav-dropdown">
+                        <a href="../../Global/Persona/Bandeja">
+                            <i class="fa fa-fw fa-table"></i> Bandeja
+                        </a>
+                      </li>
+                    </ul>
+                </li>
+                }
+       </ul>
+    </nav>
+</aside>
+<!--sidebar left end-->

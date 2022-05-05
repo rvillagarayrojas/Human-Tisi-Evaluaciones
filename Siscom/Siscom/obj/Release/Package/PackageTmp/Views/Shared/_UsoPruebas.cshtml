@@ -1,0 +1,103 @@
+﻿@model Siscom.Areas.Global.Models.PersonaModels
+
+<style type="text/css">
+    #container, #sliders
+    {
+        min-width: 310px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    #container2
+    {
+        height: 350px;
+    }
+
+</style>
+
+<script type="text/javascript">
+
+    var NombrePrueba = [];
+    var NumPruebas = [];
+</script>
+
+@if (Model.ls_uso_pruebas != null && Model.ls_uso_pruebas.Count > 0)
+{
+    foreach (var item in Model.ls_uso_pruebas)
+    { 
+        <script type="text/javascript">
+            NombrePrueba[NombrePrueba.length] = "@item.vc_desc_prueba";
+            NumPruebas[NumPruebas.length] = parseInt("@item.cant_pruebas");
+        </script>
+    }
+}
+<script>
+var mySeries = [];
+for (var i = 0; i < NombrePrueba.length; i++) {
+        mySeries.push([NombrePrueba[i], NumPruebas[i]]);
+        i+1
+    }
+</script>
+<script src="~/Scripts/Sistemas/jquerydb.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        Load2();
+    });
+
+    function Load2() {
+        var chart2 = new Highcharts.Chart({
+            chart: {
+                renderTo: 'container2',
+                type: 'pie',
+                options3d: {
+                    enabled: true,
+                    alpha: 35,
+                    beta: 0
+                }
+            },
+            title: {
+                text: '<strong>USO DE PRUEBAS</strong>'
+            },
+            subtitle: {
+                floating: true,
+                align: 'right',
+                verticalAlign: 'bottom',
+            },
+            plotOptions: {
+                pie: {
+                    depth: 25,
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b><br/>{point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: '# Pruebas',
+                data: mySeries
+                }]
+        });
+    }
+</script>
+<script src="~/Recursos/Db/js/highcharts.js"></script>
+<script src="~/Recursos/Db/js/highcharts-more.js"></script>
+<script src="~/Recursos/Db/js/modules/exporting.js"></script>
+<script src="~/Recursos/Db/js/modules/solid-gauge.js"></script>
+<script src="~/Recursos/Db/js/highcharts-3d.js"></script>
+<!-- Content wraper -->
+  
+<table style="margin:auto">
+    <tr>
+        <td style="width: 350px">
+            <div class="col-sm-6">
+                <div id="container2" style="width: 350px"></div>
+            </div>
+        </td>
+    </tr>
+</table>
+<!-- /Content wraper-->

@@ -1,0 +1,74 @@
+﻿@using Siscom.Models
+
+@{  
+    var usuarioSession = (UsuarioModel)Session[UsuarioModel.SessionName];
+}
+
+@{
+    ViewBag.Title = "AcuerdoContrato";
+    Layout = "~/Views/Home/Principal.cshtml";
+}
+
+<section id="main-content" class="animated fadeInUp">
+<div class="col-md-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <center> <h3 class="panel-title">Acuerdos del contrato</h3> </center>
+        </div>
+        <div class="panel-body">
+        <p>
+            Contrato de licencia de usuario final de la WEB Test Smart
+        <br />
+            Aviso legal importante para todos los usuarios: Lea atentamente el contrato legal que se incluye a continuación antes de comenzar a usar el software.
+            Al hacer click en el botón acepto de la ventana del contrato de licencia o después de  ingresar el o los símbolos correspondientes, usted acepta estar obligado por los términos y condiciones del presente contrato. Tal acción constituye un símbolo de su firma, y usted da su consentimiento para estar obligado, se convierte en una parte del presente contrato, y acepta que poder hacerse valer este contrato como cualquier contrato escrito que usted pueda haber negociado y firmado. Si no está de acuerdo con la totalidad de los términos y condiciones del presente contrato, cancele la instalación y no instale el software.
+            Después de hacer clic en el botón acepto de la ventana del contrato de licencia o después de ingresar el o los símbolos correspondientes, usted tiene el derecho de usar el software, de conformidad con los términos y condiciones del presente contrato.
+            En caso de que el programa vaya acompañado de un contrato de licencia o documento similar, las condiciones de uso de dicho programa que se establezcan en tal documento prevalecerán sobre el actual acuerdo de licencia para el usuario final.
+
+        </p>
+        <hr />
+            <input class="icheck"  dato="A" type="radio" name="check1">
+            <label>Acepto las condiciones</label>
+        <br />
+        <br />
+            <input class="icheck"  dato="N" type="radio" name="check1" checked="checked">
+            <label>No, acepto las condiciones</label>
+      </div>
+    </div>
+</div>
+
+ <!--Region Botones-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-body text-center">
+                    <button id="guardarBtn" type="button" class="btn btn-success" 
+                        onclick="Contrato()">
+                        <i class="fa  fa-save"></i> Guardar
+                    </button>                    
+                   
+                        <button id="cancelarBtn" type="button" class="btn btn-default" 
+                            onclick="Cancelar()">
+                            <i class="fa fa-reply"></i> Cancelar
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/plugins/navgoco")
+    @Scripts.Render("~/plugins/pace")
+    @Scripts.Render("~/bundles/app")
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#usuario').keypress(enterUsuario);
+        });
+       
+        function Contrato() {
+            window.location.href = GetControllerUrl("Actualizar", "Home") + '?Contrato=' + $("input[name='check1']:checked").attr('dato');
+        }
+
+    </script>

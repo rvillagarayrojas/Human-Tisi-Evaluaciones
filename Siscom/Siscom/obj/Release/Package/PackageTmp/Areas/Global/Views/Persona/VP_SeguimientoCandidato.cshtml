@@ -1,0 +1,47 @@
+﻿@model Siscom.Areas.Global.Models.PersonaModels
+
+<table id="DetallesSeguimientoTable" class="table table-striped table-bordered table-hover table-condensed " cellspacing="0">
+    <thead>
+        <tr>
+            <th class="text-center" colspan="5" style="vertical-align:middle"><p>CANDIDATO: @(Model.Persona.vc_nombres), @(Model.Persona.vc_apellidos)</p></th>
+        </tr>
+        <tr>
+            <th class="text-center"><p>#</p></th>
+            <th class="text-center"><p>PROCESO</p></th>
+            <th class="text-center"><p>ACCION</p></th>
+            <th class="text-center"><p>DESCRIPCION ACCCION</p></th>
+            <th class="text-center"><p>FECHA ACCION</p></th>
+        </tr>
+    </thead>
+    <tbody id="itemsDetalle">
+        @if (Model != null)
+        {
+            foreach (var item in Model.Ls_seguimiento)
+            {
+                <tr id="@(item.NU_ID_USUARIO)">
+                    <td class="text-center" style="vertical-align:middle"><p>@(item.ID)</p></td>
+                    <td class="text-left" style="vertical-align:middle"><p>@(item.VC_NOM_PROCESO)</p></td>
+                    <td class="text-left" style="vertical-align:middle"><p>@(item.VC_NOM_ACCION)</p></td>
+                    <td class="text-left" style="vertical-align:middle"><p>@(item.VC_DESC_ACCION)</p></td>
+                    <td class="text-center" style="vertical-align:middle;width:150px"><p>@(item.DT_FECHA_ACCION)</p></td>
+                </tr>
+            }
+        }
+    </tbody>
+
+</table>
+
+<script>
+    $('#DetallesSeguimientoTable').dataTable({
+        "order": [[0, "asc"]],
+        "columnDefs": [ {
+            "targets": 3,
+            "render": function (data, type, row, meta) {
+                var datos;
+                datos = $("<div />").html(data).text();
+                return datos;
+            }
+        } ]
+    });
+
+</script>

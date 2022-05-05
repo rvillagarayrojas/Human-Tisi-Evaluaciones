@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siscom | @ViewBag.Title</title>
+
+    @if (IsSectionDefined("Styles"))
+    {@RenderSection("Styles", required: false)}
+                                              
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>  
+    
+                                            
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <!-- Page Wrapper-->
+    <section id="main-wrapper" class="theme-blue-full">
+
+        <!-- Top Header -->
+        @Html.Partial("_Header")
+
+        <!-- Left Sidebar Navigation -->
+        @Html.Partial("_LeftSideBar")
+
+        <!-- Content wraper -->
+        <section class="main-content-wrapper">
+            <!-- Main view  -->
+            @RenderBody()
+        </section>
+        <!-- /Content wraper-->
+
+    </section><!-- /Page Wrapper-->
+    <!-- Right Sidebar -->
+    @Html.Partial("_RightSideBar")
+
+    <!--Theme Config 
+    @Html.Partial("_Config")-->
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/plugins/navgoco")
+    @Scripts.Render("~/plugins/pace")
+    @Scripts.Render("~/plugins/switchery")
+    @Scripts.Render("~/bundles/app")
+
+    @RenderSection("scripts", required: false)
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+     @Scripts.Render("~/bundles/ie")
+    <![endif]-->
+</body>
+<footer>
+<div class="modal-footer">
+    <div class="row" style="background:white;padding:5px">
+        <div class="col-sm-12">
+            <div class="col-sm-6">
+            </div>
+            <!-- Begin DigiCert site seal HTML and JavaScript -->
+            <div class="col-sm-6">
+                <div class="col-sm-10">
+                    <p style="color:black">Desarrollado por: <img src="~/Images/LogoTisi.png" width="95px"/></p>
+                </div>
+                <div class="col-sm-2">
+                    <div id="DigiCertClickID_2RszKfPN" data-language="es">
+	                    <a href="http://www.digicert.com/"></a>
+                    </div>
+                </div>
+                
+            </div>
+            <script type="text/javascript">
+                var __dcid = __dcid || [];__dcid.push(["DigiCertClickID_2RszKfPN", "3", "s", "white", "2RszKfPN"]);(function(){var cid=document.createElement("script");cid.async=true;cid.src="//seal.digicert.com/seals/cascade/seal.min.js";var s = document.getElementsByTagName("script");var ls = s[(s.length - 1)];ls.parentNode.insertBefore(cid, ls.nextSibling);}());
+                
+                $('#DigiCertClickID_2RszKfPNSeal img').attr('style','width:80px');
+            </script>
+            <!-- End DigiCert site seal HTML and JavaScript -->
+        </div>
+    </div>
+</div>
+</footer>
+<script>
+    function GetControllerUrl(action, controller) {
+        var url = "@(Url.Action("action", "controller"))";
+        url = url.replace("action", action);
+        url = url.replace("controller", controller);
+        return url;
+    }
+
+    $('#miniNav').click(Ubicacion);
+
+    function Ubicacion() {
+        if($("#main-wrapper" ).hasClass("sidebar-mini"))
+        {
+            $('#lblEmpresa').css('position', 'absolute');
+            $('#lblSucursal').css('position', 'absolute');
+            $('#lblEmpresa').css('visibility', 'hidden');
+            $('#lblSucursal').css('visibility', 'hidden');
+            if(($("#main-wrapper" ).hasClass("sidebar-opened")))
+            {
+                $('#lblEmpresa').css('position', '');
+                $('#lblSucursal').css('position', '');
+                $('#lblEmpresa').css('visibility', '');
+                $('#lblSucursal').css('visibility', '');
+            }
+        }
+        else
+        {
+            $('#lblEmpresa').css('position', '');
+            $('#lblSucursal').css('position', '');
+            $('#lblEmpresa').css('visibility', '');
+            $('#lblSucursal').css('visibility', '');
+        }
+    }
+</script>
+
+</html>

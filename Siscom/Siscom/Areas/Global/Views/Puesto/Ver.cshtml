@@ -1,0 +1,408 @@
+﻿@using Siscom.Models
+
+@model Siscom.Areas.Global.Models.PuestoModels 
+@{
+    ViewBag.Title = "Select";
+    Layout = "~/Views/Home/Principal.cshtml";
+}
+<div class="pageheader">
+    <!--Region Cabecera de la Pagina-->
+    <div id="Titulo1">
+    <h1>Ver Candidatos</h1>
+    </div>
+    <div id="Titulo2" style="display:none">
+    <h1>Editar Candidatos</h1>
+    </div>
+    <div>
+        <span class="label" style="color:rgb(144, 157, 163);padding:0px">USTED ESTÁ AQUÍ: </span>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#">Puesto</a>
+            </li>
+            <li>
+                <a href="#">Asignar Prueba</a>
+            </li>
+            <li>
+                <a href="#" class="active">Ver Candidatos</a>
+            </li>
+        </ol>
+    </div>
+</div>
+<!--Region Cuerpo de la Pagina-->
+<section id="main-content" class="animated fadeInUp">
+ <!--Region Botones-->
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-body text-left">
+                    <button id="BtnNuevo" type="button" class="btn btn-success btn-sm" 
+                        onclick="Editar1();">
+                        <i class="fa fa-pencil"></i> Editar
+                    </button> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="DatosForm">
+        <!--Region Panel (Filtros)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Datos del Puesto</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-horizontal form-border" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Cuenta
+                                    </label>
+                                      <div class="col-sm-7 row">
+                                          @Html.TextBoxFor(m => m.Puesto.vc_desc_cuenta,
+                                        new
+                                        {
+                                            propertyname = "Puesto.vc_desc_cuenta",
+                                            @class = "form-control",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Sub-cuenta
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     <div id="div_MostrarSubCuenta">
+                                        @Html.TextBoxFor(m => m.Puesto.vc_desc_sub_cuenta,
+                                        new
+                                        {
+                                            propertyname = "Puesto.vc_desc_sub_cuenta",
+                                            @class = "form-control",
+                                            disabled = "disabled"
+                                        })
+                                     </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Puesto
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        @Html.TextBoxFor(m => m.Puesto.vc_desc_puesto,
+                                        new
+                                        {
+                                            propertyname = "Puesto.vc_desc_puesto",
+                                            @class = "form-control",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+                            <div class="col-sm-6">
+                                    <label hidden="hidden" class="col-sm-4 control-label">
+                                        Id_puesto
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                       <div hidden="hidden">
+                                           @Html.TextBoxFor(m => m.Puesto.nu_id_puesto,
+                                        new
+                                        {
+                                            propertyname = "Puesto.nu_id_puesto",
+                                            @class = "form-control",
+                                            disabled = "disabled"
+                                        })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="DatosForm">
+        <!--Region Panel (Registro Pruebas)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Lista de candidatos</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                       <!--Lista de Pruebas-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="panel panel-default">
+                                        <div class="panel-body data-toggle="collapse">
+                                            <div id="div_ListaSolicitudes" class="table-responsive" style="padding-top:1px">
+                                             @Html.Partial("VP_GrillaCandidato_Puestos", Model)
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="NuevosCandidatos" class="row" style="display:none">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Asignación de candidatos</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+            <!--Region Botones-->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-body text-left">
+                                <label class="col-sm-2 control-label">Carga de Candidatos (.txt)</label>
+                                <div class="col-sm-4 control-label">
+                                            <input type="file" id="fileInput2" style="color:transparent" onchange="LoadMasivoProducto2(this.files[0])"/>
+                                    </div>
+                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="form-horizontal form-border" role="form">
+                        <!--Lista de Candidatos-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-body data-toggle="collapse">
+                                        <div id="div_ListaSolicitudes" class="table-responsive" style="padding-top:1px">
+                                            @Html.Partial("VP_GrillaCandidatos", Model)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                          
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--Region Botones-->
+    <div id="botonVolver" class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="col-md-12" id="contenidoMensaje" style="color:rgb(203, 26, 26);padding:10px;margin-bottom:10px;visibility:hidden;background:rgb(245, 236, 236);">
+                </div>
+                <div class="panel-body text-center">                   
+                    <button id="agregarBtn" type="button" class="btn btn-info"
+                        onclick="Comeback(2)">
+                        <i class="fa fa-reply"></i> Volver
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Region Botones-->
+    <div id="botonesEditar" class="row" style="display:none">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-body text-center">
+                    <button id="guardarBtn" type="button" class="btn btn-success" 
+                        onclick="Guardar()">
+                        <i class="fa  fa-save"></i> Guardar
+                    </button>                    
+                   
+                        <button id="cancelarBtn" type="button" class="btn btn-default" 
+                            onclick="Cancelar()">
+                            <i class="fa fa-reply"></i> Cancelar
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!--Modal para mensajes-->
+<div class="modal fade" id="ModalSave" style="overflow: scroll;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="myModalLabel" style="color:#0D588E">Mensaje de actualización</h3>
+            </div>
+            <div class="modal-body" id="SaveMensaje">
+            </div>
+            <div class="text-center">
+                <hr /><button id="btnMensaje" type="button" class="btn btn-primary" onclick="$('#ModalSave').modal('hide');">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Load these page level functions-->
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            Buscar()
+                   });
+
+       /*1.- Cancelar acción*/
+        function Comeback(dir) {
+            switch (dir)
+            {
+                case 2: window.location.href = GetControllerUrl("Bandeja", "Puesto"); break;
+               
+            }
+        }
+        function Cancelar() {
+            window.location.href = GetControllerUrl("Index", "Puesto");
+        }
+
+        function Buscar() {
+            $("#SaveMensaje").html('<i class="fa  fa-refresh" style="color:green"></i> Buscando candidatos, espere un momento...');
+            $("#ModalSave").modal('show');
+            var data = {
+                IdPuesto: $('#Puesto_nu_id_puesto').val(),
+            };
+            $.ajax({
+                type: 'POST',
+                url: '/Global/Puesto/BuscarCandidatosPuesto',
+                data: data,
+                success: function (result) {
+                    $('#div_ListaSolicitudes').andSelf().unbind();
+                    $('#div_ListaSolicitudes').html(result);
+                    if (result.trim() == "") {
+                        $("#SaveMensaje").html('<i class="fa fa-remove" style="color:darkred"></i> No se encontró datos.');
+                        $("#ModalSave").modal('show');
+                    }
+                    //$(document).ready(function () {
+                    //    $('#DetalleSolicitudTable').dataTable({
+                    //        "order": [[2, "desc"]]
+                    //    });
+                    //});
+                    $("#ModalSave").modal('hide');
+                }
+            });
+
+        }
+        function AgregarFila() {
+            $('#itemsDetalle').append('<tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td></tr>')
+        }
+        /*18.- Carga masiva de productos sin serie*/
+        function LoadMasivoProducto2(file) {
+            $('#itemsDetalle').html('');
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                var data = e.target.result.toString().split('\r\n');
+                for (var i = 0; i < data.length; i++) {
+                    $('#itemsDetalle').append('<tr><td contenteditable="true">' + data[i].split('|')[0] + '</td><td contenteditable="true">' + data[i].split('|')[1] + '</td><td contenteditable="true">' + data[i].split('|')[2] + '</td><td contenteditable="true">' + data[i].split('|')[3] + '</td><td contenteditable="true">' + data[i].split('|')[4] + '</td></tr>')
+                }
+            };
+            reader.readAsText(file);
+        }
+        /*FIN*/
+        function Editar1() {
+            $("#Puesto_vc_desc_puesto").removeAttr('disabled');
+            document.getElementById('NuevosCandidatos').style.display = 'block'
+            document.getElementById('botonesEditar').style.display = 'block';
+            document.getElementById('botonVolver').style.display = 'none';
+            document.getElementById('Titulo2').style.display = 'block';
+            document.getElementById('Titulo1').style.display = 'none';
+        }
+
+        /*Actualizacion de usuario*/
+        function Actualizar(idPuesto, idUsuario) {
+            var Model = {
+                idPuesto: idPuesto,
+                idUsuario: idUsuario
+            }
+            $.ajax({
+                type: "POST",
+                url: GetControllerUrl("ActualizarUsuarios", "Puesto"),
+                data: Model,
+                success: function (resultado) {
+                    if (resultado.message == "go") {
+                        $('#' + idPuesto + idUsuario).remove();
+                    }
+                    else {
+                        $("#guardarBtn").removeAttr('disabled');
+                        $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo la actualización del puesto: <br><strong>' + resultado.message + '</strong>');
+                    }
+                }
+            });
+        }
+
+        function Guardar() {
+            var statusVal = true;
+            var resumen = "";
+
+            var PersonaDetalle = [];
+
+            $('#itemsDetalle tr').each(function () {
+                if ($(this).find('td').eq(0).text().trim() != '') {
+                    PersonaDetalle[PersonaDetalle.length] = {
+                        vc_doc_identi: ($(this).find('td').eq(0).text().trim()),
+                        vc_nombres: ($(this).find('td').eq(1).text().trim()),
+                        vc_apellidos: ($(this).find('td').eq(2).text().trim()),
+                        vc_direccion_email_usuario: ($(this).find('td').eq(3).text().trim()),
+                        vc_telefono: ($(this).find('td').eq(4).text().trim()),
+                        vc_cod_usuario: ('000' + $(this).find('td').eq(0).text().trim()),
+                        vc_password: ($(this).find('td').eq(0).text().trim()),
+                        nu_id_puesto: $('#Puesto_nu_id_puesto').val(),
+                        opcion: 0
+
+                    }
+                }
+            })
+
+            var Puesto = {
+                nu_id_puesto: $('#Puesto_nu_id_puesto').val(),
+                PersonaDetalle: PersonaDetalle
+            }
+            var Model = new Object();
+            Model.Puesto = Puesto;
+            $("#guardarBtn").attr('disabled', 'disabled');
+            $("#SaveMensaje").html('<i class="fa fa-refresh" style="color:green"></i> Registrando el puesto espere un momento...');
+            $("#ModalSave").modal('show');
+            $.ajax({
+                type: "POST",
+                url: GetControllerUrl("ActualizarDatosUsuarios", "Puesto"),
+                data: Model,
+                success: function (resultado) {
+                    if (resultado.message == "go") {
+
+                        $("#SaveMensaje").html('<i class="fa  fa-check" style="color:green"></i> Se registraron los usuarios <strong>' + $('#Puesto_vc_desc_puesto').val() + '</strong> satisfactoriamente.');
+                        /*Despues de registrar este evento permite redireccionar la pagina*/
+                        $('#ModalSave').on('hidden.bs.modal', function () {
+                            window.location.href = GetControllerUrl("Bandeja", "Puesto");
+                        });
+                    }
+                    else {
+                        $("#guardarBtn").removeAttr('disabled');
+                        $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo el registro del puesto: <br><strong>' + resultado.message + '</strong>');
+                    }
+                },
+                error: function (resultado) {
+                    alert('gg')
+                }
+            });
+        }
+        /*FIN*/
+    </script>
+}

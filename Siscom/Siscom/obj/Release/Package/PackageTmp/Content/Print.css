@@ -1,0 +1,137 @@
+﻿@media print {
+td.esperado {
+    background-color: rgb(244,209,170) !important;
+    color:white;
+    -webkit-print-color-adjust: exact;
+}}
+
+@media print {
+td.obtenido {
+    background-color: rgb(235,110,25) !important;
+    color:white;
+    -webkit-print-color-adjust: exact;
+}}
+
+@media print {
+td.bordes {
+    border: 1px solid rgb(244,209,170) !important;
+    -webkit-print-color-adjust: exact;
+}}
+
+@media print {
+th.bordes {
+    border: 1px solid rgb(244,209,170) !important;
+    -webkit-print-color-adjust: exact;
+}}
+
+@media print{
+div.saltopagina{ 
+      page-break-before:always;
+      display: block !important;
+}}
+@media print{
+table.dataTable{ 
+     font-size:75%;
+     margin-top:0px;
+}}
+
+@media print{
+div.visible{ 
+      display: block !important;
+}}
+@media print{
+div.pantalla{
+    display: none !important;
+}}
+
+@media print{
+div.interpre{
+    background: #e88642 !important;
+    -webkit-print-color-adjust: exact;
+}}
+@media print{
+td.leyendaRojo{
+    background: #dc7c7c !important;
+    -webkit-print-color-adjust: exact;
+}}
+@media print{
+td.leyendaAmbar{
+    background: #fddb7a !important;
+    -webkit-print-color-adjust: exact;
+}}
+@media print{
+td.leyendaVerde{
+    background: #90ed7d !important;
+    -webkit-print-color-adjust: exact;
+}}
+@media print{
+td.leyendaRosado{
+    background: #fdb295 !important;
+    -webkit-print-color-adjust: exact;
+}}
+@media print{
+td.leyendaCeleste{
+    background: #aceaf7 !important;
+    -webkit-print-color-adjust: exact;
+}}
+@media print{
+td.leyendaAzul{
+    background: #458de2 !important;
+    -webkit-print-color-adjust: exact;
+}}
+@media print{
+div.leyenda{ 
+     font-size:70%;
+     margin-top:0px;
+}}
+@media print{
+div.descripcion{ 
+     font-size:50%;
+}}
+
+
+@media print {
+    td.esperadoBarsit {
+        background-color: rgb(170, 219, 64) !important;
+        color:white;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@media print {
+    td.obtenidoBarsit {
+        background-color: rgb(34, 107, 6) !important;
+        color:white;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@media print {
+    td.obtenidoBarsit h4 {
+        color:white;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@media print {
+    td.esperadoMonedas1 {
+        background-color: rgb(47, 126, 216) !important;
+        color:white;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@media print {
+    td.obtenidoMonedas1 {
+        background-color: rgb(22, 37, 116) !important;
+        color:white;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@media print {
+    td.obtenidoMonedas1 h4 {
+        color:white;
+        -webkit-print-color-adjust: exact;
+    }
+}

@@ -1,0 +1,37 @@
+﻿@model Siscom.Areas.Global.Models.PersonaModels
+<form class="form-horizontal form-border" id="form">
+    <div class="form-group">
+        <div class="col-sm-6">
+            <label class="col-sm-4 control-label">Puesto</label>
+            <div class="col-sm-8 row">
+                <div class="input-group">
+                    @Html.TextBoxFor(m => Model.Puesto.vc_desc_puesto,
+                    new
+                    {
+                        maxLength = "15",
+                        propertyname = "Puesto.vc_desc_puesto",
+                        disabled="disabled",
+                        @class = "form-control"
+                    })
+
+                    <span class="input-group-btn">
+                        <button id="buscarBtn" type="button" class="btn btn-primary"   onclick="$('#claveCierre').val(''); $('#div_ListaPuestoGrilla').html('');BuscarPuesto(1);"> 
+                            <i class="fa fa-search icon-on-right bigger-120"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div hidden="hidden">
+            <div>
+                @Html.TextBoxFor(m => Model.Puesto.nu_id_puesto,
+                new
+                {
+                    propertyname = "Puesto.nu_id_puesto",
+                    disabled="disabled", 
+                    @class = "form-control"
+                })
+            </div>
+       </div>
+    </div>
+</form>

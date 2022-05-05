@@ -1,0 +1,101 @@
+﻿@model Siscom.Areas.Global.Models.PersonaModels
+
+<style type="text/css">
+    #container, #sliders
+    {
+        min-width: 310px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    #container1
+    {
+        height: 400px;
+    }
+
+</style>
+
+<script type="text/javascript">
+
+    var NombreMes = []
+    var NumCandidatos = [];
+</script>
+
+@if (Model.ls_histo_candidatos != null && Model.ls_histo_candidatos.Count > 0)
+{
+    foreach (var item in Model.ls_histo_candidatos)
+    { 
+        <script type="text/javascript">
+            NombreMes[NombreMes.length] = "@item.mes_reg";
+            NumCandidatos[NumCandidatos.length] = parseInt("@item.cant_candidatos");
+        </script>
+    }
+}
+
+<script src="~/Scripts/Sistemas/jquerydb.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        Load1();
+    });
+
+    function Load1() {
+        var chart = new Highcharts.Chart({
+            chart: {
+                renderTo: 'container1',
+                type: 'areaspline',
+            },
+            title: {
+                text: '<strong>HISTORICO DE CANDIDATOS</strong>'
+            },
+            subtitle: {
+                floating: true,
+                align: 'right',
+                verticalAlign: 'bottom',
+            },
+            xAxis: {
+                categories: NombreMes,
+                labels: {
+                    style: {
+                        fontSize: '13px',
+                    }
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '# CANDIDATOS'
+                },
+                tickInterval: 1
+            },
+            plotOptions: {
+                line: {
+                    dataLabels: {
+                        enabled: true
+                    },
+                    enableMouseTracking: true
+                }
+            },
+            series: [{
+                name: 'Candidatos evaluados',
+                data: NumCandidatos
+            }]
+        });
+    }
+</script>
+<script src="~/Recursos/Db/js/highcharts.js"></script>
+<script src="~/Recursos/Db/js/highcharts-more.js"></script>
+<script src="~/Recursos/Db/js/modules/exporting.js"></script>
+<script src="~/Recursos/Db/js/modules/solid-gauge.js"></script>
+<script src="~/Recursos/Db/js/highcharts-3d.js"></script>
+<!-- Content wraper -->
+  
+<table style="margin:auto">
+    <tr>
+        <td style="width: 450px">
+            <div class="col-sm-6">
+                <div id="container1" style="width: 450px"></div>
+            </div>
+        </td>
+    </tr>
+</table>
+<!-- /Content wraper-->

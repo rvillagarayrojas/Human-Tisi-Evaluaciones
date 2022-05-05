@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Siscom.Service</name>
+    </assembly>
+    <members>
+        <member name="M:Siscom.Service.Controllers.ClienteController.Post(Siscom.Entity.Global.ClienteBE)">
+            <summary>
+              Obtener clientes por filtros
+            </summary>
+            <remarks>Obtener clientes por filtros</remarks> 
+        </member>
+    </members>
+</doc>

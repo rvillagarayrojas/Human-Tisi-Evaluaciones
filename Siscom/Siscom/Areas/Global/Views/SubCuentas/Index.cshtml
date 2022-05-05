@@ -1,0 +1,373 @@
+﻿@using Siscom.Models
+
+@model Siscom.Areas.Global.Models.SubCuentasModels
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Home/Principal.cshtml";
+}
+
+<div class="pageheader">
+    <!--Region Cabecera de la Pagina-->
+    <h1>Registro de usuarios</h1>
+    <div>
+        <span class="label" style="color:rgb(144, 157, 163);padding:0px">USTED ESTÁ AQUÍ: </span>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#">Usuarios</a>
+            </li>
+            <li>
+                <a href="../../Global/SubCuentas/Index" class="active">Nuevo usuario</a>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<section id="main-content" class="animated fadeInUp">
+    <div id="DatosForm">
+        <!--Region Panel (Filtros)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Datos de la sub-cuenta</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-horizontal form-border" role="form">
+
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Cuenta
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.SubCuenta.vc_desc_cuenta,
+                                        new
+                                        {
+                                            maxLength = "100",
+                                            propertyname = "SubCuenta.vc_desc_cuenta",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Alias
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        <p>
+                                       @Html.TextBoxFor(m => Model.SubCuenta.vc_desc_sub_cuenta,
+                                        new
+                                        {
+                                            maxLength = "50",
+                                            propertyname = "SubCuenta.vc_desc_sub_cuenta",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase"
+                                        })
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--Region Panel (Persona)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Datos de la persona contacto</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-horizontal form-border" role="form">
+                           <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Nombres
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.SubCuenta.vc_nombres,
+                                        new
+                                        {
+                                            maxLength = "50",
+                                            propertyname = "SubCuenta.vc_nombres",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase"
+                                        })
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Apellidos
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        <p>
+                                       @Html.TextBoxFor(m => Model.SubCuenta.vc_apellidos,
+                                        new
+                                        {
+                                            maxLength = "50",
+                                            propertyname = "SubCuenta.vc_apellidos",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase"
+                                        })
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                 <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                       D.N.I.
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.SubCuenta.vc_doc_identi,
+                                        new
+                                        {
+                                            maxLength = "8",
+                                            propertyname = "SubCuenta.vc_doc_identi",
+                                            @class = "form-control",
+                                            onkeypress="return OnlyNumeric(event)"
+                                        })
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Cargo
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.SubCuenta.vc_cargo,
+                                        new
+                                        {
+                                            maxLength = "50",
+                                            propertyname = "SubCuenta.vc_cargo",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase"
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Dirección E-mail
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        <p>
+                                       @Html.TextBoxFor(m => Model.SubCuenta.vc_direccion_email_usuario,
+                                        new
+                                        {
+                                            maxLength = "50",
+                                            propertyname = "SubCuenta.vc_direccion_email_usuario",
+                                            @class = "form-control",
+                                            style="text-transform :lowercase"
+                                        })
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                       Nro telefónico
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.SubCuenta.vc_telefono_usuario,
+                                        new
+                                        {
+                                            maxLength = "9",
+                                            propertyname = "SubCuenta.vc_telefono_usuario",
+                                            @class = "form-control",
+                                            onkeypress="return OnlyNumeric(event)"
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+                              <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Sexo
+                                    </label>
+                                      <div class="col-sm-4 row">
+                                     @Html.RadioButtonFor(m => Model.SubCuenta.ch_sexo, true, new { @checked = "checked", dato = "M" })
+                                        <label class="control-label">Masculino </label> 
+                                        
+                                    </div>
+                                    <div class="col-sm-4 row">
+                                     @Html.RadioButtonFor(m => Model.SubCuenta.ch_sexo, false, new { dato = "F" })
+                                        <label class="control-label">Femenino</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   
+ <!--Region Botones-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-body text-center">
+                    <button id="guardarBtn" type="button" class="btn btn-success" 
+                        onclick="Guardar()">
+                        <i class="fa  fa-save"></i> Guardar
+                    </button>                    
+                   
+                        <button id="cancelarBtn" type="button" class="btn btn-default" 
+                            onclick="Cancelar()">
+                            <i class="fa fa-reply"></i> Cancelar
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Modal para mensajes-->
+<div class="modal fade" id="ModalSave" style="overflow: scroll;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="myModalLabel" style="color:#0D588E">Mensaje de registro de usuarios</h3>
+            </div>
+            <div class="modal-body" id="SaveMensaje">
+            </div>
+            <div class="text-center">
+                <hr /><button id="btnMensaje" type="button" class="btn btn-primary" onclick="$('#ModalSave').modal('hide');">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+@Styles.Render("~/plugins/dataTablesCSS")
+}
+
+<!--Load these page level functions-->
+@section Scripts {
+    @Scripts.Render("~/plugins/dataTables")
+    @Scripts.Render("~/plugins/dataTables-bootstrap")
+    @Scripts.Render("~/plugins/maskedinput")
+
+
+    <script type="text/javascript" src="~/Scripts/plugins/datetimepicker/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="~/Scripts/plugins/datetimepicker/locales/bootstrap-datetimepicker.es.js" charset="UTF-8"></script>
+    <link href="~/Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="~/Scripts/plugins/blockUI/js/jquery.blockUI.js" charset="UTF-8"></script>
+    <script src="~/Scripts/jquery.number.js"></script>
+    <script src="~/Scripts/jquery.number.min.js"></script>
+
+<script type="text/javascript">  
+    $(document).ready(function () {
+        
+    });
+   
+
+    function OnlyNumeric(e) {
+        if ((e.which < 48 || e.which > 57)) {
+            if (e.which == 8 || e.which == 46 || e.which == 0) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+    }
+    function Guardar() {
+        var statusVal = true;
+        var resumen = "";
+        if ($('#SubCuenta_vc_desc_sub_cuenta').val() == "") {
+            resumen = resumen + '<li>Debe ingresar un alias. </li>';
+            statusVal = false;
+        }
+        if ($('#SubCuenta_vc_nombres').val() == "") {
+            resumen = resumen + '<li>Debe indicar el nombre de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#SubCuenta_vc_apellidos').val() == "") {
+            resumen = resumen + '<li>Debe indicar el apellido de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#SubCuenta_vc_doc_identi').val() == "") {
+            resumen = resumen + '<li>Debe indicar el número de DNI de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#SubCuenta_vc_cargo').val() == "") {
+            resumen = resumen + '<li>Debe indicar el cargo de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#SubCuenta_vc_direccion_email_usuario').val() == "") {
+            resumen = resumen + '<li>Debe indicar el email de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#SubCuenta_vc_telefono_usuario').val() == "") {
+            resumen = resumen + '<li>Debe indicar el telefono de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#SubCuenta_ch_sexo').val() == "") {
+            resumen = resumen + '<li>Debe seleccionar un tipo de sexo. </li>';
+            statusVal = false;
+        }
+        if (!statusVal) {
+            $("#SaveMensaje").html("<ol>" + resumen + "</ol>");
+            $("#ModalSave").modal('show');
+            return false;
+        }
+
+        var SubCuenta = {
+            vc_desc_sub_cuenta: $('#SubCuenta_vc_desc_sub_cuenta').val().toUpperCase(),
+
+            vc_nombres: $('#SubCuenta_vc_nombres').val().toUpperCase(),
+            vc_apellidos: $('#SubCuenta_vc_apellidos').val().toUpperCase(),
+            ch_sexo: $("input[name='SubCuenta.ch_sexo']:checked").attr('dato'),
+            vc_direccion_email_usuario: $('#SubCuenta_vc_direccion_email_usuario').val(),
+            vc_doc_identi: $('#SubCuenta_vc_doc_identi').val(),
+            vc_telefono_usuario: $('#SubCuenta_vc_telefono_usuario').val(),
+            vc_cargo: $('#SubCuenta_vc_cargo').val().toUpperCase(),
+            vc_cod_usuario: "000" + $('#SubCuenta_vc_doc_identi').val(),
+            vc_password: $('#SubCuenta_vc_doc_identi').val(),
+        }
+        var Model = new Object();
+        Model.SubCuenta = SubCuenta;
+        $("#guardarBtn").attr('disabled', 'disabled');
+        $("#SaveMensaje").html('<i class="fa fa-refresh" style="color:green"></i> Registrando al usuario espere un momento...');
+        $("#ModalSave").modal('show');
+        $.ajax({
+            type: "POST",
+            url: GetControllerUrl("Guardar", "SubCuentas"),
+            data: Model,
+            success: function (resultado) {
+                if (resultado.message == "go") {
+
+                    $("#SaveMensaje").html('<i class="fa  fa-check" style="color:green"></i> Se registro al usuario <strong>' + $('#SubCuenta_vc_desc_sub_cuenta').val().toUpperCase() + '</strong> satisfactoriamente.');
+                    /*Despues de registrar este evento permite redireccionar la pagina*/
+                    $('#ModalSave').on('hidden.bs.modal', function () {
+                        window.location.href = GetControllerUrl("Index", "SubCuentas");
+                    });
+                }
+                else {
+                    $("#guardarBtn").removeAttr('disabled');
+                    $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo el registro del usuario: <br> <strong>' + resultado.message + '</strong>');
+                }
+            }
+        });
+    }
+    function Cancelar() {
+        window.location.href = GetControllerUrl("Index", "SubCuentas");
+    }
+</script>
+}

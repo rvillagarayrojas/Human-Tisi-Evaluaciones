@@ -1,0 +1,10 @@
+﻿@model Siscom.Areas.Global.Models.PuestoModels
+
+ @Html.DropDownListFor(m => m.Puesto.nu_id_subcuenta, Model.ListaSubCuenta,
+                                        new 
+                                        { 
+                                            propertyname = "Puesto.nu_id_subcuenta", 
+                                            @class = "form-control", 
+                                            onchange = "Buscar()"
+                                            
+                                        })

@@ -1,0 +1,43 @@
+﻿@model Siscom.Areas.Global.Models.PuestoModels
+
+
+<table id="DetalleSolicitudTable1" class="table table-striped table-bordered table-hover table-condensed " cellspacing="0">
+    <thead style="background-color:#2f3292; color:white">
+        <tr>
+            <th class="text-center" hidden="hidden"><p>ID_PUESTO</p></th>
+            <th class="text-center" hidden="hidden"><p>ID_USUARIO</p></th>
+            <th class="text-center"><p>DNI</p></th>
+            <th class="text-center"><p>DATOS DEL CANDIDATO</p></th>
+            <th class="text-center"><p>DIRECCIÓN E-MAIL</p></th>
+            <th class="text-center"><p>TELEFONO</p></th>
+            <th class="text-center"><p>USUARIO</p></th>
+            <th class="text-center"><p>CONTRASEÑA</p></th>
+            <th class="text-center"><p>ACCION</p></th>
+        </tr>
+    </thead>
+
+    
+  <tbody id="itemsDetalle1">
+    @if (Model.ListaCandidatos_Asignadas != null)
+    {
+        foreach (var item in Model.ListaCandidatos_Asignadas)
+        { 
+            <tr id="@(item.nu_id_puesto+""+item.nu_id_usuario)">              
+                <td hidden="hidden"><p>@(item.nu_id_puesto)</p></td>
+                <td class="text-center" hidden="hidden"><p>@(item.nu_id_usuario)</p></td>
+                <td class="text-center"><p>@(item.vc_doc_identi)</p></td>
+                <td class="text-center"><b><p>@(item.vc_nombres+' '+ item.vc_apellidos)</p></b></td>
+                <td class=""><p>@(item.vc_direccion_email_usuario)</p></td>
+                <td class="text-center"><p>@(item.vc_telefono_usuario)</p></td>
+                <td class="text-center"><p>@(item.vc_cod_usuario)</p></td>
+                <td class="text-center"><p>@(item.vc_password)</p></td>
+                <td class="text-center">
+                    <button id="Ver" title="Eliminar"  type="button" class="btn btn-danger" onclick="Actualizar(@item.nu_id_puesto,@item.nu_id_usuario);">
+                        <i class="fa fa-remove"></i>
+                    </button>    
+                </td>
+            </tr>
+        }
+    }                                        
+    </tbody>
+ </table>

@@ -1,0 +1,613 @@
+﻿@using Siscom.Models
+
+@model Siscom.Areas.Global.Models.CuentaModels
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Home/Principal.cshtml";
+}
+
+<div class="pageheader">
+    <!--Region Cabecera de la Pagina-->
+    <h1>Registro de Cuentas</h1>
+    <div>
+        <span class="label" style="color:rgb(144, 157, 163);padding:0px">USTED ESTÁ AQUÍ: </span>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#">Cuenta</a>
+            </li>
+            <li>
+                <a href="../../Global/Cuenta/Index" class="active">Nueva cuenta</a>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<section id="main-content" class="animated fadeInUp">
+    <div id="DatosForm">
+        <!--Region Panel (Filtros)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Datos de la cuenta</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-horizontal form-border" role="form">
+
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        R.U.C
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.Cuenta.vc_ruc,
+                                        new
+                                        {
+                                            maxLength = "11",
+                                            propertyname = "Cuenta.vc_ruc",
+                                            @class = "form-control",
+                                            onkeypress="return OnlyNumeric(event)"
+                                        })
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Razon Social
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        <p>
+                                       @Html.TextBoxFor(m => Model.Cuenta.vc_desc_cuenta,
+                                        new
+                                        {
+                                            maxLength = "50",
+                                            propertyname = "Cuenta.vc_desc_cuenta",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase"
+                                        })
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Dirección
+                                    </label>
+                                      <div class="col-sm-7 row">
+                                      @Html.TextBoxFor(m => Model.Cuenta.vc_direccion,
+                                        new
+                                        {
+                                            maxLength = "100",
+                                            propertyname = "Cuenta.vc_direccion",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase"
+                                        })
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                       Dirección E-mail
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                      @Html.TextBoxFor(m => Model.Cuenta.vc_direccion_email,
+                                        new
+                                        {
+                                            maxLength = "100",
+                                            propertyname = "Cuenta.vc_direccion_email",
+                                            @class = "form-control"
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                       Nro telefónico
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.Cuenta.vc_telefono,
+                                        new
+                                        {
+                                            maxLength = "9",
+                                            propertyname = "Cuenta.vc_telefono",
+                                            @class = "form-control",
+                                            onkeypress="return OnlyNumeric(event)"
+                                        })
+                                    </div>
+                                </div>
+
+
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                       ChatBot KEY
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                       @Html.TextBoxFor(m => Model.Cuenta.vc_chatbot_key,
+                                        new
+                                        {
+                                            propertyname = "Cuenta.vc_chatbot_key",
+                                            @class = "form-control"
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--Region Panel (Persona)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Datos de la persona contacto</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-horizontal form-border" role="form">
+                           <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Nombres
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.Cuenta.vc_nombres,
+                                        new
+                                        {
+                                            maxLength = "50",
+                                            propertyname = "Cuenta.vc_nombres",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase"
+                                        })
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Apellidos
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        <p>
+                                       @Html.TextBoxFor(m => Model.Cuenta.vc_apellidos,
+                                        new
+                                        {
+                                            maxLength = "50",
+                                            propertyname = "Cuenta.vc_apellidos",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase"
+                                        })
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                 <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                       D.N.I.
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.Cuenta.vc_doc_identi,
+                                        new
+                                        {
+                                            maxLength = "8",
+                                            propertyname = "Cuenta.vc_doc_identi",
+                                            @class = "form-control",
+                                            onkeypress="return OnlyNumeric(event)"
+                                        })
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Cargo
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.Cuenta.vc_cargo,
+                                        new
+                                        {
+                                            maxLength = "50",
+                                            propertyname = "Cuenta.vc_cargo",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase"
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Dirección E-mail
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                        <p>
+                                       @Html.TextBoxFor(m => Model.Cuenta.vc_direccion_email_usuario,
+                                        new
+                                        {
+                                            maxLength = "50",
+                                            propertyname = "Cuenta.vc_direccion_email_usuario",
+                                            @class = "form-control",
+                                            style="text-transform :lowercase"
+                                        })
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                       Nro telefónico
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.Cuenta.vc_telefono_usuario,
+                                        new
+                                        {
+                                            maxLength = "9",
+                                            propertyname = "Cuenta.vc_telefono_usuario",
+                                            @class = "form-control",
+                                            onkeypress="return OnlyNumeric(event)"
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+                              <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Sexo
+                                    </label>
+                                      <div class="col-sm-4 row">
+                                     @Html.RadioButtonFor(m => Model.Cuenta.ch_sexo, true, new { @checked = "checked", dato = "M" })
+                                        <label class="control-label">Masculino </label> 
+                                        
+                                    </div>
+                                    <div class="col-sm-4 row">
+                                     @Html.RadioButtonFor(m => Model.Cuenta.ch_sexo, false, new { dato = "F" })
+                                        <label class="control-label">Femenino</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--Region Panel (Contrato)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Datos del contrato</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-horizontal form-border" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                      Tiempo de contrato
+                                    </label>
+                                    <div class="col-sm-4 row">
+                                     @Html.TextBoxFor(m => Model.Cuenta.nu_tiempo_duracion,
+                                        new
+                                        {
+                                            maxLength = "5",
+                                            propertyname = "Cuenta.nu_tiempo_duracion",
+                                            @class = "form-control",
+                                            @onchange = "FechaFinal()"
+                                        })
+                                    
+                                    </div>
+                                    <label class="col-sm-2 control-label">
+                                        meses
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                     <label class="col-sm-4 control-label">
+                                        Fecha de inicio
+                                    </label>
+                                    <div class="col-sm-6 input-group date" id="FecIniDt" data-date-format="dd MM yyyy" data-link-format="yyyy-mm-dd">
+                                        <p>
+                                            @Html.TextBoxFor(m => Model.Cuenta.dt_fecha_inicio, String.Format("{0:MM/dd/yyyy}", Model.Cuenta.dt_fecha_inicio),
+                                            new
+                                            {
+                                                type = "text",
+                                                propertyname = "Cuenta.dt_fecha_inicio",
+                                                @class = "form-control",
+                                                @onchange = "FechaFinal()"
+
+                                            })
+                                        </p>
+                                        <div class="input-group-addon">
+                                            <span class="glyphicon glyphicon-calendar"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                       Fecha de fin
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     @Html.TextBoxFor(m => Model.Cuenta.dt_fecha_fin,
+                                        new
+                                        {
+                                            maxLength = "11",
+                                            propertyname = "Cuenta.dt_fecha_fin",
+                                            @class = "form-control",
+                                            disabled = "disabled"
+                                           
+                                        })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--Region Panel (Contrato)-->
+        <div hidden="hidden" class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Personalización de cuenta</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-horizontal form-border" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <label class="col-sm-4 control-label">
+                                      Cargar imagen de personalización
+                                    </label>
+                                    <div class="col-sm-4 control-label">
+                                        <input type="file" id="fileInput2" style="color:transparent" onchange="LoadMasivoProducto2(this.files[0])"/>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+ <!--Region Botones-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-body text-center">
+                    <button id="guardarBtn" type="button" class="btn btn-success" 
+                        onclick="Guardar()">
+                        <i class="fa  fa-save"></i> Guardar
+                    </button>                    
+                   
+                        <button id="cancelarBtn" type="button" class="btn btn-default" 
+                            onclick="Cancelar()">
+                            <i class="fa fa-reply"></i> Cancelar
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Modal para mensajes-->
+<div class="modal fade" id="ModalSave" style="overflow: scroll;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="myModalLabel" style="color:#0D588E">Mensaje de registros de cuentas</h3>
+            </div>
+            <div class="modal-body" id="SaveMensaje">
+            </div>
+            <div class="text-center">
+                <hr /><button id="btnMensaje" type="button" class="btn btn-primary" onclick="$('#ModalSave').modal('hide');">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+@Styles.Render("~/plugins/dataTablesCSS")
+}
+
+<!--Load these page level functions-->
+@section Scripts {
+    @Scripts.Render("~/plugins/dataTables")
+    @Scripts.Render("~/plugins/dataTables-bootstrap")
+    @Scripts.Render("~/plugins/maskedinput")
+
+
+    <script type="text/javascript" src="~/Scripts/plugins/datetimepicker/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="~/Scripts/plugins/datetimepicker/locales/bootstrap-datetimepicker.es.js" charset="UTF-8"></script>
+    <link href="~/Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="~/Scripts/plugins/blockUI/js/jquery.blockUI.js" charset="UTF-8"></script>
+    <script src="~/Scripts/jquery.number.js"></script>
+    <script src="~/Scripts/jquery.number.min.js"></script>
+
+<script type="text/javascript">  
+    $(document).ready(function () {
+        datetimepicker('#FecIniDt');
+        datetimepicker('#FecFinDt');
+    });
+
+    function datetimepicker(identifier) {
+        $(identifier).datetimepicker({
+            language: 'es',
+            weekStart: 1,
+            todayBtn: 1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            minView: 2,
+            forceParse: 0,
+            format: 'mm/dd/yyyy'
+        });
+    }
+
+    function OnlyNumeric(e) {
+        if ((e.which < 48 || e.which > 57)) {
+            if (e.which == 8 || e.which == 46 || e.which == 0) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+    }
+    
+    function FechaFinal() {
+        var fecha = new Date($('#Cuenta_dt_fecha_inicio').val());
+        dia = fecha.getDate();
+        mes = fecha.getMonth() + 1;
+        anio = fecha.getFullYear();
+        tiempo = $('#Cuenta_nu_tiempo_duracion').val();
+        addTime = tiempo * 1; //Tiempo en meses
+        fecha.setMonth(fecha.getMonth() + addTime);
+        dia1 = fecha.getDate();
+        mes1 = (fecha.getMonth() + 1);
+        anio1 = fecha.getFullYear();
+        if (dia < 10) dia = '0' + dia;
+        if (mes < 10) mes = '0' + mes;
+        if (dia1 < 10) dia1 = '0' + dia1;
+        if (mes1 < 10) mes1 = '0' + mes1; 
+        fecha_texto = dia + "/" + mes + "/" + anio;
+        fecha_texto1 = dia1 + "/" + mes1 + "/" + anio1;
+        if (fecha_texto == "NaN/NaN/NaN" || tiempo =="") {
+            $('#Cuenta_dt_fecha_fin').val("");
+            $('#Cuenta_dt_fecha_inicio').val("");
+        }
+        else {
+            $('#Cuenta_dt_fecha_fin').val(fecha_texto1);
+            $('#Cuenta_dt_fecha_inicio').val(fecha_texto);
+        }
+    }
+
+    function Guardar() {
+        var statusVal = true;
+        var resumen = "";
+        if ($('#Cuenta_vc_desc_cuenta').val() == "") {
+            resumen = resumen + '<li>Debe ingresar la razón social. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_vc_ruc').val() == "") {
+            resumen = resumen + '<li>Debe ingresar un numero de RUC. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_vc_telefono').val() == "") {
+            resumen = resumen + '<li>Debe ingresar el teléfono de contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_vc_direccion_email').val() == "") {
+            resumen = resumen + '<li>Debe ingresar el correo electrónico de la cuenta. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_nu_tiempo_duracion').val() == "") {
+            resumen = resumen + '<li>Debe ingresar los meses de duración del contrato. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_dt_fecha_inicio').val() == "") {
+            resumen = resumen + '<li>Debe indicar la fecha de inicio del contrato. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_vc_nombres').val() == "") {
+            resumen = resumen + '<li>Debe indicar el nombre de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_vc_apellidos').val() == "") {
+            resumen = resumen + '<li>Debe indicar el apellido de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_vc_doc_identi').val() == "") {
+            resumen = resumen + '<li>Debe indicar el número de DNI de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_vc_cargo').val() == "") {
+            resumen = resumen + '<li>Debe indicar el cargo de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_vc_direccion_email_usuario').val() == "") {
+            resumen = resumen + '<li>Debe indicar el email de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_vc_telefono_usuario').val() == "") {
+            resumen = resumen + '<li>Debe indicar el telefono de la persona contacto. </li>';
+            statusVal = false;
+        }
+        if ($('#Cuenta_ch_sexo').val() == "") {
+            resumen = resumen + '<li>Debe seleccionar un tipo de sexo. </li>';
+            statusVal = false;
+        }
+        if (!statusVal) {
+            $("#SaveMensaje").html("<ol>" + resumen + "</ol>");
+            $("#ModalSave").modal('show');
+            return false;
+        }
+
+        var Cuenta = {
+            vc_desc_cuenta: $('#Cuenta_vc_desc_cuenta').val().toUpperCase(),
+            vc_ruc: $('#Cuenta_vc_ruc').val(),
+            vc_direccion: $('#Cuenta_vc_direccion').val().toUpperCase(),
+            vc_direccion_email: $('#Cuenta_vc_direccion_email').val(),
+            vc_telefono: $('#Cuenta_vc_telefono').val(),
+            nu_tiempo_duracion: $('#Cuenta_nu_tiempo_duracion').val(),
+            dt_fecha_inicio: $('#Cuenta_dt_fecha_inicio').val(),
+            dt_fecha_fin: $('#Cuenta_dt_fecha_fin').val(),
+        
+            vc_nombres: $('#Cuenta_vc_nombres').val().toUpperCase(),
+            vc_apellidos: $('#Cuenta_vc_apellidos').val().toUpperCase(),
+            ch_sexo: $("input[name='Cuenta.ch_sexo']:checked").attr('dato'),
+            vc_direccion_email_usuario: $('#Cuenta_vc_direccion_email_usuario').val(),
+            vc_doc_identi: $('#Cuenta_vc_doc_identi').val(),
+            vc_telefono_usuario: $('#Cuenta_vc_telefono_usuario').val(),
+            vc_cargo: $('#Cuenta_vc_cargo').val().toUpperCase(),
+            vc_cod_usuario: "000" + $('#Cuenta_vc_doc_identi').val(),
+            vc_password: $('#Cuenta_vc_doc_identi').val(),
+            nu_id_perfil: $('#Cuenta_nu_id_perfil').val(),
+            nu_id_puesto: $('#Cuenta_nu_id_puesto').val(),
+            vc_chatbot_key: $('#Cuenta_vc_chatbot_key').val(),
+        }
+        var Model = new Object();
+        Model.Cuenta = Cuenta;
+        $("#guardarBtn").attr('disabled', 'disabled');
+        $("#SaveMensaje").html('<i class="fa fa-refresh" style="color:green"></i> Registrando la cuenta espere un momento...');
+        $("#ModalSave").modal('show');
+        $.ajax({
+            type: "POST",
+            url: GetControllerUrl("Guardar", "Cuenta"),
+            data: Model,
+            success: function (resultado) {
+                if (resultado.message == "go") {
+
+                    $("#SaveMensaje").html('<i class="fa  fa-check" style="color:green"></i> Se registro la cuenta <strong>' + $('#Cuenta_vc_ruc').val() + '</strong> satisfactoriamente.');
+                    /*Despues de registrar este evento permite redireccionar la pagina*/
+                    $('#ModalSave').on('hidden.bs.modal', function () {
+                        window.location.href = GetControllerUrl("Index", "Cuenta");
+                    });
+                }
+                else {
+                    $("#guardarBtn").removeAttr('disabled');
+                    $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo el registro de la cuenta: <br> <strong>' + resultado.message + '</strong>');
+                }
+            }
+        });
+    }
+    function Cancelar() {
+        window.location.href = GetControllerUrl("Index", "Cuenta");
+    }
+</script>
+}

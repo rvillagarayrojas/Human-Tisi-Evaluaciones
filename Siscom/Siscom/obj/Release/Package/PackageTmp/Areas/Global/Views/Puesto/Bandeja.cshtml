@@ -1,0 +1,297 @@
+﻿@using Siscom.Models
+
+@model Siscom.Areas.Global.Models.PuestoModels
+
+@{
+    ViewBag.Title = "Bandeja";
+    Layout = "~/Views/Home/Principal.cshtml";
+}
+
+<div class="pageheader">
+    <!--Region Cabecera de la Pagina-->
+    <h1>Bandeja de puesto</h1>
+    <div>
+        <span class="label" style="color:rgb(144, 157, 163);padding:0px">USTED ESTÁ AQUÍ: </span>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#">Puesto</a>
+            </li>
+            <li>
+                <a href="../../Global/Puesto/Bandeja" class="active">Puesto</a>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<section id="main-content" class="animated fadeInUp">
+<!--Region Botones-->
+    <div class="row">
+        <div class="col-xs-12">
+           <div class="panel panel-default">                          
+                <div class="panel-body text-left">
+                    <button id="buscarBtn" type="button" class="btn btn-search btn-sm"
+                        onclick="Buscar();">
+                        <i class="fa fa-search"></i> Buscar
+                    </button>  
+                                     
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="DatosForm">
+  <!--Region Panel (Filtros)-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Buscar por</h3>
+                        <div class="actions pull-right">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+
+                    <div class="panel-body">
+                        <div class="form-horizontal form-border" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Cuenta
+                                    </label>
+                                      <div class="col-sm-7 row">
+                                        @Html.TextBoxFor(m => Model.Puesto.vc_desc_cuenta,
+                                        new
+                                        {
+                                            maxLength = "100",
+                                            propertyname = "Puesto.vc_desc_cuenta",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase",
+                                            disabled = "disabled"
+                                        })
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Sub-cuenta
+                                    </label>
+                                    <div class="col-sm-7 row">
+                                     <div id="div_MostrarSubCuenta">
+                                            @Html.TextBoxFor(m => Model.Puesto.vc_desc_sub_cuenta,
+                                        new
+                                        {
+                                            maxLength = "100",
+                                            propertyname = "Puesto.vc_desc_sub_cuenta",
+                                            @class = "form-control",
+                                            style="text-transform :uppercase",
+                                            disabled = "disabled"
+                                        })
+                                     </div>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</div>
+ <!--Lista de Usuarios-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-body data-toggle="collapse">
+                    <div id="div_ListaSolicitudes" class="table-responsive" style="padding-top:1px">
+                     @Html.Partial("VP_GrillaPuestos", Model)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Modal para mensajes-->
+<div class="modal fade" id="ModalSave" style="overflow: scroll;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="myModalLabel" style="color:#0D588E">Mensaje de busqueda</h3>
+            </div>
+            <div class="modal-body" id="SaveMensaje">
+            </div>
+            <div class="text-center">
+                <hr /><button id="btnMensaje" type="button" class="btn btn-primary" onclick="$('#ModalSave').modal('hide');">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--FIN-->
+
+
+@section Styles {
+@Styles.Render("~/plugins/dataTablesCSS")
+}
+
+<!--Load these page level functions-->
+@section Scripts {
+    @Scripts.Render("~/plugins/dataTables")
+    @Scripts.Render("~/plugins/dataTables-bootstrap")
+    @Scripts.Render("~/plugins/maskedinput")
+
+
+    <script type="text/javascript" src="~/Scripts/plugins/datetimepicker/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="~/Scripts/plugins/datetimepicker/locales/bootstrap-datetimepicker.es.js" charset="UTF-8"></script>
+    <link href="~/Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="~/Scripts/plugins/blockUI/js/jquery.blockUI.js" charset="UTF-8"></script>
+    <script src="~/Scripts/jquery.number.js"></script>
+    <script src="~/Scripts/jquery.number.min.js"></script>
+
+<script type="text/javascript">  
+    $(document).ready(function () {
+        $('#DetalleSolicitudTable').dataTable({
+            "order": [[2, "desc"]]
+        });
+
+        Buscar()
+    });
+    function CargarSubCuenta() {
+        var data = { cuentaid: $('#Puesto_nu_id_cuenta').val() };
+        $.ajax({
+            type: "POST",
+            url: "/Global/Puesto/LoadSubCuenta",
+            data: data,
+            success: function (result) {
+                $('#div_MostrarSubCuenta').html(result);
+            }
+        });
+    }
+
+    function Create(url) {
+        window.location.href = url;
+    }
+    function Buscar() {
+        $("#SaveMensaje").html('<i class="fa  fa-refresh" style="color:green"></i> Buscando puestos, espere un momento...');
+        $("#ModalSave").modal('show');
+        $.ajax({
+            type: 'POST',
+            url: '/Global/Puesto/Buscar',
+            success: function (result) {
+                $('#div_ListaSolicitudes').andSelf().unbind();
+                $('#div_ListaSolicitudes').html(result);
+                if (result.trim() == "") {
+                    $("#SaveMensaje").html('<i class="fa fa-remove" style="color:darkred"></i> No se encontró datos.');
+                    $("#ModalSave").modal('show');
+                }
+                $(document).ready(function () {
+                    $('#DetalleSolicitudTable').dataTable({
+                        "order": [[2, "desc"]]
+                    });
+                });
+                $("#ModalSave").modal('hide');
+            }
+        });
+
+    }
+    /*Asignar Pruebas*/
+    function Select(idPuesto) {
+        window.location.href = GetControllerUrl("Select", "Puesto") + '?idPuesto=' + idPuesto;
+    }
+    /*FIN*/
+
+    /*Ver Pruebas*/
+    function SelectCandidatos(idPuesto) {
+        window.location.href = GetControllerUrl("SelectCandidatos", "Puesto") + '?idPuesto=' + idPuesto;
+    }
+    /*FIN*/
+
+    /*Ver Personal*/
+    function SelectPersonal(idPuesto) {
+        window.location.href = GetControllerUrl("SelectPersonal", "Puesto") + '?idPuesto=' + idPuesto;
+    }
+    /*FIN*/
+
+    /*Actualizacion de usuario*/
+    function Actualizar(idPuesto) {
+        var Model = {
+            idPuesto: idPuesto
+        }
+        $.ajax({
+            type: "POST",
+            url: GetControllerUrl("ActualizarPuestos", "Puesto"),
+            data: Model,
+            success: function (resultado) {
+                if (resultado.message == "go") {
+                    Buscar();
+                }
+                else {
+                    $("#guardarBtn").removeAttr('disabled');
+                    $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo la actualización del puesto: <br><strong>' + resultado.message + '</strong>');
+                }
+            }
+        });
+    }
+
+    /*Actualizacion de usuario*/
+    function ActualizarTipo(idPuesto) {
+        var Model = {
+            idPuesto: idPuesto
+        }
+        $.ajax({
+            type: "POST",
+            url: GetControllerUrl("ActualizarPuestosTipo", "Puesto"),
+            data: Model,
+            success: function (resultado) {
+                if (resultado.message == "go") {
+                    Buscar();
+                }
+                else {
+                    $("#guardarBtn").removeAttr('disabled');
+                    $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo la actualización del puesto: <br><strong>' + resultado.message + '</strong>');
+                }
+            }
+        });
+    }
+
+    function ReporteAnalisis(id) {
+        window.location.href = GetControllerUrl("V_Reporte_Analisis_Brechas", "Puesto") + '?id=' + id;
+    }
+
+    /*Actualizacion de usuario*/
+    function EliminarPuesto(idPuesto) {
+        
+        if (!confirm("¿Está seguro de Eliminar el Puesto?")) {
+            return false;
+        }
+
+        var Model = {
+            idPuesto: idPuesto
+        }
+        console.log(Model)
+        $.ajax({
+            type: "POST",
+            url: GetControllerUrl("EliminarPuesto", "Puesto"),
+            data: Model,
+            success: function (resultado) {
+                console.log(resultado.cod_error)
+                console.log(resultado.descrip_error)
+
+                if (resultado.descrip_error == "go") {
+                    Buscar();                    
+                } else if (resultado.cod_error == 0) {
+                    $("#guardarBtn").removeAttr('disabled');
+                    $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo la eliminación del puesto: <br><strong>' + resultado.descrip_error + '</strong>');
+                    $("#ModalSave").modal('show');
+                }
+                else {
+                    $("#guardarBtn").removeAttr('disabled');
+                    $("#SaveMensaje").html('<i class="fa  fa-remove" style="color:darkred"></i> No se completo la actualización del puesto: <br><strong>' + resultado.descrip_error + '</strong>');
+                    $("#ModalSave").modal('show');
+                }
+            }
+        });
+    }
+</script>
+}
