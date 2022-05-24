@@ -660,4 +660,7 @@ D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Sisco
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Release\Siscom.Service.dll
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Release\Siscom.Service.pdb
-D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Release\Siscom.Service.csprojResolveAssemblyReference.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\bin\Siscom.Service.dll.config
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Release\Siscom.Service.csproj.AssemblyReference.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Release\Siscom.Service.csproj.CoreCompileInputs.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Release\Siscom.Service.csproj.CopyComplete

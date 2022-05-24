@@ -121,8 +121,12 @@ namespace Siscom.Data.Persona
                 db.AddInParameter(cmd, "@NU_ID_SUBCUENTA", DbType.Decimal, oItem.nu_id_subcuenta);
                 db.AddInParameter(cmd, "@NU_ID_PUESTO", DbType.Decimal, oItem.nu_id_puesto);
                 db.AddInParameter(cmd, "@VC_CRITERIO", DbType.Decimal, oItem.vc_criterio);
-                db.AddInParameter(cmd, "@DT_FEC_INICIO", DbType.DateTime, oItem.dt_fec_inicio.Value.ToShortDateString());
-                db.AddInParameter(cmd, "@DT_FEC_FIN", DbType.DateTime, oItem.dt_fec_fin.Value.ToShortDateString());
+                db.AddInParameter(cmd, "@DT_FEC_INICIO", DbType.DateTime, oItem.dt_fec_inicio);
+                db.AddInParameter(cmd, "@DT_FEC_FIN", DbType.DateTime, oItem.dt_fec_fin);
+                db.AddInParameter(cmd, "@CRITERIO", DbType.String, oItem.vc_criterio);
+                db.AddInParameter(cmd, "@NOMBRES", DbType.String, oItem.vc_nombres);
+                db.AddInParameter(cmd, "@NUM_DOCUMENTO", DbType.String, oItem.vc_doc_identi);
+
                 using (IDataReader oR = db.ExecuteReader(cmd))
                 {
                     return MapDataReaderToList(oR,1);

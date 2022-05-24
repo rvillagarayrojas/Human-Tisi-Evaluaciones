@@ -91,9 +91,9 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 ">
                                     <label class="col-sm-4 control-label">
-                                        Fecha de inicio
+                                        <input type="checkbox" class="form-check-input" checked="checked" id="chkFechas" /> Fecha de inicio
                                     </label>
                                     <div class="col-sm-6 input-group date" id="FecIniDt" data-date-format="dd MM yyyy" data-link-format="yyyy-mm-dd">
                                         <p>
@@ -132,13 +132,40 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <div id="div_MotrarDatosPuesto">
-                                    @Html.Partial("VP_Puesto", Model)
+                            <div class="form-group busquedaSinFechas">
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        DNI
+                                    </label>
+                                    <div class="col-sm-6 input-group">
+                                        <p>
+                                            <input type="text" id="Persona_vc_doc_identi" class="form-control" />
+
+                                        </p>
+                                        <span id="span-dni" style="font-size: 11px; color: red"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="col-sm-4 control-label">
+                                        Nombres y Apellidos
+                                    </label>
+                                    <div class="col-sm-6 input-group">
+                                        <p>
+                                            <input type="text" id="Persona_vc_nombres" class="form-control" />
+
+                                        </p>
+                                        <span id="span-nombres" style="font-size: 11px; color: red"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                                <div class="form-group">
+                                    <div id="div_MotrarDatosPuesto">
+                                        @Html.Partial("VP_Puesto", Model)
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
                 </div>
             </div>
@@ -318,6 +345,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             console.log("Ready");
+            
             $('#DetalleSolicitudTable').dataTable({
                 "order": [[3, "desc"]]
             });
@@ -334,8 +362,31 @@
             datetimepicker('#FecIniDt');
             datetimepicker('#FecFinDt');
 
+            $("#chkFechas").prop('checked', true);
+
+            $('#chkFechas').change(function () {
+                console.log("-->",this.checked)
+                if (this.checked) {
+                    $("#Persona_dt_fec_inicio").prop('disabled', false);
+                    $("#Persona_dt_fec_fin").prop('disabled', false);
+                    $(".input-group-addon").show();
+                    $(".busquedaSinFechas").hide()
+                    
+                } else {                    
+                    $("#Persona_dt_fec_inicio").prop('disabled', true);
+                    $("#Persona_dt_fec_fin").prop('disabled', true);
+                    $(".input-group-addon").hide();
+                    $(".busquedaSinFechas").show();
+                }
+            });
+
+            $("#chkFechas").trigger("change");
 
         });
+
+
+
+        
 
         function datetimepicker(identifier) {
             $(identifier).datetimepicker({
@@ -462,6 +513,9 @@
             var puesto = "";
             var fecIni = $('#Persona_dt_fec_inicio').val();
             var fecFin = $('#Persona_dt_fec_fin').val();
+            var nombres = $('#Persona_vc_nombres').val();
+            var doc_identi = $('#Persona_vc_doc_identi').val();
+            var chkTipo = ($("#chkFechas").is(':checked')) ? "1" : "0";
 
             if ($('#Puesto_nu_id_puesto').val() == "") {
                 puesto = -1
@@ -469,6 +523,24 @@
             else {
                 puesto = $('#Puesto_nu_id_puesto').val()
             }
+
+            $('#span-nombres').html("");
+            $('#span-dni').html("");
+
+            if (!$("#chkFechas").is(':checked')) {
+                if ($('#Persona_vc_nombres').val().length > 0) {
+                    if ($('#Persona_vc_nombres').val().length <3) {
+                        $('#span-nombres').html("Ingrese mínimo 3 caracteres")
+                        return false;
+                    }
+                }else
+                if ($('#Persona_vc_doc_identi').val().length <=0) {
+                    $('#span-dni').html("Ingrese el nro. de DNI o nombres y apellidos")
+                    return false;
+                }
+            }
+
+
             $("#SaveMensaje").html('<i class="fa  fa-refresh" style="color:green"></i> Buscando usuarios, espere un momento...');
             $("#ModalSave").modal('show');
 
@@ -478,6 +550,9 @@
                 IdPuesto: puesto,
                 FechaIni: fecIni,
                 FechaFin: fecFin,
+                vc_nombres: nombres,
+                vc_doc_identi: doc_identi,
+                tipo: chkTipo
 
             };
             $.ajax({

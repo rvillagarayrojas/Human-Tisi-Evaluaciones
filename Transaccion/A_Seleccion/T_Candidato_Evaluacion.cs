@@ -433,7 +433,7 @@ namespace Transaccion.A_Seleccion
                                     "</tr>" +
                                     "<tr>" +
                                         "<td colspan=\"2\" style=\"padding: 3px; border-left: 1px solid #A8A4A4; border-right: 1px solid #A8A4A4\">" +
-                                            "<p style=\"font-family:  Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;\">HUMAN SOLUTIONS</p>" +
+                                            "<p style=\"font-family:  Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;\">Test HSMART</p>" +
                                         "</td>" +
                                     "</tr>" +
                                     //"<tr>" +
@@ -450,7 +450,7 @@ namespace Transaccion.A_Seleccion
                                 "<tfoot>" +
                                     "<tr>" +
                                         "<td style=\"background-color:#f6760b; padding: 3px; align:left; border-left: 1px solid #A8A4A4; border-right: 1px solid #A8A4A4\">" +
-                                            "<p style=\"text-align: left; font-size: 14px; font-family:  Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color: White\"><b><i><a style=\"color:white\" href=\"http://www.humansolutions.com.pe\">www.humansolutions.com.pe</a></b></i></p>" +
+                                            "<p style=\"text-align: left; font-size: 14px; font-family:  Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color: White\">&nbsp;</p>" +
                                         "</td>" +
                                     "</tr>" +
                                     "<tr>" +

@@ -291,7 +291,7 @@ namespace Siscom.Areas.Global.Controllers
 
                 model.Persona.nu_id_cuenta = UsuarioSession.Usuario1.nu_id_cuenta;
                 model.Persona.dt_fec_inicio = DateTime.Parse(DateTime.Now.AddDays(-14).ToShortDateString());
-                model.Persona.dt_fec_fin = DateTime.Parse(DateTime.Now.AddDays(1).ToShortDateString());
+                model.Persona.dt_fec_fin = DateTime.Parse(DateTime.Now.AddDays(1).ToShortDateString());                
 
                 return View(model);
             }
@@ -327,7 +327,7 @@ namespace Siscom.Areas.Global.Controllers
 
         }
 
-        public ActionResult Buscar(int IdCuenta, int IdSubCuenta, int IdPuesto, string FechaIni, string FechaFin)
+        public ActionResult Buscar(int IdCuenta, int IdSubCuenta, int IdPuesto, string FechaIni, string FechaFin,string tipo, string vc_nombres, string vc_doc_identi)
         {
             /*open>>> Información: Código de identificación estándar */
             Decimal? Idns = 40004;
@@ -342,8 +342,14 @@ namespace Siscom.Areas.Global.Controllers
                 Persona.nu_id_cuenta    = IdCuenta;
                 Persona.nu_id_subcuenta = IdSubCuenta;
                 Persona.nu_id_puesto    = IdPuesto;
-                Persona.dt_fec_inicio   = Convert.ToDateTime(FechaIni);
-                Persona.dt_fec_fin      = Convert.ToDateTime(FechaFin);
+                if (tipo == "1") {
+                    Persona.dt_fec_inicio = Convert.ToDateTime(FechaIni);
+                    Persona.dt_fec_fin = Convert.ToDateTime(FechaFin);
+                } else if (tipo == "0") {
+                    Persona.vc_nombres = vc_nombres;
+                    Persona.vc_doc_identi = vc_doc_identi;
+                }
+                Persona.vc_criterio = tipo;
                 Persona.opcion          = 0;
                 if (Persona.nu_id_puesto == -1)
                 {

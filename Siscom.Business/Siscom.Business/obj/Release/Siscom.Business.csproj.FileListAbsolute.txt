@@ -179,4 +179,6 @@ D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Sisc
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Release\Siscom.Business.dll
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Release\Siscom.Business.pdb
-D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Release\Siscom.Business.csprojResolveAssemblyReference.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Release\Siscom.Business.csproj.AssemblyReference.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Release\Siscom.Business.csproj.CoreCompileInputs.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Release\Siscom.Business.csproj.CopyComplete

@@ -327,8 +327,8 @@ D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Sisc
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Siscom.Entity.pdb
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csproj.AssemblyReference.cache
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csproj.CoreCompileInputs.cache
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csproj.CopyComplete
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.dll
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.pdb
-D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Business\Siscom.Business\obj\Debug\Siscom.Business.csproj.AssemblyReference.cache

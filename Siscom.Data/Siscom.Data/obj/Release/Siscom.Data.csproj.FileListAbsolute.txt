@@ -153,4 +153,6 @@ D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Data\Siscom.D
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Data\Siscom.Data\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Data\Siscom.Data\obj\Release\Siscom.Data.dll
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Data\Siscom.Data\obj\Release\Siscom.Data.pdb
-D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Data\Siscom.Data\obj\Release\Siscom.Data.csprojResolveAssemblyReference.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Data\Siscom.Data\obj\Release\Siscom.Data.csproj.AssemblyReference.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Data\Siscom.Data\obj\Release\Siscom.Data.csproj.CoreCompileInputs.cache
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Data\Siscom.Data\obj\Release\Siscom.Data.csproj.CopyComplete

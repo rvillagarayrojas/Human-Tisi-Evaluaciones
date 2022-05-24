@@ -1309,8 +1309,8 @@ D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Sisco
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\bin\System.Web.WebPages.Razor.xml
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Debug\Siscom.Service.csproj.AssemblyReference.cache
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Debug\Siscom.Service.csproj.CoreCompileInputs.cache
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Debug\Siscom.Service.csproj.CopyComplete
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Debug\Siscom.Service.dll
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Debug\Siscom.Service.pdb
-D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Siscom.Service\Siscom.Service\obj\Debug\Siscom.Service.csproj.AssemblyReference.cache

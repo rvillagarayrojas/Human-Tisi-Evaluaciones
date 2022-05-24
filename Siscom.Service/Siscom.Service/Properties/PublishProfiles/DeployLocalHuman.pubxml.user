@@ -9,6 +9,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     <LastUsedPlatform>Any CPU</LastUsedPlatform>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>D:\Human\DEPLOY\HS-EVALUACIONES-SERVICE</_PublishTargetUrl>
+    <History>True|2022-05-23T21:44:55.9589066Z;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
@@ -39,31 +40,31 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>03/19/2021 00:09:48</publishTime>
     </File>
     <File Include="bin/Siscom.Business.dll">
-      <publishTime>05/25/2021 18:17:23</publishTime>
+      <publishTime>05/23/2022 16:44:54</publishTime>
     </File>
     <File Include="bin/Siscom.Business.pdb">
-      <publishTime>05/25/2021 16:51:36</publishTime>
+      <publishTime>05/23/2022 16:44:54</publishTime>
     </File>
     <File Include="bin/Siscom.Data.dll">
-      <publishTime>05/25/2021 18:17:22</publishTime>
+      <publishTime>05/23/2022 16:44:53</publishTime>
     </File>
     <File Include="bin/Siscom.Data.pdb">
-      <publishTime>05/25/2021 16:51:36</publishTime>
+      <publishTime>05/23/2022 16:44:53</publishTime>
     </File>
     <File Include="bin/Siscom.Entity.dll">
-      <publishTime>05/25/2021 18:17:22</publishTime>
+      <publishTime>04/22/2022 12:35:30</publishTime>
     </File>
     <File Include="bin/Siscom.Entity.pdb">
-      <publishTime>05/25/2021 16:51:35</publishTime>
+      <publishTime>04/22/2022 12:35:30</publishTime>
     </File>
     <File Include="bin/Siscom.Library.Common.dll">
       <publishTime>03/19/2021 00:09:48</publishTime>
     </File>
     <File Include="bin/Siscom.Service.dll">
-      <publishTime>05/25/2021 18:17:25</publishTime>
+      <publishTime>05/23/2022 16:44:54</publishTime>
     </File>
     <File Include="bin/Siscom.Service.pdb">
-      <publishTime>05/25/2021 16:51:37</publishTime>
+      <publishTime>05/23/2022 16:44:54</publishTime>
     </File>
     <File Include="bin/Swashbuckle.Core.dll">
       <publishTime>03/19/2021 00:09:48</publishTime>
@@ -120,7 +121,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>03/19/2021 00:09:49</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/25/2021 18:17:25</publishTime>
+      <publishTime>05/23/2022 16:44:54</publishTime>
     </File>
   </ItemGroup>
 </Project>
