@@ -78,7 +78,7 @@ namespace Siscom.Areas.Global.Controllers
         }
 
 
-        public ActionResult DownloadExcel(int IdCuenta, int IdSubCuenta, int IdPuesto, string FechaIni, string FechaFin)
+        public ActionResult DownloadExcel(int IdCuenta, int IdSubCuenta, int IdPuesto, string FechaIni, string FechaFin, string tipo, string vc_nombres, string vc_doc_identi)
         {
             /*open>>> Información: Código de identificación estándar */
             Decimal? Idns = 40004;
@@ -95,7 +95,22 @@ namespace Siscom.Areas.Global.Controllers
                 Persona.nu_id_puesto = IdPuesto;
                 Persona.dt_fec_inicio = Convert.ToDateTime(FechaIni);
                 Persona.dt_fec_fin = Convert.ToDateTime(FechaFin);
+                if (tipo == "1")
+                {
+                    Persona.dt_fec_inicio = Convert.ToDateTime(FechaIni);
+                    Persona.dt_fec_fin = Convert.ToDateTime(FechaFin);
+                }
+                else if (tipo == "0")
+                {
+                    Persona.vc_nombres = vc_nombres;
+                    Persona.vc_doc_identi = vc_doc_identi;
+                }
+                Persona.vc_criterio = tipo;
                 Persona.opcion = 0;
+                if (Persona.nu_id_puesto == -1)
+                {
+                    Persona.nu_id_puesto = null;
+                }
 
                 byte[] filecontent = null;
                 if (Persona.nu_id_puesto == -1)

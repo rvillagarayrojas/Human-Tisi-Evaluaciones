@@ -454,15 +454,32 @@
                 puesto = $('#Puesto_nu_id_puesto').val()
             }
 
+            var nombres = $('#Persona_vc_nombres').val();
+            var doc_identi = $('#Persona_vc_doc_identi').val();
+            var chkTipo = ($("#chkFechas").is(':checked')) ? "1" : "0";
+
+            if ($('#Puesto_nu_id_puesto').val() == "") {
+                puesto = -1
+            }
+            else {
+                puesto = $('#Puesto_nu_id_puesto').val()
+            }
+
+            $('#span-nombres').html("");
+            $('#span-dni').html("");
+
             var data = {
                 IdCuenta: $('#Persona_nu_id_cuenta').val(),
                 IdSubCuenta: $('#Persona_nu_id_subcuenta').val(),
                 IdPuesto: puesto,
                 FechaIni: fecIni,
                 FechaFin: fecFin,
+                nombre: nombres,
+                identidad: doc_identi,
+                tipo: chkTipo
             };
 
-            window.location.href = '/Global/Persona/DownloadExcel?IdCuenta=' + data.IdCuenta + '&IdSubCuenta=' + data.IdSubCuenta + '&IdPuesto=' + data.IdPuesto + '&FechaIni=' + data.FechaIni + '&FechaFin=' + data.FechaFin;
+            window.location.href = '/Global/Persona/DownloadExcel?IdCuenta=' + data.IdCuenta + '&IdSubCuenta=' + data.IdSubCuenta + '&IdPuesto=' + data.IdPuesto + '&FechaIni=' + data.FechaIni + '&FechaFin=' + data.FechaFin + "&tipo=" + data.tipo + "&vc_nombres=" + data.nombre + "&vc_doc_identi=" + data.identidad;
 
             return false;
         }
