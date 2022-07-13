@@ -106,7 +106,6 @@ D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entida
 D:\RODOLFO\Human\FUENTE\Fuentes Web HS\Human-Tisi-Evaluaciones Desarrollo\Entidad\Entidad\obj\Debug\Entidad.pdb
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Entidad\Entidad\bin\Debug\Entidad.dll
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Entidad\Entidad\bin\Debug\Entidad.pdb
-D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Entidad\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Entidad\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Entidad\Entidad\obj\Debug\Entidad.dll
 D:\RODOLFO\CapitalTec\Human\Fuentes\Human-Tisi-Evaluaciones\Entidad\Entidad\obj\Debug\Entidad.pdb

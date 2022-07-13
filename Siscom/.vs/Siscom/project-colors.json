@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4863ee04-f18f-4ff3-9c1b-7590cde8003c": {
+      "ProjectGuid": "4863ee04-f18f-4ff3-9c1b-7590cde8003c",
+      "DisplayName": "Siscom",
+      "ColorIndex": 0
+    },
+    "b13f1a83-d251-4285-a502-fedd677f7969": {
+      "ProjectGuid": "b13f1a83-d251-4285-a502-fedd677f7969",
+      "DisplayName": "Transaccion",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
